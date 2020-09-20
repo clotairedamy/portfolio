@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <intro />
+    <LottieAnimationPlayer animationFile="intro.json" :loopAnimation=true :autoplay=true />
     
     </div>
 </template>

@@ -5,11 +5,6 @@
 import lottie from "lottie-web/build/player/lottie";
 let lottieInstance = null;
 export default {
-  methods: {
-    playSegments() {
-      lottieInstance.playSegments(0, 1);
-    },
-  },
   mounted() {
     lottieInstance = lottie.loadAnimation({
       container: this.$refs.animone,
@@ -18,7 +13,6 @@ export default {
       autoplay: false,
       path: "intro.json",
     });
-    this.playSegments();
   },
 };
 </script>
