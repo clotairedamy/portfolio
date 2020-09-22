@@ -1,12 +1,15 @@
 <template>
   <div class="container">
-    <LottieAnimationPlayer animationFile="intro.json" :loopAnimation=true :autoplay=true />
-    
-    </div>
+    <p>text deasupra</p>
+    <ScrollTriggeredAnimation animationFile="intro.json" />
+    <p>text dedesupt</p>
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+
+}
 </script>
 
 <style>

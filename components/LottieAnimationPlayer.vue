@@ -3,7 +3,6 @@
 </template>
 <script>
 import lottie from "lottie-web/build/player/lottie";
-let lottieInstance = null;
 export default {
     props: {
         animationFile: {type:String, required:true},
@@ -11,16 +10,19 @@ export default {
         autoplay: {type:Boolean, default:true}
     },
     mounted() {
-        lottieInstance = lottie.loadAnimation({
+        let lottieInstance = lottie.loadAnimation({
             container: this.$refs.player,
             renderer: 'svg',
             loop: this.loopAnimation,
             autoplay: this.autoplay,
             path: this.animationFile
         });
+        // OR data-ready (?)
+        lottieInstance.addEventListener("config_ready", () => {
+            this.$emit("lottie-loaded", lottieInstance);
+        });
     }
 }
-export { lottieInstance }
 </script>
 <style scoped>
 
