@@ -39,7 +39,6 @@ export default {
             } else {
                 percent = (rawPercent - this.minScrollPercentage) / this.maxScrollPercentage;
             }
-            console.log(percent);
             const totalFrames = lottieInstance.totalFrames - 1;
             const frame = Math.ceil(totalFrames * percent);
             lottieInstance.goToAndStop(frame, true);
