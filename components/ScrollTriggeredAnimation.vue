@@ -12,6 +12,8 @@ export default {
         animationFile: {type:String, required:true},
         containerProp: {},
         scrollLimitsMode : {type:String, default:"window"},
+        minScrollPercentage: {type:Number, default: 0},
+        maxScrollPercentage: {type:Number, default: 1},
     },
     methods: {
         lottieLoaded(lottieInstance) {
@@ -28,7 +30,15 @@ export default {
             this.redrawScroll(lottieInstance);
         },
         redrawScroll(lottieInstance) {
-            const percent = this.getScrollPercentage();
+            const rawPercent = this.getScrollPercentage();
+            let percent;
+            if (rawPercent <= this.minScrollPercentage) {
+                percent = 0;
+            } else if (rawPercent >= this.maxScrollPercentage) {
+                percent = 1;
+            } else {
+                percent = this.maxScrollPercentage / (rawPercent - this.minScrollPercentage);
+            }
             const totalFrames = lottieInstance.totalFrames - 1;
             const frame = Math.ceil(totalFrames * percent);
             lottieInstance.goToAndStop(frame, true);
