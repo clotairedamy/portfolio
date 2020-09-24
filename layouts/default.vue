@@ -23,7 +23,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
+body {background-color: #1d1d23;}
 *,
 *::before,
 *::after {

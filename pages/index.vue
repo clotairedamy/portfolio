@@ -1,12 +1,13 @@
 <template>
+<div class="section>">
   <div class="container">
-    <p>text deasupra</p>
-    <ScrollTriggeredAnimation
+      <ScrollTriggeredAnimation
       animationFile="intro.json"
-      :maxScrollPercentage="0.5"
+      :maxScrollPercentage="1"
     />
     <div class="section">text dedesupt</div>
   </div>
+</div>
 </template>
 
 <script>
@@ -16,6 +17,6 @@ export default {};
 <style>
 .section {
   min-height: 100vh;
-  background-color: black;
+  background-color: #1d1d23;
 }
 </style>
