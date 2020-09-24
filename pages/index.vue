@@ -1,13 +1,13 @@
 <template>
-<div class="section>">
-  <div class="container">
+  <div class="section>">
+    <div class="container">
       <ScrollTriggeredAnimation
-      animationFile="intro.json"
-      :maxScrollPercentage="1"
-    />
-    <div class="section">text dedesupt</div>
+        animationFile="intro.json"
+        :maxScrollPercentage="1"
+      />
+      <div class="section">text dedesupt</div>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
