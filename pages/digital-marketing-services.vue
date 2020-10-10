@@ -8,7 +8,7 @@
     />
     <ScrollTriggeredAnimation
       animationFile="intro.json"
-      :maxScrollPercentage="1"
+      :maxScrollPercentage="0.6"
     />
   </div>
 </template>

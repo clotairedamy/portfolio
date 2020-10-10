@@ -16,9 +16,7 @@
 <script>
 export default {
   head: {
-    link: [
-      { rel: "canonical", href: "https://clotairedamy.com"},
-    ],
+    link: [{ rel: "canonical", href: "https://clotairedamy.com" }],
     title: "Clotaire Damy - Web Design &amp; Digital Marketing",
     meta: [
       {
