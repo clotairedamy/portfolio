@@ -19,7 +19,7 @@ export default {
 <style scoped>
 .animation1 {
   background-color: #1d1d23;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin: 0 auto;
   display: flex;
   justify-content: center;
