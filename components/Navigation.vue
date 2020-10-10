@@ -18,7 +18,7 @@
           </div>
           <div class="hidden md:flex md:space-x-10">
             <n-link to="/web-development-services" class="font-medium text-gray-300 hover:text-gray-300 transition duration-150 ease-in-out">Web Development</n-link>
-            <a href="/digital-marketing-services" class="font-medium text-gray-300 hover:text-gray-300 transition duration-150 ease-in-out">Digital Marketing</a>
+            <n-link to="/digital-marketing-services" class="font-medium text-gray-300 hover:text-gray-300 transition duration-150 ease-in-out">Digital Marketing</n-link>
             <n-link to="/design-and-branding-services" class="font-medium text-gray-300 hover:text-gray-300 transition duration-150 ease-in-out">Design Services</n-link>
         
            </div>

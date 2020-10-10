@@ -1,14 +1,14 @@
 <template>
   <div>
     <Header
-      headline="Digital Marketing "
+      headline="Design &amp; Branding "
       headlineTwo="Services"
       quote="The details are not the details, they make the design.
 '~C.Eames'"
     />
     <ScrollTriggeredAnimation
       animationFile="intro.json"
-      :maxScrollPercentage="0.6"
+      :maxScrollPercentage="0.5"
     />
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
       {
         rel: "canonical",
         href:
-          "https://clotairedamy.com/digital-marketing-services/",
+          "https://clotairedamy.com/digital-marketing-services",
       },
     ],
     title: "Digital Marketing Services Colorado Springs",
@@ -29,7 +29,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "App Store Optimization and Search Engine Optimization Services in Colorado Springs, CO.",
+          "Motion Design &amp;animated web interfaces. Digital Marketing Services in Colorado Springs, CO.",
         hid: "robots",
         name: "robots",
         content: "noindex",
@@ -38,6 +38,5 @@ export default {
   },
 };
 </script>
-
 <style>
 </style>
