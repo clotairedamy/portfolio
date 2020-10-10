@@ -32,8 +32,10 @@ export default {
 };
 </script>
 
-<style>
-.bg {
+<style scoped>
+body {
   background-color: #1d1d23;
 }
+</style>>
+
 </style>
