@@ -20,8 +20,7 @@ export default {
       {
         rel: "canonical",
         href:
-          "https://clotairedamy.com/digital-marketing-services/" +
-          this.$route.path,
+          "https://clotairedamy.com/digital-marketing-services/",
       },
     ],
     title: "Digital Marketing Services Colorado Springs",

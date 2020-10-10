@@ -20,8 +20,7 @@ export default {
       {
         rel: "canonical",
         href:
-          "https://clotairedamy.com/web-development-services/" +
-          this.$route.path,
+          "https://clotairedamy.com/web-development-services/",
       },
     ],
     title: "Web Development Services Colorado Springs",

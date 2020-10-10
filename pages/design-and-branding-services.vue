@@ -20,8 +20,7 @@ export default {
       {
         rel: "canonical",
         href:
-          "https://clotairedamy.com/design-and-branding-services/" +
-          this.$route.path,
+          "https://clotairedamy.com/design-and-branding-services/",
       },
     ],
     title: "Design and Branding Services Colorado Springs",
