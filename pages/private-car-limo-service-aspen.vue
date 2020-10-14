@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header
-      headline="Limo Service"
-      headlineTwo="Denver to Vail"
+      headline="Aspen to Denver"
+      headlineTwo="Limo Services"
       quote="The details are not the details, they make the design.
 '~C.Eames'"
     />
@@ -16,13 +16,20 @@
 <script>
 export default {
   head: {
-    link: [{ rel: "canonical", href: "https://clotairedamy.com" }],
-    title: "Clotaire Damy - Web Design &amp; Digital Marketing",
+    link: [
+      {
+        rel: "canonical",
+        href:
+          "https://clotairedamy.com/design-and-branding-services/",
+      },
+    ],
+    title: "Design and Branding Services Colorado Springs",
     meta: [
       {
         hid: "description",
         name: "description",
-        content: "Clotaire Damy",
+        content:
+          "Motion Design &amp;animated web interfaces. Design and Branding Services in Colorado Springs, CO.",
         hid: "robots",
         name: "robots",
         content: "noindex",
@@ -32,10 +39,5 @@ export default {
 };
 </script>
 
-<style scoped>
-body {
-  background-color: #1d1d23;
-}
-</style>>
-
+<style>
 </style>

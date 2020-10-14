@@ -17,9 +17,12 @@
             </div>
           </div>
           <div class="hidden md:flex md:space-x-10">
-            <n-link to="/web-development-services" class="font-medium text-gray-300 hover:text-gray-300 transition duration-150 ease-in-out">Web Development</n-link>
-            <n-link to="/digital-marketing-services" class="font-medium text-gray-300 hover:text-gray-300 transition duration-150 ease-in-out">Digital Marketing</n-link>
-            <n-link to="/design-and-branding-services" class="font-medium text-gray-300 hover:text-gray-300 transition duration-150 ease-in-out">Design Services</n-link>
+            <n-link to="/denver-to-vail-private-transport-car-service" class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out">Denver Airport</n-link>
+            <n-link to="/private-car-limo-service-eagle-vail-airport" class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out">Eagle Airport</n-link>
+            <n-link to="/private-car-and-limo-service-vail-colorado" class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out">Vail</n-link>
+            <n-link to="/private-car-limo-service-aspen" class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out">Aspen</n-link>
+            <n-link to="/private-car-limo-service-denver-breckenridge" class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out">Breckenridge</n-link>
+            <n-link to="/private-car-and-limo-service-beaver-creek" class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out">Beaver Creek</n-link>
         
            </div>
           <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">

@@ -19,4 +19,5 @@
 
 <style>
 /*  */
+body{background-color: #2D3748}
 </style>

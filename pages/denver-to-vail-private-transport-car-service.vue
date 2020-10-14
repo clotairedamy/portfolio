@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header
-      headline="Web Development"
-      headlineTwo="Services"
+      headline="Denver to Vail"
+      headlineTwo="Limo Services"
       quote="The details are not the details, they make the design.
 '~C.Eames'"
     />
@@ -20,16 +20,16 @@ export default {
       {
         rel: "canonical",
         href:
-          "https://clotairedamy.com/web-development-services/",
+          "https://clotairedamy.com/design-and-branding-services/",
       },
     ],
-    title: "Web Development Services Colorado Springs",
+    title: "Design and Branding Services Colorado Springs",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "App Store Optimization and Search Engine Optimization Services in Colorado Springs, CO.",
+          "Motion Design &amp;animated web interfaces. Design and Branding Services in Colorado Springs, CO.",
         hid: "robots",
         name: "robots",
         content: "noindex",
