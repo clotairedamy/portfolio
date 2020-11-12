@@ -41,6 +41,17 @@ export default {
   methods: {
     lottieLoaded(lottieInstance) {
       this.lottieInstance = lottieInstance;
+      let segmentIndex = 0;
+      for (const segment of this.segments) {
+          segment.registerController((positionInSegment) => {
+              if (this.currentSegment !== segmentIndex) {
+                  return;
+              } else {
+                  this._setPositionInSegment(positionInSegment);
+              }
+          });
+          segmentIndex += 1;
+      }
       for (const cachedOperation of this.cachedOperations) {
         cachedOperation();
       }
@@ -53,6 +64,14 @@ export default {
         return;
       }
     },
+    _setPositionInSegment(positionInSegment) {
+        if (this.lottieInstance === null) {
+            this.cachedOperations.push(() => {
+                this._setPositionInSegment(positionInSegment);
+            })
+            return;
+        }
+    }
   },
 };
 </script>
