@@ -43,14 +43,16 @@ export default {
       this.lottieInstance = lottieInstance;
       let segmentIndex = 0;
       for (const segment of this.segments) {
+        if (segment.registerController) {
           segment.registerController((positionInSegment) => {
-              if (this.currentSegment !== segmentIndex) {
-                  return;
-              } else {
-                  this._setPositionInSegment(positionInSegment);
-              }
+            if (this.currentSegment !== segmentIndex) {
+              return;
+            } else {
+              this._setPositionInSegment(positionInSegment);
+            }
           });
-          segmentIndex += 1;
+        }
+        segmentIndex += 1;
       }
       for (const cachedOperation of this.cachedOperations) {
         cachedOperation();
@@ -65,13 +67,13 @@ export default {
       }
     },
     _setPositionInSegment(positionInSegment) {
-        if (this.lottieInstance === null) {
-            this.cachedOperations.push(() => {
-                this._setPositionInSegment(positionInSegment);
-            })
-            return;
-        }
-    }
+      if (this.lottieInstance === null) {
+        this.cachedOperations.push(() => {
+          this._setPositionInSegment(positionInSegment);
+        });
+        return;
+      }
+    },
   },
 };
 </script>
