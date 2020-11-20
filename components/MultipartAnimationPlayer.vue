@@ -27,7 +27,17 @@ export default {
     return {
       lottieInstance: null,
       currentSegment: 0,
+      currentFrame: 0,
       cachedOperations: [],
+      /*
+      sub-segment structure:
+      {
+        startFrame: number, // startframe > endFrame signals reverse play
+        endFrame: number,
+        speed: number // multiplier
+      }
+       */
+      pendingSubSegments: []
     };
   },
   props: {
@@ -40,7 +50,11 @@ export default {
   },
   methods: {
     lottieLoaded(lottieInstance) {
+      this.goToSegment(0);
       this.lottieInstance = lottieInstance;
+      lottieInstance.addEventListener("enterFrame", event => {
+        this._onFrameUpdate(event.currentTime);
+      });
       let segmentIndex = 0;
       for (const segment of this.segments) {
         if (segment.registerController) {
@@ -65,6 +79,48 @@ export default {
         });
         return;
       }
+      if (segmentNumber < 0 || segmentNumber >= this.segments.length) {
+        return;
+      }
+      const segment = this.segments[segmentNumber];
+      this.pendingSubSegments = this._generateSubsegments(segment);
+      this.currentSegment = segmentNumber;
+      if (this.pendingSubSegments.length > 0) {
+        this._playSubsegment(this.pendingSubSegments[0]);
+      }
+
+    },
+    _generateSubsegments(segment) {
+      const subSegments = [];
+      const firtsStartFrame = this.currentFrame;
+      let firstEndFrame = segment.startFrame;
+      if (segment.endFrame < this.currentFrame) {
+        firstEndFrame = segment.endFrame;
+      }
+      const normalSpeedTime = Math.abs(this.currentFrame - firstEndFrame) / this.fps;
+      let constantTimeSpeedMultiplier = 1;
+      if (normalSpeedTime > this.maxTime) {
+        constantTimeSpeedMultiplier = normalSpeedTime / this.maxTime;
+      }
+      const speedMultiplier = (1 - this.timeSpeedRatio) * constantTimeSpeedMultiplier + this.timeSpeedRatio * this.maxSpeed;
+      subSegments.push({startFrame: firtsStartFrame, endFrame: firstEndFrame, speed: speedMultiplier});
+      if (segment.autoplay && firstEndFrame !== segment.endFrame) {
+        subSegments.push({startFrame: segment.startFrame, endFrame: segment.endFrame, speed: 1});
+      }
+      return subSegments;
+    },
+    _getSubsegmentDirection(subSegment) {
+      let direction = 1;
+      if (subSegment.startFrame >= subSegment.endFrame) {
+        direction = -1;
+      }
+      return direction;
+    },
+    _playSubsegment(subSegment) {
+      let direction = this._getSubsegmentDirection(subSegment);
+      this.lottieInstance.setDirection(direction);
+      this.lottieInstance.setSpeed(subSegment.speed);
+      this.lottieInstance.goToAndPlay(subSegment.startFrame, true);
     },
     _setPositionInSegment(positionInSegment) {
       if (this.lottieInstance === null) {
@@ -73,7 +129,38 @@ export default {
         });
         return;
       }
+      const segment = this.segments[this.currentSegment];
+      const firstFrame = segment.startFrame;
+      const offset = (segment.endFrame - firstFrame) * positionInSegment;
+      this.lottieInstance.goToAndStop(Math.round(firstFrame + offset), true);
     },
+    _onFrameUpdate(newFrame) {
+      this.currentFrame = newFrame;
+      if (this.pendingSubSegments.length > 0) {
+        const subSegment = this.pendingSubSegments[0];
+        let direction = this._getSubsegmentDirection(subSegment);
+        if ((direction === 1 && this.currentFrame >= subSegment.endFrame) ||
+        (direction === -1 && this.currentFrame <= subSegment.endFrame)) {
+          this._onSubsegmentFinished();
+        }
+      }
+    },
+    _onSubsegmentFinished() {
+      this.pendingSubSegments.shift();
+      if (this.pendingSubSegments.length > 0) {
+        this._playSubsegment(this.pendingSubSegments[0]);
+      } else {
+        this._onSegmentFinished();
+      }
+    },
+    _onSegmentFinished() {
+      const segment = this.segments[this.currentSegment];
+      if (segment.autoAdvanceSegmentIndex) {
+        this.goToSegment(segment.autoAdvanceSegmentIndex);
+      } else {
+        this.lottieInstance.stop();
+      }
+    }
   },
 };
 </script>
