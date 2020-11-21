@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header
-      headline="Denver to Vail"
-      headlineTwo="Limo Services"
+      headline="Web"
+      headlineTwo="Development"
       quote="The details are not the details, they make the design.
 '~C.Eames'"
     />
