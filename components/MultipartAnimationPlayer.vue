@@ -158,7 +158,7 @@ export default {
       if (segment.autoAdvanceSegmentIndex) {
         this.goToSegment(segment.autoAdvanceSegmentIndex);
       } else {
-        this.lottieInstance.stop();
+        this.lottieInstance.pause();
       }
     }
   },
