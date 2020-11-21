@@ -7,11 +7,10 @@
          
           <Nuxt />
                
-          <SplitGrid />
+        
         </div>
       </div>
-      <Logos />
-      <Contact />
+      
     </div>
     
   </div>
