@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header
+    <MultipartAnimationPlayer
       headline="About"
       headlineTwo="Page"
       quote="The details are not the details, they make the design.
