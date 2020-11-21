@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header
-      headline="Vail to Denver"
-      headlineTwo="Limo Services"
+      headline="Digital"
+      headlineTwo="Marketing"
       quote="The details are not the details, they make the design.
 '~C.Eames'"
     />
@@ -19,9 +19,8 @@ export default {
     link: [
       {
         rel: "canonical",
-        href:
-          "https://clotairedamy.com/design-and-branding-services/",
-      },
+        href: "https://clotairedamy.com/design-and-branding-services/"
+      }
     ],
     title: "Design and Branding Services Colorado Springs",
     meta: [
@@ -32,12 +31,11 @@ export default {
           "Motion Design &amp;animated web interfaces. Design and Branding Services in Colorado Springs, CO.",
         hid: "robots",
         name: "robots",
-        content: "noindex",
-      },
-    ],
-  },
+        content: "noindex"
+      }
+    ]
+  }
 };
 </script>
 
-<style>
-</style>
+<style></style>
