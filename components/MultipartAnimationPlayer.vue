@@ -63,7 +63,7 @@ export default {
             console.log("running registered controller for segment " + segICopy)
 
             if (this.currentSegment !== segICopy) {
-              console.log("called controller for incorrect segment (expected " + this.currentSegment + " actual segment " + segIcopy + ")")
+              console.log("called controller for incorrect segment (expected " + this.currentSegment + " actual segment " + segICopy + ")")
               return;
             } else {
               console.log("calling setPositionInSegment for segment " + this.currentSegment)
