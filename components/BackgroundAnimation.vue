@@ -69,14 +69,6 @@ export default {
     redrawScroll() {
       const rawPercent = this.getScrollPercentage();
       let percent;
-      if (rawPercent <= this.minScrollPercentage) {
-        percent = 0;
-      } else if (rawPercent >= this.maxScrollPercentage) {
-        percent = 1;
-      } else {
-        percent =
-          (rawPercent - this.minScrollPercentage) / this.maxScrollPercentage;
-      }
 
       this.relativePositionChanged(percent);
     },
