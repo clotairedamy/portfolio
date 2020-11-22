@@ -155,7 +155,7 @@ export default {
     },
     _onSegmentFinished() {
       const segment = this.segments[this.currentSegment];
-      if (segment.autoAdvanceSegmentIndex) {
+      if (segment.autoAdvanceSegmentIndex !== undefined) {
         this.goToSegment(segment.autoAdvanceSegmentIndex);
       } else {
         this.lottieInstance.pause();
