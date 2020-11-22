@@ -55,12 +55,12 @@ export default {
       lottieInstance.addEventListener("enterFrame", event => {
         this._onFrameUpdate(event.currentTime);
       });
-      let segmentIndex = 0;
+      var segmentIndex = 0;
       for (const segment of this.segments) {
         if (segment.registerController) {
           segment.registerController((positionInSegment) => {
             console.log("running registered controller for segment " + segmentIndex)
-            
+
             if (this.currentSegment !== segmentIndex) {
               console.log("called controller for incorrect segment (expected " + this.currentSegment + " actual segment " + segmentIndex + ")")
               return;
