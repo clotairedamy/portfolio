@@ -59,9 +59,12 @@ export default {
       for (const segment of this.segments) {
         if (segment.registerController) {
           segment.registerController((positionInSegment) => {
+            console.log("registered controller for segment " + segmentIndex)
             if (this.currentSegment !== segmentIndex) {
+              console.log("called controller for incorrect segment (expected " + this.currentSegment + " actual segment " + segmentIndex + ")")
               return;
             } else {
+              console.log("calling setPositionInSegment for segment " + this.currentSegment)
               this._setPositionInSegment(positionInSegment);
             }
           });
