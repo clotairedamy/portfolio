@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <h1>Main page heading</h1>
-  </div>
+<Header
+      headline="UX"
+      headlineTwo="Marketing"
+      quote="The details are not the details, they make the design.
+'~C.Eames'"
+    />
 </template>
 
 <script>
@@ -24,9 +27,7 @@ export default {
 </script>
 
 <style scoped>
-body {
-  background-color: #1d1d23;
-}
-</style>>
 
 </style>
+
+

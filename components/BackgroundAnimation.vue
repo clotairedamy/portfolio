@@ -1,14 +1,18 @@
 <template>
   <div>
+  <Navigation />
     <MultipartAnimationPlayer
-      animationFile="data.json"
+      animationFile="clotaire.json"
       :segments="segments"
-      :timeSpeedRatio="0"
+      :timeSpeedRatio="1"
+      :maxTime="3"
+      :maxSpeed="5"
       ref="map"
-      class="sticky top-0 h-screen"
+      
     />
     <slot />
-  </div>
+    
+    </div>
 </template>
 
 <script>
@@ -17,9 +21,9 @@ export default {
     return {
       relativePositionCallbacks: [],
       pageSegmentMap: {
-        "index": 0,
-        "development": 2,
-        "marketing": 4
+        index: 0,
+        development: 2,
+        marketing: 4
       },
       segments: [
         {
@@ -80,29 +84,27 @@ export default {
       this.relativePositionChanged(percent);
     },
     getScrollPercentage() {
-    
-        const h = document.documentElement,
-          b = document.body,
-          st = "scrollTop",
-          sh = "scrollHeight";
-        let p = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight);
-        if (p < 0) {
-          p = 0;
-        }
-        if (p > 1) {
-          p = 1;
-        }
-        return p;
-      
+      const h = document.documentElement,
+        b = document.body,
+        st = "scrollTop",
+        sh = "scrollHeight";
+      let p = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight);
+      if (p < 0) {
+        p = 0;
+      }
+      if (p > 1) {
+        p = 1;
+      }
+      return p;
     }
   },
   mounted() {
     window.addEventListener("scroll", () => {
-        this.redrawScroll();
+      this.redrawScroll();
     });
   },
   watch: {
-    $route (to, from) {
+    $route(to, from) {
       if (this.pageSegmentMap[to.name] !== undefined) {
         const targetSegmentID = this.pageSegmentMap[to.name];
         this.$refs.map.goToSegment(targetSegmentID);

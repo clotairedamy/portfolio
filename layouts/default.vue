@@ -1,11 +1,8 @@
 <template>
   <div>
-    <div>
-      <div>
-     <Navigation />
-        <BackgroundAnimation><Nuxt/></BackgroundAnimation>
-      </div>
-    </div>
+
+        <BackgroundAnimation><Nuxt /></BackgroundAnimation>
+   
   </div>
 </template>
 
