@@ -6,10 +6,7 @@
       quote="The details are not the details, they make the design.
 '~C.Eames'"
     />
-    <ScrollTriggeredAnimation
-      animationFile="intro.json"
-      :maxScrollPercentage="0.5"
-    />
+  
   </div>
 </template>
 

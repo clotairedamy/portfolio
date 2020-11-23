@@ -1,8 +1,8 @@
 <template>
   <div>
     <div>
-      <div class="relative overflow-hidden">
-        <Navigation/>
+      <div>
+     <Navigation />
         <BackgroundAnimation><Nuxt/></BackgroundAnimation>
       </div>
     </div>
@@ -12,6 +12,6 @@
 <style>
 /*  */
 body {
-  background-color: #2d3748;
+  background-color: #111827;
 }
 </style>

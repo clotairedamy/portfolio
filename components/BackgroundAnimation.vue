@@ -3,7 +3,9 @@
     <MultipartAnimationPlayer
       animationFile="data.json"
       :segments="segments"
+      :timeSpeedRatio="0"
       ref="map"
+      class="sticky top-0 h-screen"
     />
     <slot />
   </div>
