@@ -63,7 +63,7 @@ export default {
     },
     relativePositionChanged(newVal) {
       for (const relativePositionCallback of this.relativePositionCallbacks) {
-        relativePositionCallback(newVal / 100);
+        relativePositionCallback(newVal);
       }
     },
     redrawScroll() {
