@@ -2,21 +2,16 @@
   <div>
     <div>
       <div class="relative overflow-hidden">
-       
-        
-         
-          <Nuxt />
-               
-        
-        </div>
+        <Navigation/>
+        <BackgroundAnimation><Nuxt/></BackgroundAnimation>
       </div>
-      
-
-    
+    </div>
   </div>
 </template>
 
 <style>
 /*  */
-body{background-color: #2D3748}
+body {
+  background-color: #2d3748;
+}
 </style>

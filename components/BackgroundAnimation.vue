@@ -14,6 +14,11 @@ export default {
   data() {
     return {
       relativePositionCallbacks: [],
+      pageSegmentMap: {
+        "index": 0,
+        "development": 2,
+        "marketing": 4
+      },
       segments: [
         {
           startFrame: 0,
@@ -68,7 +73,7 @@ export default {
     },
     redrawScroll() {
       const rawPercent = this.getScrollPercentage();
-      let percent;
+      let percent = rawPercent;
 
       this.relativePositionChanged(percent);
     },
@@ -93,6 +98,14 @@ export default {
     window.addEventListener("scroll", () => {
         this.redrawScroll();
     });
+  },
+  watch: {
+    $route (to, from) {
+      if (this.pageSegmentMap[to.name] !== undefined) {
+        const targetSegmentID = this.pageSegmentMap[to.name];
+        this.$refs.map.goToSegment(targetSegmentID);
+      }
+    }
   }
 };
 </script>
