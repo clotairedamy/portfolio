@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-5xl mx-auto px-4 sm:px-6 sticky top-0">
+  <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 sticky top-0 ">
     <nav
       class="relative flex items-center justify-between sm:h-10 md:justify-center"
     >
@@ -168,17 +168,17 @@
       <div class="hidden md:flex md:space-x-10">
         <n-link
           to="/"
-          class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out"
+          class="font-medium text-gray-400 hover:text-gray-300 transition duration-150 ease-in-out"
           >About</n-link
         >
         <n-link
           to="/development"
-          class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out"
+          class="font-medium text-gray-400 hover:text-gray-300 transition duration-150 ease-in-out"
           >Development</n-link
         >
         <n-link
           to="/marketing"
-          class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out"
+          class="font-medium text-gray-400 hover:text-gray-300 transition duration-150 ease-in-out"
           >Marketing</n-link
         >
       </div>

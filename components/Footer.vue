@@ -1,6 +1,7 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <footer class="bg-gray">
+      <Contact />
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
       <div class="mt-8 flex justify-center space-x-6">
         <a
@@ -81,7 +82,7 @@
       
       </div>
       <p class="mt-8 text-center text-base text-gray-400">
-        &copy; 2020 Clotaire D. vs Radu A.
+        &copy; 2020 Clotaire D. &amp; Radu A.
       </p>
     </div>
   </footer>
