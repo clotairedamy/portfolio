@@ -2,6 +2,7 @@
   <div>
 
         <BackgroundAnimation><Nuxt /></BackgroundAnimation>
+        <Contact />
    <Footer />
   </div>
 </template>
