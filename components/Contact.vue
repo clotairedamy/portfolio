@@ -13,8 +13,9 @@
         <h2 class="text-2xl leading-8 font-extrabold tracking-tight text-gray-400 sm:text-3xl sm:leading-9">
           Get in touch
         </h2>
-        <p class="mt-3 text-lg leading-6 text-gray-500">
-          Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+        <p class="mt-3 text-lg leading-6 text-gray-500">   
+LET’S BUILD SOMETHING BEAUTIFUL TOGETHER.
+START BY SAYING HI!
         </p>
         <dl class="mt-8 text-base leading-6 text-gray-500">
           <div>
@@ -44,7 +45,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               <span class="ml-3">
-                support@clotairedamy.com
+                clotaire@clotairedamy.com
               </span>
             </dd>
           </div>

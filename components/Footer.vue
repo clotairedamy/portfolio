@@ -40,7 +40,7 @@
       </a>
     </div>
     <p class="mt-8 text-center text-base text-gray-400">
-      &copy; 2020 Clotaire
+      &copy; 2020 Clotaire D. vs Radu A.
     </p>
   </div>
 </footer>

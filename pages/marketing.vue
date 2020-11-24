@@ -3,8 +3,8 @@
     <Header
       headline="Digital"
       headlineTwo="Marketing"
-      quote="The details are not the details, they make the design.
-'~C.Eames'"
+      quote="“In the midst of chaos, there is also opportunity.”
+'~S.TZU'"
     />
   <SplitSection />
   </div>
