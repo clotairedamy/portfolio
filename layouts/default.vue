@@ -2,9 +2,9 @@
   <div>
     <BackgroundAnimation>
       <template v-slot:header>
-        <Navigation/>
+        <Navigation class="bg-gray-900 z-10"/>
       </template>
-      <Nuxt />
+      <Nuxt id="pageContent" />
       <template v-slot:footer>
         <Footer />
       </template>
@@ -13,5 +13,12 @@
 </template>
 
 <style>
-/*  */
+body {
+  background-color: #111827;
+}
+#pageContent {
+  position: relative;
+  z-index: 5;
+  background-color: transparent;
+}
 </style>

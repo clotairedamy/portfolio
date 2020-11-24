@@ -1,7 +1,7 @@
 <template>
   <div>
-    <slot name="header" />
-    <slot />
+    <slot name="header"/>
+    <slot/>
     <MultipartAnimationPlayer
       id="map"
       animationFile="clotaire.json"
@@ -11,6 +11,7 @@
       :maxSpeed="5"
       ref="map"
     />
+    
     <slot name="footer" />
   </div>
 </template>
@@ -116,6 +117,7 @@ export default {
 
 <style>
 #map {
+  /*
   position: fixed;
   top: 50%;
   left: 50%;
@@ -124,5 +126,10 @@ export default {
   transform: translate(-50%, -50%);
   z-index: -10;
   background-color: #111827;
+  */
+  position:sticky;
+  bottom: 0%;
+  z-index: 3;
+  /*background-color: #111827;*/
 }
 </style>
