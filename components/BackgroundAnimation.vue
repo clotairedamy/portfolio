@@ -1,18 +1,16 @@
 <template>
   <div>
-  <Navigation />
+    <Navigation />
     <MultipartAnimationPlayer
+      id="map"
       animationFile="clotaire.json"
       :segments="segments"
       :timeSpeedRatio="1"
       :maxTime="3"
       :maxSpeed="5"
       ref="map"
-      
     />
     <slot />
-    
-  
   </div>
 </template>
 
@@ -24,7 +22,7 @@ export default {
       pageSegmentMap: {
         index: 0,
         development: 2,
-        marketing: 4
+        marketing: 4,
       },
       segments: [
         {
@@ -32,41 +30,41 @@ export default {
           endFrame: 30,
           autoAdvanceSegmentIndex: 1,
           autoplay: true,
-          registerController: callback => {}
+          registerController: (callback) => {},
         },
         {
           startFrame: 30 + 1,
           endFrame: 8 * 30,
           autoplay: false,
 
-          registerController: callback => {
+          registerController: (callback) => {
             this.relativePositionCallbacks.push(callback);
-          }
+          },
         },
         {
           startFrame: 8 * 30 + 1,
           endFrame: 10 * 30,
           autoplay: true,
           autoAdvanceSegmentIndex: 3,
-          registerController: callback => {}
+          registerController: (callback) => {},
         },
         {
           startFrame: 10 * 30 + 1,
           endFrame: 14 * 30,
           autoplay: false,
-          registerController: callback => {
+          registerController: (callback) => {
             this.relativePositionCallbacks.push(callback);
-          }
+          },
         },
         {
           startFrame: 14 * 30,
           endFrame: 20 * 30 - 1,
           autoplay: false,
-          registerController: callback => {
+          registerController: (callback) => {
             this.relativePositionCallbacks.push(callback);
-          }
-        }
-      ]
+          },
+        },
+      ],
     };
   },
   methods: {
@@ -97,7 +95,7 @@ export default {
         p = 1;
       }
       return p;
-    }
+    },
   },
   mounted() {
     window.addEventListener("scroll", () => {
@@ -110,9 +108,13 @@ export default {
         const targetSegmentID = this.pageSegmentMap[to.name];
         this.$refs.map.goToSegment(targetSegmentID);
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style></style>
+<style>
+#map {
+  position: fixed;
+}
+</style>
