@@ -6,7 +6,7 @@
       quote="Our nature consists in motion; complete rest is death.
 '~Blaise Pascal'"
     />
-    
+    <SplitSection content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow" />
    
   </div>
 </template>

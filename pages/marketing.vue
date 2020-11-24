@@ -6,7 +6,7 @@
       quote="“In the midst of chaos, there is also opportunity.”
 '~S.TZU'"
     />
-  <SplitSection content="Websites should have pleasing aesthetics; but most importantly, websites should be easy to use, fast, secure, relevant and increase sales." />
+  <SplitSection content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow" />
   </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
     link: [
       {
         rel: "canonical",
-        href: "https://interfacedesign.dev/marketing/"
+        href: "https://interfacedesign.dev/marketing"
       }
     ],
     title: "Design and Branding Services Colorado Springs",

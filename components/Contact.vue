@@ -14,8 +14,8 @@
           Get in touch
         </h2>
         <p class="mt-3 text-lg leading-6 text-gray-500">   
-LET’S BUILD SOMETHING BEAUTIFUL TOGETHER.
-START BY SAYING HI!
+Let's build something beautiful togheter.
+Start by saying HI!
         </p>
         <dl class="mt-8 text-base leading-6 text-gray-500">
           <div>

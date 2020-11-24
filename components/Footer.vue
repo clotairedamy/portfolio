@@ -82,7 +82,7 @@
       
       </div>
       <p class="mt-8 text-center text-base text-gray-400">
-        &copy; 2020 Clotaire D. &amp; Radu A.
+        &copy;2008-2020 Development, Branding: Clotaire &amp; Development: Radu A
       </p>
     </div>
   </footer>
