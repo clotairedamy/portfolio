@@ -6,7 +6,7 @@
       quote="“In the midst of chaos, there is also opportunity.”
 '~S.TZU'"
     />
-    <SplitSection />
+
   </div>
 </template>
 

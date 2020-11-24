@@ -3,8 +3,8 @@
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
-<div class="relative bg-gray-900 shadow">
-  <div class="absolute inset-0">
+<div class="relative bg-transparent shadow">
+  <div class="sticky bottom-0 inset-0">
     <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
   </div>
   <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
