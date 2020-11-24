@@ -6,7 +6,7 @@
       quote="The details are not the details, they make the design.
 '~C.Eames'"
     />
-    <SplitSection content=" A web developer who loves what he does, adding value to companies of any
+    <SplitSection content="A web developer who loves what he does, adding value to companies of any
         size. From competitive research to interactive prototypes,building
         engaging and simple to-use user interfaces. Grew up in Petrosani,
         a small mining town at the heart of the Carpathian Mountains in Romania.

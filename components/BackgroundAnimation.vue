@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Navigation />
+    <Navigation />
     <MultipartAnimationPlayer
       animationFile="clotaire.json"
       :segments="segments"
@@ -8,11 +8,8 @@
       :maxTime="3"
       :maxSpeed="5"
       ref="map"
-      
     />
     <slot />
-    
-  
   </div>
 </template>
 

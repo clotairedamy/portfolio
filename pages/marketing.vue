@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-fixed">
+  <div>
     <Header
       headline="Digital"
       headlineTwo="Marketing"
       quote="“In the midst of chaos, there is also opportunity.”
 '~S.TZU'"
     />
-  <SplitSection />
+    <SplitSection />
   </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
     link: [
       {
         rel: "canonical",
-        href: "https://clotairedamy.com/design-and-branding-services/"
+        href: "https://interfacedesign.dev/marketing/"
       }
     ],
     title: "Design and Branding Services Colorado Springs",
