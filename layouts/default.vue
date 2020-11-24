@@ -2,7 +2,7 @@
   <div>
 
         <BackgroundAnimation><Nuxt /></BackgroundAnimation>
-   
+   <Footer />
   </div>
 </template>
 

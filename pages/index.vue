@@ -1,10 +1,13 @@
 <template>
+<div>
 <Header
       headline="UX"
       headlineTwo="Marketing"
       quote="The details are not the details, they make the design.
 '~C.Eames'"
     />
+    <SplitSection />
+    </div>
 </template>
 
 <script>

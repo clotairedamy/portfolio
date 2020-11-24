@@ -12,7 +12,8 @@
     />
     <slot />
     
-    </div>
+  
+  </div>
 </template>
 
 <script>

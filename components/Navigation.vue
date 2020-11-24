@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-xl mx-auto px-4 sm:px-6">
+  <div class="max-w-screen-sm mx-auto px-4 sm:px-6 sticky top-10">
     <nav
       class="relative flex items-center justify-between sm:h-10 md:justify-center"
     >

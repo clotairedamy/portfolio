@@ -1,59 +1,19 @@
 <template>
-  <!--
-  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
-  Read the documentation to get started: https://tailwindui.com/documentation
--->
-<div class="bg-white">
-  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-      <div>
-        <h2 class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
-          {{title}}
-        </h2>
-        <p class="mt-3 max-w-3xl text-lg leading-7 text-gray-500">
-          {{description}}
-        </p>
-        <div class="mt-8 sm:flex">
-          <div class="rounded-md shadow">
-            <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-900 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-              Web Development
-            </a>
-          </div>
-          <div class="mt-3 sm:mt-0 sm:ml-3">
-            <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-yellow-600 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out">
-              Digital Marketing
-            </a>
-          </div>
-          <div class="mt-3 sm:mt-0 sm:ml-3">
-            <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-800 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out">
-              Design Services
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo.svg" alt="Workcation">
-        </div>
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo.svg" alt="Mirage">
-        </div>
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo.svg" alt="Tuple">
-        </div>
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo.svg" alt="Laravel">
-        </div>
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo.svg" alt="StaticKit">
-        </div>
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo.svg" alt="Statamic">
-        </div>
-      </div>
-    </div>
+  <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-gray-800 shadow overflow-hidden sm:rounded-lg container mx-auto mt-10 ">
+  <div class="px-4 py-5 sm:px-6">
+    <h3 class="text-lg leading-6 font-medium text-gray-400">
+      Structuring digital assets and putting the spotlight on your products and services.
+    </h3>
+    <p class="mt-1 max-w-2xl text-sm text-gray-500 ">
+    Information Architecture comes to life on a high-fidelity prototype, that soon gets developed into a progressive web application, that is optimized for speed, people with disabilities, security and best standards.
+
+    </p>
   </div>
+
 </div>
+
+
 
 </template>
 

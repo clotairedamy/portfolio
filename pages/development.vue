@@ -3,10 +3,11 @@
     <Header
       headline="Web"
       headlineTwo="Development"
-      quote="The details are not the details, they make the design.
-'~C.Eames'"
+      quote="Our nature consists in motion; complete rest is death.
+'~Blaise Pascal'"
     />
-  
+    
+    <SplitSection />
   </div>
 </template>
 
@@ -16,9 +17,8 @@ export default {
     link: [
       {
         rel: "canonical",
-        href:
-          "https://clotairedamy.com/design-and-branding-services/",
-      },
+        href: "https://interfacedesign.dev/development"
+      }
     ],
     title: "Design and Branding Services Colorado Springs",
     meta: [
@@ -29,12 +29,11 @@ export default {
           "Motion Design &amp;animated web interfaces. Design and Branding Services in Colorado Springs, CO.",
         hid: "robots",
         name: "robots",
-        content: "noindex",
-      },
-    ],
-  },
+        content: "noindex"
+      }
+    ]
+  }
 };
 </script>
 
-<style>
-</style>
+<style></style>
