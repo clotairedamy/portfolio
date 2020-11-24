@@ -6,7 +6,7 @@
       </template>
       <Nuxt />
       <template v-slot:footer>
-        <h1>Page footer</h1>
+        <Footer />
       </template>
     </BackgroundAnimation>
   </div>

@@ -1,8 +1,8 @@
 <template>
 <div>
    <Header
-      headline="Web"
-      headlineTwo="Development"
+      headline="Clotaire"
+      headlineTwo="Damy"
       quote="Our nature consists in motion; complete rest is death.
 '~Blaise Pascal'"
     />
