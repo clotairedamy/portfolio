@@ -7,7 +7,7 @@
 '~Blaise Pascal'"
     />
     <SplitSection
-      content="Websites should have pleasing aesthetics; but most importantly, websites should be easy to use, fast, secure, relevant and increase sales."
+      content="I look at what everyone else is doing and strive to do something completely new, building lightweight and high-quality interfaces that make brands memorable. Websites should have pleasing aesthetics; but most importantly, websites should be easy to use, fast, secure, relevant and increase sales."
     />
   </div>
 </template>

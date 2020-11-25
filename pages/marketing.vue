@@ -6,14 +6,7 @@
       quote="“In the midst of chaos, there is also opportunity.”
 '~Sun Tzu'"
     />
-<SplitSection content="A web developer who loves what he does, adding value to companies of any
-        size. From competitive research to interactive prototypes,building
-        engaging and simple to-use user interfaces. Grew up in Petrosani,
-        a small mining town at the heart of the Carpathian Mountains in Romania.
-        Currently living in Colorado Springs, Colorado. Love the outdoors,
-        Romanian food, motion &amp; web design, data analysis, and I am a big
-        supporter of Liverpool FC in the English Premier League.
-        I have a beautiful wife, and two daughters, Mia and Nova." />
+<SplitSection content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow." />
   </div>
 </template>
 
