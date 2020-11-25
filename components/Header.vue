@@ -1,5 +1,5 @@
 <template>
-  <div class=" mx-auto max-w-screen-6xl px-24 sm:px-6 md:mt-16 lg:mt-20 z-20">
+  <div class=" mx-auto max-w-screen-6xl px-6 sm:px-6 md:mt-16 lg:mt-20 z-20">
         <div class="text-center">
           <h2 class="text-4xl home tracking-tight leading-10 font-extrabold text-pink-700 sm:text-5xl sm:leading-none md:text-6xl">
             {{headline}}

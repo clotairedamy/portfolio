@@ -14,9 +14,7 @@
           Get in touch
         </h2>
         <p class="mt-3 text-lg leading-6 text-gray-500">   
-LET’S BUILD SOMETHING BEAUTIFUL TOGETHER.
-START BY SAYING HI!
-        </p>
+Let’s build something engaging togheter. Start by saying Hi!        </p>
         <dl class="mt-8 text-base leading-6 text-gray-500">
           <div>
             <dt class="sr-only">Postal address</dt>
@@ -53,7 +51,7 @@ START BY SAYING HI!
         
       </div>
     </div>
-    <div class="bg-gray-900 py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+    <div class="bg-transparent py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
         <form action="#" method="POST" netlify class="grid grid-cols-1 gap-y-6">
           <div>
