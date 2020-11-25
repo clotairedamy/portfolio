@@ -16,10 +16,10 @@ export default {
     link: [
       {
         rel: "canonical",
-        href: "https://interfacedesign.dev/marketing/"
+        href: "https://interfacedesign.dev/marketing"
       }
     ],
-    title: "Design and Branding Services Colorado Springs",
+    title: "Marketing Route",
     meta: [
       {
         hid: "description",

@@ -21,13 +21,13 @@ export default {
         href: "https://interfacedesign.dev/development"
       }
     ],
-    title: "Design and Branding Services Colorado Springs",
+    title: "Web Development",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Motion Design &amp;animated web interfaces. Design and Branding Services in Colorado Springs, CO.",
+          "Motion Design &amp; animated web interfaces. Design and Branding Services in Colorado Springs, CO.",
         hid: "robots",
         name: "robots",
         content: "noindex"
