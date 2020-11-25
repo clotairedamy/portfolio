@@ -1,19 +1,32 @@
+// tailwind.config.js
+const colors = require('tailwindcss/colors')
 
 module.exports = {
-  important: true,
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    colors: {
+      gray: colors.coolGray,
+      blue: colors.lightBlue,
+      red: colors.rose,
+      pink: colors.fuchsia,
+    },
     fontFamily: {
-      display: ["Gilroy", "sans-serif"],
-      body: ["Graphik", "sans-serif"]
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
     },
     extend: {
-      colors: {
-        cyan: "#9cdbff"
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
       },
-    
+      borderRadius: {
+        '4xl': '2rem',
+      }
     }
-  },
-  variants: {
-    opacity: ["responsive", "hover"]
   }
-};
+}
