@@ -8,6 +8,7 @@
           href="https://www.facebook.com/clotaireartelier/"
           class="text-gray-400 hover:text-gray-500"
           target="_blank"
+          rel="noopener"
         >
           <span class="sr-only">Facebook</span>
           <svg
@@ -27,6 +28,8 @@
         <a
           href="https://www.instagram.com/clotaire.damy/"
           class="text-gray-400 hover:text-gray-500"
+          target="_blank"
+          rel="noopener"
         >
           <span class="sr-only">Instagram</span>
           <svg
@@ -46,6 +49,8 @@
         <a
           href="https://twitter.com/clotairedamy?lang=en"
           class="text-gray-400 hover:text-gray-500"
+          target="_blank"
+          rel="noopener"
         >
           <span class="sr-only">Twitter</span>
           <svg
@@ -63,6 +68,8 @@
         <a
           href="https://github.com/clotairedamy"
           class="text-gray-400 hover:text-gray-500"
+          target="_blank"
+          rel="noopener"
         >
           <span class="sr-only">GitHub</span>
           <svg
@@ -78,8 +85,6 @@
             />
           </svg>
         </a>
-
-      
       </div>
       <p class="mt-8 text-center text-base text-gray-400">
         &copy; 2020 Clotaire D. vs Radu A.
