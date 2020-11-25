@@ -2,7 +2,7 @@
   <div>
     <BackgroundAnimation>
       <template v-slot:header>
-        <Navigation class="z-10 bg-gray-900"/>
+        <Navi2 class="z-10 bg-gray-900"/>
       </template>
       <Nuxt id="pageContent" />
       <template v-slot:footer>
