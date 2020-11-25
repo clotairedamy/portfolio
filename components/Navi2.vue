@@ -1,6 +1,6 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="bg-white sticky top-0">
+  <div class="bg-gray-800 sticky top-0">
     <div class="relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div
@@ -39,7 +39,7 @@
           <nav class="hidden md:flex space-x-10">
             <n-link
               to="/"
-              class="text-base font-medium text-gray-500 hover:text-gray-900"
+              class="text-base font-medium text-gray-500 hover:text-gray-400"
             >
               About
             </n-link>
@@ -83,7 +83,7 @@
         class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10" v-if="mobileMenuOpen"
       >
         <div
-          class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50"
+          class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-gray-800 divide-y-2 divide-gray-50"
         >
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
@@ -137,7 +137,7 @@
                       d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                     />
                   </svg>
-                  <span class="ml-3 text-base font-medium text-gray-900">
+                  <span class="ml-3 text-base font-medium text-gray-300">
                     About
                   </span>
                 </n-link>
@@ -162,7 +162,7 @@
                       d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
                     />
                   </svg>
-                  <span class="ml-3 text-base font-medium text-gray-900">
+                  <span class="ml-3 text-base font-medium text-gray-300">
                     Development
                   </span>
                 </n-link>
@@ -187,14 +187,14 @@
                       d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
                     />
                   </svg>
-                  <span class="ml-3 text-base font-medium text-gray-900">
+                  <span class="ml-3 text-base font-medium text-gray-300">
                     Marketing
                   </span>
                 </n-link>
               </nav>
             </div>
           </div>
-          <div class="py-6 px-5 space-y-6">
+          <!-- <div class="py-6 px-5 space-y-6">
             <div class="grid grid-cols-2 gap-y-4 gap-x-8"></div>
             <div>
               <a
@@ -210,7 +210,7 @@
                 </a>
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
