@@ -6,7 +6,7 @@
       quote="“In the midst of chaos, there is also opportunity.”
 '~S.TZU'"
     />
-  <SplitSection content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow" />
+  <SplitSection />
   </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
     link: [
       {
         rel: "canonical",
-        href: "https://interfacedesign.dev/marketing"
+        href: "https://clotairedamy.com//"
       }
     ],
     title: "Design and Branding Services Colorado Springs",

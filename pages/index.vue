@@ -1,11 +1,5 @@
 <template>
 <div>
-   <Header
-      headline="Clotaire"
-      headlineTwo="Damy"
-      quote="Our nature consists in motion; complete rest is death.
-'~Blaise Pascal'"
-    />
 <SplitSection content="A web developer who loves what he does, adding value to companies of any
         size. From competitive research to interactive prototypes,building
         engaging and simple to-use user interfaces. Grew up in Petrosani,
