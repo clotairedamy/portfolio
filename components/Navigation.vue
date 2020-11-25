@@ -3,7 +3,9 @@
     <nav
       class="relative flex items-center justify-between sm:h-10 md:justify-center"
     >
-      <div class="flex items-center flex-1 md:absolute mt-10 md:inset-y-0 md:left-0">
+      <div
+        class="flex items-center flex-1 md:absolute mt-10 md:inset-y-0 md:left-0"
+      >
         <div class="flex items-center justify-between w-full md:w-auto">
           <n-link to="/" aria-label="Home">
             <svg
@@ -13,6 +15,7 @@
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               viewBox="0 0 50 50"
+              s
             >
               <defs>
                 <radialGradient
@@ -182,9 +185,7 @@
           >Marketing</n-link
         >
       </div>
-    
     </nav>
-     
   </div>
 </template>
 
