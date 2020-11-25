@@ -19,7 +19,7 @@
           <div class="-mr-2 -my-2 md:hidden">
             <button
               type="button"
-              class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              class="bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-yellow-600 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
               @click="mobileMenuOpen = true"
             >
               <span class="sr-only">Open menu</span>
@@ -44,19 +44,19 @@
           <nav class="hidden md:flex space-x-10">
             <n-link
               to="/"
-              class="text-base font-medium text-gray-500 hover:text-gray-400"
+              class="text-base font-medium text-gray-500 hover:text-yellow-500"
             >
               About
             </n-link>
             <n-link
               to="development"
-              class="text-base font-medium text-gray-500 hover:text-gray-900"
+              class="text-base font-medium text-gray-500 hover:text-yellow-500"
             >
               Development
             </n-link>
             <n-link
               to="marketing"
-              class="text-base font-medium text-gray-500 hover:text-gray-900"
+              class="text-base font-medium text-gray-500 hover:text-yellow-500"
             >
               Marketing
             </n-link>
@@ -64,12 +64,12 @@
           <div
             class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0"
           >
-            <a
+            <!-- <a
               href="#"
               class="whitespace-nowrap bg-blue-100 border border-transparent rounded-md py-2 px-4 inline-flex items-center justify-center text-base font-medium text-blue-700 hover:bg-blue-200"
             >
               Get in Touch
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@
               <div class="-mr-2">
                 <button
                   type="button"
-                  class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                  class="bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
                   @click="mobileMenuOpen = false"
                 >
                   <span class="sr-only">Close menu</span>
