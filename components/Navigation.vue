@@ -1,11 +1,9 @@
 <template>
-  <div class="max-w-screen-md  mx-auto px-4 sm:px-6 sticky top-0">
+  <div class="max-w-screen-5xl mx-auto px-4 sm:px-6 sticky top-0">
     <nav
       class="relative flex items-center justify-between sm:h-10 md:justify-center"
     >
-      <div
-        class="flex items-center flex-1 md:absolute mt-10 md:inset-y-0 md:left-0"
-      >
+      <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
         <div class="flex items-center justify-between w-full md:w-auto">
           <n-link to="/" aria-label="Home">
             <svg
@@ -15,7 +13,6 @@
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               viewBox="0 0 50 50"
-              s
             >
               <defs>
                 <radialGradient
@@ -143,7 +140,7 @@
               </g>
             </svg>
           </n-link>
-          <div class="-mr-2 flex items-center md:hidden ">
+          <div class="-mr-2 flex items-center md:hidden">
             <button
               type="button"
               class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -168,20 +165,20 @@
           </div>
         </div>
       </div>
-      <div class="hidden md:flex md:space-x-10 mt-10">
+      <div class="hidden md:flex md:space-x-10">
         <n-link
           to="/"
-          class="font-medium text-gray-500 hover:text-gray-300 transition duration-150 ease-in-out"
+          class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out"
           >About</n-link
         >
         <n-link
           to="/development"
-          class="font-medium text-gray-500 hover:text-gray-300 transition duration-150 ease-in-out"
+          class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out"
           >Development</n-link
         >
         <n-link
           to="/marketing"
-          class="font-medium text-gray-500 hover:text-gray-300 transition duration-150 ease-in-out"
+          class="font-medium text-gray-700 hover:text-gray-300 transition duration-150 ease-in-out"
           >Marketing</n-link
         >
       </div>
