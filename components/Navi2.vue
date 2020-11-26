@@ -228,9 +228,14 @@
 export default {
   data() {
     return {
-      mobileMenuOpen: false
+      mobileMenuOpen: false,
     };
-  }
+  },
+  watch: {
+    $route(to, from) {
+      this.mobileMenuOpen = false;
+    },
+  },
 };
 </script>
 
