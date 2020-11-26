@@ -33,6 +33,16 @@ export default {
         content: "noindex"
       }
     ]
+  },
+  transition(to, from) {
+    if (from === undefined) {
+      return 'page';
+    }
+    if (from.name === 'index') {
+      return 'slide-left'
+    } else {
+      return 'slide-right'
+    }
   }
 };
 </script>

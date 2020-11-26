@@ -31,6 +31,12 @@ export default {
         content: "noindex"
       }
     ]
+  },
+  transition(to, from) {
+    if (from === undefined) {
+      return 'page'
+    }
+    return 'slide-left'
   }
 };
 </script>
