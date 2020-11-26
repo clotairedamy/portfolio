@@ -5,10 +5,14 @@
             {{headline}}
             <br>
             <span class="text-yellow-600">{{headlineTwo}}</span>
+            
           </h2>
           <p class="mt-3 max-w-md mx-auto text-bold text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
            {{quote}}
           </p>
+           <br>
+           <p class="mt-3 max-w-md mx-auto text-bold text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl text-left">
+           {{content}}</p>
         </div>
       </div>
 </template>
@@ -19,6 +23,7 @@ export default {
   props: {
     headline: { type: String, required: true },
     headlineTwo: { type: String, required: true },
+    content: { type: String, required: true },
     quote: { type: String, default: true }
   }
 }
