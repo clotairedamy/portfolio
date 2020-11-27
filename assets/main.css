@@ -6,10 +6,7 @@
   src: url("~assets/fonts/track-webfont.woff") format("webfont");
 }
 
-h2,
-h1 {
-  font-family: "Track";
-}
+
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.2s;
