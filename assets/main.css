@@ -8,6 +8,7 @@
  @import url("https://use.typekit.net/khk4wbb.css");
  body {font-family: bicyclette, sans-serif;
   font-size: 17px;
+  font-style: normal;
   line-height: 150%;}
 
 .page-enter-active,
