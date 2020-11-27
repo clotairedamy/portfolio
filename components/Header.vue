@@ -1,8 +1,7 @@
 <template>
   <div
     class="mx-auto max-w-screen-6xl px-2 sm:px-6 md:mt-16 mt-10 lg:mt-20 z-20 opacity-30"
-  >
-   
+  >   
     <div class="relative align-middle">
       <div class="absolute inset-0 flex flex-col" aria-hidden="true">
         <div class="flex-1 bg-gray-50"></div>
