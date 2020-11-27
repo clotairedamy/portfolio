@@ -11,17 +11,17 @@
         class="relative max-w-7xl mt-20 mx-auto h-auto px-2 sm:px-2 lg:px-2"
       >
         <div
-          class="md:bg-gradient-to-r from-gray-800 to-transparent rounded-lg shadow-md xs:bg-white overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4 mt-auto"
+          class="md:bg-gradient-to-r from-gray-900 to-transparent rounded-lg shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4 mt-auto"
         >
           <div
-            class="h-auto pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+            class="h-auto pb-12 px-6 sm:pt-20 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-center">
               <h2 class="text-7xl font-extrabold text-gray-100 sm:text-4xl">
                 <span >{{ headline }}</span>
                 <span class=" text-gray-300">{{ headlineTwo }}</span>
               </h2>
-              <p class="mt-4 text-lg leading-6 text-gray-300">{{ content }}</p>
+              <p class="mt-4 text-lg leading-6 text-gray-200">{{ content }}</p>
             </div>
           </div>
           <div
