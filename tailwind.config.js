@@ -5,7 +5,7 @@ module.exports = {
     fontFamily: {
       display: ["Track", "sans-serif"],
       body: ["bicyclette", "sans-serif"],
-      h4: ["adobe-handwriting-ernie", "sans-serif"]
+      sans: ["adobe-handwriting-ernie", "sans-serif"]
     },
     extend: {
       colors: {
