@@ -14,6 +14,8 @@
 export default {
   head: {
     link: [{ rel: "canonical", href: "https://interfacedesign.dev" }],
+     htmlAttrs: {
+      lang: 'en'},
     title: "UI/UX Design and Marketing",
     meta: [
       {
@@ -22,7 +24,9 @@ export default {
         content: "Clotaire Damy",
         hid: "robots",
         name: "robots",
-        content: "noindex"
+        content: "noindex",
+         name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
       }
     ]
   },
