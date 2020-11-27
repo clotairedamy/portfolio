@@ -68,7 +68,7 @@ h1 {
   font-family: "Track";
 }
 h4 {
-  font-family: adobe-handwriting-ernie, sans-serif;
+  font-family: 'adobe-handwriting-ernie', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
