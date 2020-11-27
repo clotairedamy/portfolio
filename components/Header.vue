@@ -54,6 +54,7 @@ export default {
 </script>
 
 <style>
+@import url("https://use.typekit.net/khk4wbb.css");
 .home-enter-active,
 .home-leave-active {
   transition: slide-in 0.5s;
