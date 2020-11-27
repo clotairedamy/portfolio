@@ -32,4 +32,8 @@ export default {
 <style>
 .home-enter-active, .home-leave-active { transition: slide-in .5s; }
   .home-enter, .home-leave-active { opacity: 0; }
+  h2,
+h1 {
+  font-family: "Track";
+}
 </style>

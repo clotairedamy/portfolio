@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Track";
-  font-style: normal;
+  font-style: bold;
   font-weight: 800;
   font-display: swap;
-  src: url("~assets/fonts/track-webfont.woff") format("webfont");
+  src: url("~assets/fonts/Track-Regular.ttf") format("truetype");
 }
 
 
