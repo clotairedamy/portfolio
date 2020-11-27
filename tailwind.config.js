@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ["Track", "sans-serif"],
-      body: ["Graphik", "sans-serif"]
+      body: ["bicyclette", "sans-serif"]
     },
     extend: {
       colors: {

@@ -5,7 +5,10 @@
   font-display: swap;
   src: url("~assets/fonts/Track-Regular.ttf") format("truetype");
 }
-
+ @import url("https://use.typekit.net/khk4wbb.css");
+ body {font-family: bicyclette, sans-serif;
+  font-size: 17px;
+  line-height: 150%;}
 
 .page-enter-active,
 .page-leave-active {
