@@ -3,11 +3,11 @@
     <Header
       headline="Digital"
       headlineTwo="Marketing"
-      quote="“In the midst of chaos, there is also opportunity.”
-'~Sun Tzu'"
+      quote="“In the midst of chaos, there is also opportunity.”"
       content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow."
+      name="~Sun Tzu"
     />
-
+     
   </div>
 </template>
 

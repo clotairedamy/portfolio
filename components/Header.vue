@@ -1,39 +1,75 @@
 <template>
-  <div class="mx-auto max-w-screen-2xl px-6 sm:px-6 md:mt-16 mt-10 lg:mt-20 z-20">
-        <div class="text-center">
-          <h2 class="text-4xl home tracking-tight leading-10 font-extrabold text-pink-700 sm:text-5xl sm:leading-none md:text-6xl">
-            {{headline}}
-            <br>
-            <span class="text-yellow-600">{{headlineTwo}}</span>
-            
-          </h2>
-          <p class="mt-3 max-w-md mx-auto text-bold text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-           {{quote}}
-          </p>
-           <br>
-           <p class="mt-3 max-w-md mx-auto text-bold text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl text-left">
-           {{content}}</p>
+  <div
+    class="mx-auto max-w-screen-6xl px-2 sm:px-6 md:mt-16 mt-10 lg:mt-20 z-20"
+  >
+   
+    <div class="relative h-auto">
+      <div class="absolute inset-0 flex flex-col" aria-hidden="true">
+        <div class="flex-1 bg-gray-50"></div>
+        <div class="flex-1"></div>
+      </div>
+      <div class="relative max-w-6xl mx-auto h-auto px-2 sm:px-2 lg:px-2">
+        <div
+          class="bg-gradient-to-r from-gray-900 to-transparent rounded-lg shadow overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4"
+        >
+          <div
+            class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+          >
+            <div class="lg:self-center">
+              <h2 class="text-3xl font-extrabold text-pink-600 sm:text-4xl">
+                <span class="block">{{ headline }}</span>
+                <span class="block text-yellow-500">{{ headlineTwo }}</span>
+              </h2>
+              <p class="mt-4 text-lg leading-6 text-gray-500">{{ content }}</p>
+             
+            </div>
+          </div>
+          <div
+            class="mt-auto pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+          >
+            <div class="lg:self-center">
+              <h4 class="text-3xl font-bold text-pink-600 sm:text-4xl">
+                
+                <span class="block text-green-600">{{ quote }}</span>
+              </h4>
+              <p class="mt-4 text-lg leading-6 text-gray-500">{{ name }}</p>
+             
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  
   props: {
     headline: { type: String, required: true },
     headlineTwo: { type: String, required: true },
     content: { type: String, required: true },
-    quote: { type: String, default: true }
+    quote: { type: String, default: true },
+    name: { type: String, default: true }
   }
-}
+};
 </script>
 
 <style>
-.home-enter-active, .home-leave-active { transition: slide-in .5s; }
-  .home-enter, .home-leave-active { opacity: 0; }
-  h2,
+.home-enter-active,
+.home-leave-active {
+  transition: slide-in 0.5s;
+}
+.home-enter,
+.home-leave-active {
+  opacity: 0;
+}
+h2,
 h1 {
   font-family: "Track";
+}
+h4 {
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 </style>

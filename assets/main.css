@@ -1,15 +1,23 @@
-@font-face {
+
+ @import url("https://use.typekit.net/khk4wbb.css");
+ 
+ @font-face {
   font-family: "Track";
   font-style: bold;
   font-weight: 800;
   font-display: swap;
   src: url("~assets/fonts/Track-Regular.ttf") format("truetype");
 }
- @import url("https://use.typekit.net/khk4wbb.css");
- body {font-family: bicyclette, sans-serif;
+
+ body {font-family: 'bicyclette', sans-serif;
   font-size: 17px;
   font-style: normal;
   line-height: 150%;}
+.h4 {
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .page-enter-active,
 .page-leave-active {
@@ -27,7 +35,7 @@
 }
 .slide-left-enter,
 .slide-left-leave-to {
-  /*transform: translateX(100px);*/
+  transform: translateX(100px);
   opacity: 0;
 }
 .slide-left-enter,
@@ -40,6 +48,7 @@
 }
 .slide-right-enter,
 .slide-right-leave-to {
-  /*transform: translateX(-100px);*/
+  transform: translateX(-100px);
   opacity: 0;
-}
+} 
+

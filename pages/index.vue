@@ -3,12 +3,10 @@
     <Header
       headline="Clotaire"
       headlineTwo="Damy"
-      content="My name is Clotaire Damy. I’m a Developer and Digital Marketer based in Colorado Springs (US). Grew up in Petrosani,
-        a small mining town at the heart of the Carpathian Mountains in Romania. I’m passionate about transforming complex problems into meaningful and engaging web interfaces. User Interfaces are driven by extensive research, motion and emotions. Motion design is giving users a sense of wonder, pleasure, the animation is acting as support for explaining complex benefits and features."
-      quote="The details are not the details, they make the design.
-'~C Eames'"
+      content="A Developer and Digital Marketer based in Colorado Springs (US). I’m passionate about transforming complex problems into meaningful and engaging web interfaces. User Interfaces are driven by extensive research, motion and emotions. Motion design is giving users a sense of wonder, pleasure, the animation is acting as support for explaining complex benefits and features."
+      quote="The details are not the details, they make the design."
+      name="~C Eames"
     />
-   
   </div>
 </template>
 
@@ -30,9 +28,9 @@ export default {
   },
   transition(to, from) {
     if (from === undefined) {
-      return 'page';
+      return "page";
     }
-    return 'slide-right';
+    return "slide-right";
   }
 };
 </script>

@@ -3,9 +3,9 @@
     <Header
       headline="Web"
       headlineTwo="Development"
-      quote="Our nature consists in motion; complete rest is death.
-'~Blaise Pascal'"
+      quote="“Our nature consists in motion; complete rest is death.”"
       content="I look at what everyone else is doing and strive to do something completely new, building lightweight and high-quality interfaces that make brands memorable. Websites should have pleasing aesthetics; but most importantly, websites should be easy to use, fast, secure, relevant and increase sales."
+      name="~Blaise Pascal"
     />
   </div>
 </template>

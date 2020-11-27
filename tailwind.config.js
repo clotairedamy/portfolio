@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ["Track", "sans-serif"],
-      body: ["bicyclette", "sans-serif"]
+      body: ["bicyclette", "sans-serif"],
+      sans: ["adobe-handwriting-ernie"]
     },
     extend: {
       colors: {
