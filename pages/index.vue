@@ -14,8 +14,6 @@
 export default {
   head: {
     link: [{ rel: "canonical", href: "https://interfacedesign.dev" }],
-     htmlAttrs: {
-      lang: 'en'},
     title: "UI/UX Design and Marketing",
     meta: [
       {
@@ -24,11 +22,22 @@ export default {
         content: "Clotaire Damy",
         hid: "robots",
         name: "robots",
-        content: "noindex",
-         name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
+        content: "noindex"
       }
-    ]
+    ],
+
+    metaInfo: {
+      script: [
+        {
+          type: "application/ld+json",
+          json: {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            name: "NuxtJS"
+          }
+        }
+      ]
+    }
   },
   transition(to, from) {
     if (from === undefined) {
