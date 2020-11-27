@@ -28,7 +28,7 @@
             class="mt-auto pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-center">
-              <h4 class="text-3xl font-bold text-pink-600 sm:text-4xl">
+              <h4 class="text-2xl font-bold text-pink-600 sm:text-4xl">
                 <span class="block text-gray-600">{{ quote }}</span>
               </h4>
               <p class="mt-4 text-lg leading-6 text-blue-500">{{ name }}</p>
@@ -67,7 +67,7 @@ h1 {
   font-family: "Track";
 }
 h4 {
-  font-family: adobe-handwriting-ernie, sans-serif;
+  font-family: "adobe-handwriting-ernie", sans-serif;
   font-style: bold;
   font-weight: 400;
   line-height: 1;
