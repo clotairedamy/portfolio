@@ -3,7 +3,7 @@ module.exports = {
   important: true,
   theme: {
     fontFamily: {
-      display: ["Gilroy", "sans-serif"],
+      display: ["Track", "sans-serif"],
       body: ["Graphik", "sans-serif"]
     },
     extend: {
