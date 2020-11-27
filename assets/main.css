@@ -1,13 +1,19 @@
 
-
+@import url("https://use.typekit.net/khk4wbb.css");
 @font-face {
   font-family: "Track";
   font-style: bold;
-  font-weight: 800;
   font-display: swap;
   src: url("~assets/fonts/Track-Regular.ttf") format("truetype");
 }
 
+
+@font-face {
+  font-family: "Autography";
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/Autography.ttf") format("truetype");
+}
 body {
   font-family: bicyclette, sans-serif;
   font-size: 17px;

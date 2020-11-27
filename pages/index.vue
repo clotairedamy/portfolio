@@ -33,7 +33,7 @@ export default {
           json: {
             "@context": "http://schema.org",
             "@type": "Organization",
-            name: "NuxtJS"
+            name: "Clotaire Damy"
           }
         }
       ]

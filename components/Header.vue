@@ -8,24 +8,24 @@
         <div class="flex-1"></div>
       </div>
       <div
-        class="relative max-w-6xl mt-auto mx-auto h-auto px-2 sm:px-2 lg:px-2"
+        class="relative max-w-7xl mt-auto mx-auto h-auto px-2 sm:px-2 lg:px-2"
       >
         <div
-          class="bg-gradient-to-r from-gray-900 to-transparent rounded-lg shadow overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4"
+          class="bg-gradient-to-r from-gray-900 to-transparent rounded-lg shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-8"
         >
           <div
-            class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+            class="h-auto pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-center">
-              <h2 class="text-3xl font-extrabold text-pink-600 sm:text-4xl">
-                <span class="block">{{ headline }}</span>
-                <span class="block text-yellow-500">{{ headlineTwo }}</span>
+              <h2 class="text-7xl font-extrabold text-gray-100 sm:text-4xl">
+                <span >{{ headline }}</span>
+                <span class=" text-gray-400">{{ headlineTwo }}</span>
               </h2>
               <p class="mt-4 text-lg leading-6 text-gray-500">{{ content }}</p>
             </div>
           </div>
           <div
-            class="mt-auto pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+            class="mt-auto pb-12 px-6 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-center">
               <h4 class="text-2xl special text-pink-600 sm:text-4xl">
@@ -53,7 +53,7 @@ export default {
 </script>
 
 <style>
-@import url("https://use.typekit.net/khk4wbb.css");
+
 .home-enter-active,
 .home-leave-active {
   transition: slide-in 0.5s;
@@ -67,7 +67,7 @@ h1 {
   font-family: "Track";
 }
 .special {
-  font-family: "adobe-handwriting-ernie";
+  font-family: "Autography";
   
   line-height: 1;
 }
