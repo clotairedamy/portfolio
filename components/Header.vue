@@ -17,9 +17,9 @@
             class=" pb-12 px-6 sm:pt-10 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-center">
-              <h2 class="text-9xl font-extrabold text-gray-100 sm:text-4xl mb-20">
+              <h2 class="text-9xl font-extrabold text-gray-300 sm:text-4xl mb-20">
                 <span >{{ headline }}</span>
-                <span class=" text-gray-300">{{ headlineTwo }}</span>
+                <span class=" text-gray-600">{{ headlineTwo }}</span>
               </h2>
               <p class="mt-4 text-lg leading-6 text-gray-200">{{ content }}</p>
             </div>
