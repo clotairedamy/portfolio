@@ -1,23 +1,23 @@
 <template>
   <div
-    class="mx-auto max-w-screen-6xl px-2 sm:px-6 md:mt-16 mt-10 lg:mt-20 sm:mt-10 z-20 opacity-30"
+    class="mx-auto max-w-screen-6xl px-6 sm:px-6 md:mt-16 mt-10 lg:mt-20 sm:mt-10 z-20 opacity-30 overscroll-auto"
   >
-    <div class="relative align-middle">
+    <div class="relative h-auto">
       <div class="absolute inset-0 flex flex-col" aria-hidden="true">
-        <div class="flex-1 bg-gray-50"></div>
+        <div class="flex-1 "></div>
         <div class="flex-1"></div>
       </div>
       <div
-        class="relative max-w-7xl mt-20 mx-auto h-auto px-2 sm:px-2 lg:px-2"
+        class="relative max-w-6xl  mx-auto h-auto px-2 sm:px-2 lg:px-2"
       >
         <div
           class="md:bg-gradient-to-r from-gray-900 to-transparent rounded-lg shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4 mt-auto"
         >
           <div
-            class="h-auto pb-12 px-6 sm:pt-20 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+            class=" pb-12 px-6 sm:pt-10 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-center">
-              <h2 class="text-7xl font-extrabold text-gray-100 sm:text-4xl">
+              <h2 class="text-9xl font-extrabold text-gray-100 sm:text-4xl mb-20">
                 <span >{{ headline }}</span>
                 <span class=" text-gray-300">{{ headlineTwo }}</span>
               </h2>
