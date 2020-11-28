@@ -38,7 +38,7 @@ body {
 }
 .slide-left-enter,
 .slide-left-leave-to {
-  transform: translateX(100px);
+  /*transform: translateX(100px);*/
   opacity: 0;
 }
 .slide-left-enter,
@@ -51,6 +51,6 @@ body {
 }
 .slide-right-enter,
 .slide-right-leave-to {
-  transform: translateX(-100px);
+  /*transform: translateX(-100px);*/
   opacity: 0;
 }
