@@ -1,8 +1,10 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <footer >
+    
     <!-- <Mobile /> -->
-    <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+      <Featured />
       <div class="mt-8 flex justify-center space-x-6">
         <a
           href="https://www.facebook.com/clotaireartelier/"
@@ -94,7 +96,9 @@
 </template>
 
 <script>
-export default {};
+import Featured from './Featured.vue';
+export default {
+  components: { Featured },};
 </script>
 
 <style></style>

@@ -3,7 +3,7 @@
     <Header
       headline="Clotaire"
       headlineTwo="Damy"
-      content="A Developer and Digital Marketer based in Colorado Springs (US). I’m passionate about transforming complex problems into meaningful and engaging web interfaces. User Interfaces are driven by extensive research, motion and emotions. Motion design is giving users a sense of wonder, pleasure, the animation is acting as support for explaining complex benefits and features."
+      content="A Developer and Digital Marketer based in Colorado Springs (US). I’m passionate about transforming complex problems into meaningful and engaging web interfaces."
       quote="The details are not the details, they make the design."
       name="~C Eames"
     />
