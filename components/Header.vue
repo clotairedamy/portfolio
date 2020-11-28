@@ -7,7 +7,7 @@
         class="max-w-6xl mx-auto py-16 px-6 sm:px-8 lg:py-24 lg:px-8 rounded shadow-lg mt-20 mb-20"
       >
         <div class="max-w-6xl mx-auto text-left">
-          <h2 class="text-3xl font-extrabold text-gray-600 mb-20">
+          <h2 class="text-2xl font-extrabold text-gray-600 mb-20">
             {{ headline }}<span class="text-gray-300">{{ headlineTwo }}</span>
           </h2>
           <p class="mt-4 text-lg text-gray-500">{{ content }}</p>
@@ -65,8 +65,8 @@
             class="mt-auto pb-2 px-6 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-center">
-              <h4 class="text-sm special  sm:text-2xl">
-                <span class="block text-gray-400">{{ quote }}</span>
+              <h4 class="text-lg   sm:text-4xl">
+                <span class="block special text-gray-400">{{ quote }}</span>
               </h4>
               <p class="mt-4 text-lg leading-6 text-gray-600">{{ name }}</p>
             </div>
