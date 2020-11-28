@@ -1,59 +1,22 @@
 <template>
-  <div
-    class="mx-auto max-w-screen-6xl px-6 sm:px-6 md:mt-20 mb-10 lg:mt-20 sm:mt-10 z-20 opacity-30 "
-  >
-    <div class="bg-transparent">
-      <div
-        class="max-w-6xl mx-auto py-16 px-6 sm:px-8 lg:py-24 lg:px-8 rounded shadow-lg mt-20 mb-20"
-      >
-        <div class="max-w-6xl mx-auto text-left">
-          <h2 class="text-2xl font-extrabold text-gray-600 mb-20">
-            {{ headline }}<span class="text-gray-300">{{ headlineTwo }}</span>
-          </h2>
-          <p class="mt-4 text-lg text-gray-500">{{ content }}</p>
-        </div>
-        <dl
-          class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-3 lg:gap-x-4"
-        >
-          <div class="flex">
-           
-            <div class="ml-3 ">
-              <dt class="text-lg leading-6 font-medium text-gray-600">
-                {{ serviceOneTitle }}
-              </dt>
-              <dd class="mt-2 text-base text-gray-500">
-                {{ serviceOneDescription }}
-              </dd>
-            </div>
-          </div>
-
-          <div class="flex">
-         
-            <div class="ml-3">
-              <dt class="text-lg leading-6 font-medium text-gray-600">
-                {{ serviceTwoTitle }}
-              </dt>
-              <dd class="mt-2 text-base text-gray-500">
-                {{ serviceTwoDescription }}
-              </dd>
-            </div>
-          </div>
-
-          <div class="flex">
-         
-            <div class="ml-3">
-              <dt class="text-lg leading-6 font-medium text-gray-600">
-                {{ serviceThreeTitle }}
-              </dt>
-              <dd class="mt-2 text-base text-gray-500">
-                {{ serviceThreeDescription }}
-              </dd>
-            </div>
-          </div>
-        </dl>
+<div>
+  <div >
+  <div class="pt-12 sm:pt-16 lg:pt-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-left mt-20">
+        <h2 class="text-3xl font-extrabold text-gray-600 sm:text-4xl lg:text-5xl mb-20">
+          {{ headline }}<span class="text-gray-300">{{ headlineTwo }}</span>
+        </h2>
+        <p class="mt-4 text-xl text-gray-200 text-left">
+         I place great importance on the things that influences human emotions and actions, rewarding the visitors visually and making brands stand out.
+        </p>
       </div>
     </div>
-    <div class="relative">
+  </div>
+ 
+</div>
+ 
+    <div class="relative mt-20">
       <div class="absolute inset-0 flex flex-col" aria-hidden="true">
         <div class="flex-1"></div>
       </div>
@@ -75,6 +38,7 @@
       </div>
     </div>
   </div>
+ 
 </template>
 
 <script>
@@ -84,13 +48,8 @@ export default {
     headlineTwo: { type: String, required: true },
     content: { type: String, required: true },
     quote: { type: String, default: true },
-    name: { type: String, default: true },
-    serviceOneTitle: { type: String, default: "Interface Design" },
-    serviceOneDescription: { type: String, default: "Information Architecture comes to life on a high-fidelity prototype, that soon gets developed into a progressive web application, that is optimized for speed, people with disabilities, security and best standards" },
-    serviceTwoTitle: { type: String, default: "Development" },
-    serviceTwoDescription: { type: String, default: "Motion helps your visitors get past the above-the-fold area, increasing engagement with your website using light, colors, shapes, illustrations, directional cues and beautiful vector graphics for the web." },
-    serviceThreeTitle: { type: String, default: "Search Engine Optimization" },
-    serviceThreeDescription: { type: String, default: "Drive more  traffic and increase sales, incorporate  high-intent keywords into your campaigns." }
+    name: { type: String, default: true }
+
   }
 };
 </script>
