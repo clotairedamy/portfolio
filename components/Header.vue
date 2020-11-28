@@ -85,12 +85,12 @@ export default {
     content: { type: String, required: true },
     quote: { type: String, default: true },
     name: { type: String, default: true },
-    serviceOneTitle: { type: String, default: "Title" },
-    serviceOneDescription: { type: String, default: "Description" },
-    serviceTwoTitle: { type: String, default: "Title" },
-    serviceTwoDescription: { type: String, default: "Description" },
-    serviceThreeTitle: { type: String, default: "Title" },
-    serviceThreeDescription: { type: String, default: "Description" }
+    serviceOneTitle: { type: String, default: "Interface Design" },
+    serviceOneDescription: { type: String, default: "Information Architecture comes to life on a high-fidelity prototype, that soon gets developed into a progressive web application, that is optimized for speed, people with disabilities, security and best standards" },
+    serviceTwoTitle: { type: String, default: "Development" },
+    serviceTwoDescription: { type: String, default: "Motion helps your visitors get past the above-the-fold area, increasing engagement with your website using light, colors, shapes, illustrations, directional cues and beautiful vector graphics for the web." },
+    serviceThreeTitle: { type: String, default: "Search Engine Optimization" },
+    serviceThreeDescription: { type: String, default: "Drive more  traffic and increase sales, incorporate  high-intent keywords into your campaigns." }
   }
 };
 </script>
