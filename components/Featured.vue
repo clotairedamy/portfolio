@@ -6,7 +6,7 @@
         <div class="max-w-lg mx-auto  overflow-hidden lg:max-w-none lg:flex">
           <div class="flex-1 bg-gray-50  px-6 py-8 lg:p-12 ">
             <h3 class="text-2xl font-extrabold text-gray-400 sm:text-3xl">
-      {{headline}}
+              {{ headline }}
             </h3>
             <p class="mt-6 text-base text-gray-500">
               {{ content }}
@@ -40,7 +40,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-gray-500">
+                  <p class="ml-3 text-sm text-yellow-500">
                     UI/UX Prototyping
                   </p>
                 </li>
@@ -62,7 +62,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-gray-500">
+                  <p class="ml-3 text-sm text-green-500">
                     Information Architecture
                   </p>
                 </li>
@@ -84,7 +84,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-gray-500">
+                  <p class="ml-3 text-sm text-pink-500">
                     Motion Design
                   </p>
                 </li>
@@ -106,7 +106,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-gray-500">
+                  <p class="ml-3 text-sm text-blue-600">
                     Website Design &amp; Optimization
                   </p>
                 </li>
@@ -114,38 +114,34 @@
             </div>
           </div>
           <div
-            class="py-8 px-6 text-center bg-gray-800 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12 shadow-lg rounded"
+            class="py-4 px-6 text-center bg-yellow-500 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12 shadow-lg rounded"
           >
-            <p class="text-lg leading-6 font-medium text-gray-500">
-              WEB
+            <p class="text-lg leading-6 font-medium text-gray-900">
+              UI
             </p>
             <div
-              class="mt-4 flex items-center justify-center text-5xl font-extrabold text-gray-600"
+              class="mt-4 flex items-center justify-center text-5xl font-extrabold text-gray-800"
             >
               <span>
-                 Design
+                Design
               </span>
-             
             </div>
-   <div class="mt-4 text-sm">
-              <a href="#" class="font-medium text-gray-600">
-                Component Based 
-                <span class="font-normal text-gray-500">
-                  Development
-                </span>
+            <div class="mt-4 text-md">
+              <a href="#" class="font-medium text-gray-800">
+                Component Based Development
+               
               </a>
             </div>
             <div class="mt-6">
               <div class="rounded-md shadow">
                 <a
                   href="#"
-                  class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-yellow-500 hover:bg-gray-900"
+                  class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-100 bg-gray-900 hover:bg-gray-600"
                 >
-                  Marketing
+                  Get in Touch
                 </a>
               </div>
             </div>
-         
           </div>
         </div>
       </div>
@@ -158,7 +154,10 @@ export default {
   props: {
     headline: { type: String, default: "Web Development" },
     headlineTwo: { type: String, required: false },
-    content: { type: String, default: "A brand can be recognized in particular by its visual identity." }
+    content: {
+      type: String,
+      default: "A brand can be recognized in particular by its visual identity."
+    }
   }
 };
 </script>
