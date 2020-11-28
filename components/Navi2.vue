@@ -7,14 +7,14 @@
           class="flex justify-between items-center py-6 md:justify-start md:space-x-10"
         >
           <div class="flex justify-start lg:w-0 lg:flex-1">
-            <a href="/">
+            <n-link to="/">
               <span class="sr-only">Clotaire</span>
               <img
                 class="h-8 w-auto sm:h-10"
                 src="clotaire-01.svg"
                 alt="Clotaire Damy logo"
               />
-            </a>
+            </n-link>
           </div>
           <div class="-mr-2 -my-2 md:hidden">
             <button
