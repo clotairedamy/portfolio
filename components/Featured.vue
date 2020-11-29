@@ -49,7 +49,7 @@
                   <div class="flex-shrink-0">
                     <!-- Heroicon name: check-circle -->
                     <svg
-                      class="h-5 w-5 text-green-500"
+                      class="h-5 w-5 text-gray-500"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -62,7 +62,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-green-500">
+                  <p class="ml-3 text-sm text-gray-500">
                     Information Architecture
                   </p>
                 </li>
@@ -71,7 +71,7 @@
                   <div class="flex-shrink-0">
                     <!-- Heroicon name: check-circle -->
                     <svg
-                      class="h-5 w-5 text-pink-600"
+                      class="h-5 w-5 text-gray-500"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -84,7 +84,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-pink-500">
+                  <p class="ml-3 text-sm text-gray-500">
                     Motion Design
                   </p>
                 </li>
@@ -93,7 +93,7 @@
                   <div class="flex-shrink-0">
                     <!-- Heroicon name: check-circle -->
                     <svg
-                      class="h-5 w-5 text-blue-600"
+                      class="h-5 w-5 text-gray-500"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -106,7 +106,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-blue-600">
+                  <p class="ml-3 text-sm text-gray-500">
                     Website Design &amp; Optimization
                   </p>
                 </li>
@@ -132,7 +132,7 @@
                
               </a>
             </div>
-            <div class="mt-6">
+            <!-- <div class="mt-6">
               <div class="rounded-md shadow">
                 <a
                   href="#"
@@ -141,7 +141,7 @@
                   Get in Touch
                 </a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
