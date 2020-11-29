@@ -23,10 +23,7 @@
               <ul
                 class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5"
               >
-                <li
-                  class="flex items-start lg:col-span-1 pointer"
-                  @click="changeCurrentBox(descriptions.uiux)"
-                >
+                <li class="flex items-start lg:col-span-1 pointer" @click="changeCurrentBox(descriptions.uiux)">
                   <div class="flex-shrink-0">
                     <!-- Heroicon name: check-circle -->
                     <svg
@@ -48,12 +45,7 @@
                   </p>
                 </li>
 
-                <li
-                  class="flex items-start pointer"
-                  @click="
-                    changeCurrentBox(descriptions.information_architecture)
-                  "
-                >
+                <li class="flex items-start pointer" @click="changeCurrentBox(descriptions.information_architecture)">
                   <div class="flex-shrink-0">
                     <!-- Heroicon name: check-circle -->
                     <svg
@@ -75,10 +67,7 @@
                   </p>
                 </li>
 
-                <li
-                  class="flex items-start lg:col-span-1 pointer"
-                  @click="changeCurrentBox(descriptions.motion_design)"
-                >
+                <li class="flex items-start lg:col-span-1 pointer" @click="changeCurrentBox(descriptions.motion_design)">
                   <div class="flex-shrink-0">
                     <!-- Heroicon name: check-circle -->
                     <svg
@@ -100,10 +89,7 @@
                   </p>
                 </li>
 
-                <li
-                  class="flex items-start lg:col-span-1 pointer"
-                  @click="changeCurrentBox(descriptions.web_design)"
-                >
+                <li class="flex items-start lg:col-span-1 pointer" @click="changeCurrentBox(descriptions.web_design)">
                   <div class="flex-shrink-0">
                     <!-- Heroicon name: check-circle -->
                     <svg
@@ -127,44 +113,7 @@
               </ul>
             </div>
           </div>
-          <<<<<<< HEAD
-          <div
-            class="py-4 px-6 text-center bg-yellow-500 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12 shadow-lg rounded"
-          >
-            <p class="text-lg leading-6 font-medium text-gray-900">
-              UI
-            </p>
-            <div
-              class="mt-4 flex items-center justify-center text-5xl font-extrabold text-gray-800"
-            >
-              <span>
-                Design
-              </span>
-            </div>
-            <div class="mt-4 text-md">
-              <a href="#" class="font-medium text-gray-800">
-                Component Based Development
-              </a>
-            </div>
-            <!-- <div class="mt-6">
-              <div class="rounded-md shadow">
-                <a
-                  href="#"
-                  class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-100 bg-gray-900 hover:bg-gray-600"
-                >
-                  Get in Touch
-                </a>
-              </div>
-            </div> -->
-          </div>
-          =======
-          <FooterContentBox
-            v-if="currentDescription !== null"
-            :class="descriptionBoxColorClass"
-            :title="currentDescription.title"
-            :content="currentDescription.content"
-          />
-          >>>>>>> c11ed1de71d05b89a39aa059bb1fa7dca87bbf5f
+          <FooterContentBox v-if="currentDescription !== null" :class="descriptionBoxColorClass" :title="currentDescription.title" :content="currentDescription.content"/>
         </div>
       </div>
     </div>
@@ -177,28 +126,12 @@ export default {
     return {
       currentDescription: null,
       descriptions: {
-        uiux: {
-          title: "UIUX title",
-          content: "uiux content",
-          bgClass: "bg-yellow-500"
-        },
-        information_architecture: {
-          title: "information architecture title",
-          content: "IA content",
-          bgClass: "bg-blue-300"
-        },
-        motion_design: {
-          title: "Motion design title",
-          content: "MD content",
-          bgClass: "bg-green-600"
-        },
-        web_design: {
-          title: "Web title",
-          content: "web content",
-          bgClass: "bg-red-400"
-        }
+        uiux: {title: "UIUX title", content: "uiux content", bgClass: "bg-yellow-500"},
+        information_architecture: {title: "IA route", content: "IA content", bgClass: "bg-blue-300"},
+        motion_design: {title: "Motion design", content: "MD content", bgClass: "bg-green-600"},
+        web_design: {title: "Web title", content: "web content", bgClass: "bg-red-400"}
       }
-    };
+    }
   },
   props: {
     headline: { type: String, default: "Web Development" },
@@ -223,7 +156,7 @@ export default {
   computed: {
     descriptionBoxColorClass() {
       if (this.currentDescription === null) {
-        return "bg-black-500";
+        return "bg-black-500"
       } else {
         return this.currentDescription.bgClass;
       }
@@ -234,6 +167,6 @@ export default {
 
 <style scoped>
 .pointer {
-  cursor: pointer;
+  cursor:pointer;
 }
 </style>

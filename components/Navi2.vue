@@ -2,7 +2,7 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class=" sticky top-0">
     <div class="relative">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div
           class="flex justify-between items-center py-6 md:justify-start md:space-x-10"
         >

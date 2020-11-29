@@ -6,11 +6,11 @@
     <div
       class="mt-4 flex items-center justify-center text-5xl font-extrabold text-gray-800"
     >
-      <span> {{ title }} </span>
+      <span> {{title}} </span>
     </div>
     <div class="mt-4 text-md">
       <a href="#" class="font-medium text-gray-800">
-        {{ content }}
+        {{content}}
       </a>
     </div>
     <!--<div class="mt-6">
@@ -28,9 +28,9 @@
 
 <script>
 export default {
-  props: {
-    title: { type: String, default: "Please change title" },
-    content: { type: String, default: "Please write something here" }
-  }
+    props: {
+        title: {type: String, default: "Please change title"},
+        content: {type:String, default: "Please write something here"}
+    }
 };
 </script>

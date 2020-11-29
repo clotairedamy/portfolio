@@ -4,7 +4,7 @@
    
     <!-- <Mobile /> -->
     <div class="max-w-6xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-       <Featured />
+       <Contact />
       <div class="mt-8 flex justify-center space-x-6">
         <a
           href="https://www.facebook.com/clotaireartelier/"
