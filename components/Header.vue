@@ -78,13 +78,13 @@
           class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
         >
           <div
-            class="mt-auto pb-2 px-16 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+            class="mt-auto  px-8 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-left">
-              <h4 class="text-sm   sm:text-md">
-                <span class="block special text-gray-400">{{ quote }}</span>
+              <h4 class="text-lg   sm:text-lg">
+                <span class="block special text-pink-600">{{ quote }}</span>
               </h4>
-              <p class="mt-4 text-lg leading-6 text-gray-600">{{ name }}</p>
+              <p class="mt-4 text-lg leading-6 text-yellow-400">{{ name }}</p>
             </div>
           </div>
         </div>
