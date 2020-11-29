@@ -132,7 +132,7 @@
                
               </a>
             </div>
-            <div class="mt-6">
+            <!--<div class="mt-6">
               <div class="rounded-md shadow">
                 <a
                   href="#"
@@ -141,7 +141,7 @@
                   Get in Touch
                 </a>
               </div>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
