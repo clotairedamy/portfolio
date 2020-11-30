@@ -49,13 +49,13 @@
               About
             </n-link>
             <n-link
-              to="development"
+              to="/development"
               class="text-base font-medium text-gray-500 hover:text-yellow-500"
             >
               Development
             </n-link>
             <n-link
-              to="marketing"
+              to="/marketing"
               class="text-base font-medium text-gray-500 hover:text-yellow-500"
             >
               Marketing
@@ -130,7 +130,7 @@
                 </n-link>
 
                 <n-link
-                  to="development"
+                  to="/development"
                   class="-m-3 p-3 flex items-center rounded-md hover:bg-orange-500"
                 >
                  
@@ -140,7 +140,7 @@
                 </n-link>
 
                 <n-link
-                  to="marketing"
+                  to="/marketing"
                   class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                 >
               
