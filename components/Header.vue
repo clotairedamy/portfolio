@@ -32,7 +32,16 @@
               </dl>
             </div>
           </div>
-          <div
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="relative mt-10 sm:mt-20">
+      <div class="absolute inset-0 flex flex-col " aria-hidden="true">
+        <div class="flex-1"></div>
+      </div>
+        <div
             class="bg-transparent py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
           >
             <div class="max-w-xl mx-auto w-full space-y-8 lg:mx-0">
@@ -65,20 +74,12 @@
              
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="relative mt-10 sm:mt-20">
-      <div class="absolute inset-0 flex flex-col " aria-hidden="true">
-        <div class="flex-1"></div>
-      </div>
-      <div class="relative max-w-7xl  mx-auto  ">
+      <div class="relative  mx-auto  ">
         <div
           class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
         >
           <div
-            class="mt-auto  px-8 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+            class="mt-auto  px-16 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-left">
               <h4 class="text-lg   sm:text-lg">
