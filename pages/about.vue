@@ -1,7 +1,7 @@
 <template>
   <div class="text-white">
     <NuxtChild/>
-    <SubNavigationBox style="{position: relative; z-index: 8}" :navigationLinks="navigationLinks"/>
+    <SubNavigationBox :navigationLinks="navigationLinks"/>
     <!--aici intra citatul-->
   </div>
 </template>
