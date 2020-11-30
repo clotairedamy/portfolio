@@ -15,6 +15,7 @@
 <style>
 body {
   background-color: #111827;
+  overflow-x: hidden;
 }
 #pageContent {
   position: relative;
