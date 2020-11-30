@@ -62,7 +62,7 @@
             </n-link>
           </nav>
           <div
-            class="hidden md:flex items-center justify-end space-x-8  lg:w-0"
+            class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0"
           >
            
           </div>
@@ -84,7 +84,7 @@
         v-if="mobileMenuOpen"
       >
         <div
-          class="rounded-lg  ring-1 ring-black ring-opacity-5 bg-gray-500 divide-y-2 divide-gray-50"
+          class="rounded-lg  ring-1 ring-black ring-opacity-5 bg-yellow-500 divide-y-2 divide-gray-50"
         >
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
