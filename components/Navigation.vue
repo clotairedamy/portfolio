@@ -1,6 +1,6 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class=" sticky top-0">
+  <div class="sticky top-0">
     <div class="relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div
@@ -63,9 +63,7 @@
           </nav>
           <div
             class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0"
-          >
-           
-          </div>
+          ></div>
         </div>
       </div>
 
@@ -79,79 +77,81 @@
         From: "opacity-100 scale-100"
         To: "opacity-0 scale-95"
     -->
-      <div
-        class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
-        v-if="mobileMenuOpen"
-      >
+      <transition name="slide-top">
         <div
-          class="rounded-lg  ring-1 ring-black ring-opacity-5 bg-yellow-500 divide-y-2 divide-gray-50"
+          class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
+          v-if="mobileMenuOpen"
         >
-          <div class="pt-5 pb-6 px-5">
-            <div class="flex items-center justify-between">
-              <div>
-                <img class="h-8 w-auto" src="clotaire-01.svg" alt="UX Design" />
-              </div>
-              <div class="-mr-2">
-                <button
-                  type="button"
-                  class="bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
-                  @click="mobileMenuOpen = false"
-                >
-                  <span class="sr-only">Close menu</span>
-                  <!-- Heroicon name: x -->
-                  <svg
-                    class="h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
+          <div
+            class="rounded-lg ring-1 ring-black ring-opacity-5 bg-yellow-500 divide-y-2 divide-gray-50"
+          >
+            <div class="pt-5 pb-6 px-5">
+              <div class="flex items-center justify-between">
+                <div>
+                  <img
+                    class="h-8 w-auto"
+                    src="clotaire-01.svg"
+                    alt="UX Design"
+                  />
+                </div>
+                <div class="-mr-2">
+                  <button
+                    type="button"
+                    class="bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                    @click="mobileMenuOpen = false"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                </button>
+                    <span class="sr-only">Close menu</span>
+                    <!-- Heroicon name: x -->
+                    <svg
+                      class="h-6 w-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="mt-6">
+                <nav class="grid gap-y-2">
+                  <n-link
+                    to="/"
+                    class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                  >
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      About
+                    </span>
+                  </n-link>
+
+                  <n-link
+                    to="/development"
+                    class="-m-3 p-3 flex items-center rounded-md hover:bg-orange-500"
+                  >
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Development
+                    </span>
+                  </n-link>
+
+                  <n-link
+                    to="/marketing"
+                    class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                  >
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Marketing
+                    </span>
+                  </n-link>
+                </nav>
               </div>
             </div>
-            <div class="mt-6">
-              <nav class="grid gap-y-2">
-                <n-link
-                  to="/"
-                  class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                >
-               
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    About
-                  </span>
-                </n-link>
-
-                <n-link
-                  to="/development"
-                  class="-m-3 p-3 flex items-center rounded-md hover:bg-orange-500"
-                >
-                 
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    Development
-                  </span>
-                </n-link>
-
-                <n-link
-                  to="/marketing"
-                  class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                >
-              
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    Marketing
-                  </span>
-                </n-link>
-              </nav>
-            </div>
-          </div>
-          <!-- <div class="py-6 px-5 space-y-6">
+            <!-- <div class="py-6 px-5 space-y-6">
             <div class="grid grid-cols-2 gap-y-4 gap-x-8"></div>
             <div>
               <a
@@ -168,8 +168,9 @@
               </p>
             </div>
           </div> -->
+          </div>
         </div>
-      </div>
+      </transition>
     </div>
   </div>
 </template>

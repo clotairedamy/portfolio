@@ -55,3 +55,13 @@ body {
   /*transform: translateX(-100px);*/
   opacity: 0;
 }
+
+.slide-top-enter-active,
+.slide-top-leave-active {
+  /*transition: all 0.2s ease;*/
+}
+.slide-top-enter,
+.slide-top-leave-to {
+  /*transform: rotate(30);*/
+  /*opacity: 0;*/
+}
