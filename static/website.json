@@ -1,0 +1,65 @@
+[
+    {
+        "id": "about",
+        "pageName": "about",
+        "title": "Clotaire Damy",
+        "description": "A Developer and Digital Marketer based in Colorado Springs (US). I’m passionate about transforming complex problems into meaningful and engaging web interfaces.",
+        "quote": "The details are not the details, they make the design.",
+        "quoteAuthor": "C. Eames",
+        "icons": [
+            {
+                "design": "icon1.svg"
+            },
+            {
+                "marketing": "icon2.svg"
+            }
+        ],
+        "img": "intro.jpg"
+    },
+    {
+        "id": "development",
+        "pageName": "development",
+        "title": "Web Development",
+        "description": "I look at what everyone else is doing and strive to do something completely new, building lightweight and high-quality interfaces that make brands memorable. Websites should have pleasing aesthetics; but most importantly, websites should be easy to use, fast, secure, relevant and increase sales.",
+        "quote": "“Our nature consists in motion; complete rest is death.”",
+        "quoteAuthor": "~Blaise Pascal",
+        "icons": [
+            {
+                "interfaceDesign": "icon1.svg"
+            },
+            {
+                "webOptimization": "icon2.svg"
+            },
+            {
+                "motionDesign": "icon3.svg"
+            },
+            {
+                "landingPageDesign": "icon4.svg"
+            }
+        ],
+        "img": "development.jpg"
+    },
+    {
+        "id": "marketing",
+        "pageName": "marketing",
+        "title": "Marketing",
+        "description": "Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow.",
+        "quote": "“Our nature consists in motion; complete rest is death.”",
+        "quoteAuthor": "~Blaise Pascal",
+        "icons": [
+            {
+                "seo": "icon1.svg"
+            },
+            {
+                "webOptimization": "icon2.svg"
+            },
+            {
+                "motionDesign": "icon3.svg"
+            },
+            {
+                "landingPageDesign": "icon4.svg"
+            }
+        ],
+        "img": "development.jpg"
+    }
+]

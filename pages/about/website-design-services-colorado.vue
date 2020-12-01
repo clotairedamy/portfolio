@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>Nested page!</h3>
+        <h3>Website Design</h3>
     </div>
 </template>
 <script>

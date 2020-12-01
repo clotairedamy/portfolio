@@ -7,7 +7,7 @@
           class="flex justify-between items-center py-6 md:justify-start md:space-x-10"
         >
           <div class="flex justify-start lg:w-0 lg:flex-1">
-            <n-link to="/">
+            <n-link to="/about">
               <span class="sr-only">Clotaire</span>
               <img
                 class="h-8 w-auto sm:h-10"
@@ -43,7 +43,7 @@
           </div>
           <nav class="hidden md:flex space-x-10">
             <n-link
-              to="/"
+              to="/about"
               class="text-base font-medium text-gray-500 hover:text-yellow-500"
             >
               About
@@ -120,7 +120,7 @@
             <div class="mt-6">
               <nav class="grid gap-y-2">
                 <n-link
-                  to="/"
+                  to="/about"
                   class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                 >
                

@@ -1,45 +1,56 @@
 <template>
-  <div>
-    <Header
-      headline="Digital"
-      headlineTwo="Marketing"
-      quote="“In the midst of chaos, there is also opportunity.”"
-      content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow."
-      name="~Sun Tzu"
-    />
-     
+  <div class="text-white">
+    <NuxtChild/>
+    <SubNavigationBox :navigationLinks="navigationLinks"/>
+    <!--aici intra citatul-->
   </div>
 </template>
 
 <script>
+import SubNavigationBox from '~/components/SubNavigationBox.vue';
 export default {
+  data() {
+    return {
+      navigationLinks: [{title: "Marketing", address: "/marketing"},
+      {title: "SEO", address: "/marketing/seo"},
+      {title: "Technical SEO", address: "/marketing/technical-seo-services"}]
+    }
+  },
+  components: { SubNavigationBox },
   head: {
-    link: [
-      {
-        rel: "canonical",
-        href: "https://interfacedesign.dev/marketing"
-      }
-    ],
-    title: "Marketing Route",
+    link: [{ rel: "canonical", href: "https://interfacedesign.dev/marketing" }],
+    title: "Digital Marketing Agency Colorado Springs",
     meta: [
       {
         hid: "description",
         name: "description",
-        content:
-          "Motion Design &amp;animated web interfaces. Design and Branding Services in Colorado Springs, CO.",
+        content: "Clotaire Damy",
         hid: "robots",
         name: "robots",
         content: "noindex"
       }
-    ]
+    ],
+
+    metaInfo: {
+      script: [
+        {
+          type: "application/ld+json",
+          json: {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            name: "Clotaire Damy"
+          }
+        }
+      ]
+    }
   },
   transition(to, from) {
-    if (from === undefined) {
-      return 'page'
+    /*if (from === undefined) {
+      return "page";
     }
-    return 'slide-left'
+    return "slide-right";*/
   }
 };
 </script>
 
-<style></style>
+<style scoped></style>

@@ -12,7 +12,11 @@
         <dl
           class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-32 md:gap-y-20"
         >
-          <div class="flex" v-for="intro in intros" :key="intro.name">
+          <div
+            class="flex"
+            v-for="intro in intros"
+            :key="intro.home"
+          >
             <div class="flex-shrink-0">
               <div
                 class="flex items-center justify-center h-12 w-12 rounded-md bg-yellow-500 text-white"
@@ -51,18 +55,29 @@
 </template>
 <script>
 export default {
+     head: {
+    title: 'Marketing Route',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Home page description'
+      }
+    ],
+  },
   props: {
-    intros: {
+    intro: { "home" : {
       default: () => [
         { name: "UI/UX", description: "It’s about organizing the content and flow of a website based on research and planning. " },
         { name: "Web Design", description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit" },
         { name: "Motion Design", description: "lorem ipsum two" },
         { name: "Information Architecture", description: "top" }
       ]
+    }
     },
      development: {
       default: () => [
-        { name: "UI/UX", description: "It’s about organizing the content and flow of a website based on research and planning. " },
+        { name: "Motion", description: "It’s about organizing the content and flow of a website based on research and planning. " },
         { name: "Web Design", description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit" },
         { name: "Motion Design", description: "lorem ipsum two" },
         { name: "Information Architecture", description: "top" }

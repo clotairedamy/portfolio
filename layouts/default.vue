@@ -1,8 +1,8 @@
 <template>
   <div>
     <BackgroundAnimation>
-      <template v-slot:header>
-        <Navi2 class="z-10 "/>
+      <template>
+        <Navigation class="z-10 "/>
       </template>
       <Nuxt id="pageContent" />
       <template v-slot:footer>

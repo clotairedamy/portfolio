@@ -1,5 +1,5 @@
 <template>
     <div>
-        <h3>Second nested page</h3>
+        <h3>Development</h3>
     </div>
 </template>

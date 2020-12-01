@@ -1,48 +1,56 @@
 <template>
-  <div>
-    <Header
-      headline="Web"
-      headlineTwo="Development"
-      quote="“Our nature consists in motion; complete rest is death.”"
-      content="I look at what everyone else is doing and strive to do something completely new, building lightweight and high-quality interfaces that make brands memorable. Websites should have pleasing aesthetics; but most importantly, websites should be easy to use, fast, secure, relevant and increase sales."
-      name="~Blaise Pascal"
-    />
+  <div class="text-white">
+    <NuxtChild/>
+    <SubNavigationBox :navigationLinks="navigationLinks"/>
+    <!--aici intra citatul-->
   </div>
 </template>
 
 <script>
+import SubNavigationBox from '~/components/SubNavigationBox.vue';
 export default {
+  data() {
+    return {
+      navigationLinks: [{title: "Development", address: "/development"},
+      {title: "Optimization", address: "/development/website-optimization-services"},
+      {title: "Motion Design", address: "/development/motion-design-services-colorado"}]
+    }
+  },
+  components: { SubNavigationBox },
   head: {
-    link: [
-      {
-        rel: "canonical",
-        href: "https://interfacedesign.dev/development"
-      }
-    ],
-    title: "Web Development",
+    link: [{ rel: "canonical", href: "https://interfacedesign.dev" }],
+    title: "UI/UX Design and Marketing",
     meta: [
       {
         hid: "description",
         name: "description",
-        content:
-          "Motion Design &amp; animated web interfaces. Design and Branding Services in Colorado Springs, CO.",
+        content: "Clotaire Damy",
         hid: "robots",
         name: "robots",
         content: "noindex"
       }
-    ]
+    ],
+
+    metaInfo: {
+      script: [
+        {
+          type: "application/ld+json",
+          json: {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            name: "Clotaire Damy"
+          }
+        }
+      ]
+    }
   },
   transition(to, from) {
-    if (from === undefined) {
+    /*if (from === undefined) {
       return "page";
     }
-    if (from.name === "index") {
-      return "slide-left";
-    } else {
-      return "slide-right";
-    }
+    return "slide-right";*/
   }
 };
 </script>
 
-<style></style>
+<style scoped></style>
