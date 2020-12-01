@@ -1,10 +1,10 @@
 <template>
    <div class="lg:text-left">
       <h2 class="text-base text-gray-500 font-semibold tracking-wide uppercase">{{title}}</h2>
-      <h1 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
+      <h1 class="mt-2 text-7xl leading-8 font-extrabold  text-gray-700 sm:text-4xl">
         {{subtitle}}
       </h1>
-      <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:text-left">
+      <p class="mt-20 max-w-2xl text-xl text-gray-500 lg:text-left">
         {{content}}
       </p>
     </div>
@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style>
-
+h1,h2 {font-family: "Track";}
 </style>

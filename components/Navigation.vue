@@ -7,7 +7,7 @@
           class="flex justify-between items-center py-6 md:justify-start md:space-x-10"
         >
           <div class="flex justify-start lg:w-0 lg:flex-1">
-            <n-link to="/about">
+            <n-link to="/">
               <span class="sr-only">Clotaire</span>
               <img
                 class="h-8 w-auto sm:h-10"
@@ -179,14 +179,14 @@
 export default {
   data() {
     return {
-      mobileMenuOpen: false,
+      mobileMenuOpen: false
     };
   },
   watch: {
     $route(to, from) {
       this.mobileMenuOpen = false;
-    },
-  },
+    }
+  }
 };
 </script>
 
