@@ -4,9 +4,9 @@
       class="bg-transparent py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
       <div class="max-w-xl mx-auto w-full space-y-2 lg:mx-0">
-        <ul class="bg-yellow-600 rounded sm:grid sm:grid-flow-col">
+        <ul class="bg-gray-800  sm:grid sm:grid-flow-col">
           <li
-            class="border-t border-gray-300 border-opacity-25 py-4 px-4 flex items-center text-base text-white"
+            class="border-t border-yellow-500  py-4 px-4 flex items-center text-base text-white"
             v-for="link in navigationLinks"
             :key="link.title"
           >
@@ -16,7 +16,7 @@
               </svg>-->
             <nuxt-link
               :to="link.address"
-              class="ml-3 text-gray-700 text-center"
+              class="ml-3 text-gray-50 text-center"
               >{{ link.title }}</nuxt-link
             >
           </li>

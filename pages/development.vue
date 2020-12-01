@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white">
+  <div class="text-white mt-10">
     <NuxtChild/>
     <SubNavigationBox :navigationLinks="navigationLinks"/>
     <!--aici intra citatul-->
@@ -11,9 +11,10 @@ import SubNavigationBox from '~/components/SubNavigationBox.vue';
 export default {
   data() {
     return {
-      navigationLinks: [{title: "Development", address: "/development"},
+      navigationLinks: [
+      {title: "UI/UX", address: "/development/ui-ux-design-services-colorado"},
       {title: "Optimization", address: "/development/website-optimization-services"},
-      {title: "Motion Design", address: "/development/motion-design-services-colorado"}]
+      {title: "Motion Design", address: "/development/motion-design-services-colorado"},]
     }
   },
   components: { SubNavigationBox },

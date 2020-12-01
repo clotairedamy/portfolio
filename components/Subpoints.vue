@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20">
+  <div class="mt-8">
     <dl
       class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-32 md:gap-y-20"
     >

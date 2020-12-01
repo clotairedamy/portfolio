@@ -1,9 +1,9 @@
 <template>
   <div class="py-12 bg-transparent">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
       <Title
         title="Clotaire Damy"
-        content="A Developer and Digital Marketer based in Colorado Springs (US). I’m passionate about transforming complex problems into meaningful and engaging web interfaces."
+        content="Based in Colorado Springs, passionate about transforming complex problems into meaningful and engaging web interfaces."
         subtitle="Developer &amp; Digital Marketer"
       />
      

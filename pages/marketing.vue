@@ -1,20 +1,29 @@
 <template>
-  <div class="text-white">
-    <NuxtChild/>
-    <SubNavigationBox :navigationLinks="navigationLinks"/>
+  <div class="text-white mt-10">
+    <NuxtChild />
+    <SubNavigationBox :navigationLinks="navigationLinks" />
     <!--aici intra citatul-->
   </div>
 </template>
 
 <script>
-import SubNavigationBox from '~/components/SubNavigationBox.vue';
+import SubNavigationBox from "~/components/SubNavigationBox.vue";
 export default {
   data() {
     return {
-      navigationLinks: [{title: "Marketing", address: "/marketing"},
-      {title: "SEO", address: "/marketing/seo"},
-      {title: "Technical SEO", address: "/marketing/technical-seo-services"}]
-    }
+      navigationLinks: [
+        
+        { title: "SEO", address: "/marketing/seo" },
+        {
+          title: "Technical SEO",
+          address: "/marketing/technical-seo-services"
+        },
+        {
+          title: "Conversion Optimization",
+          address: "/marketing/conversion-optimization"
+        }
+      ]
+    };
   },
   components: { SubNavigationBox },
   head: {
