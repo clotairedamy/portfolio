@@ -7,59 +7,20 @@
         content="A Developer and Digital Marketer based in Colorado Springs (US). I’m passionate about transforming complex problems into meaningful and engaging web interfaces."
         subtitle="Front-end Development"
       />
-
-      <div class="mt-20">
-        <dl
-          class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-32 md:gap-y-20"
-        >
-          <div class="flex" v-for="intro in intros" :key="intro.name">
-            <div class="flex-shrink-0">
-              <div
-                class="flex items-center justify-center h-12 w-12 rounded-md bg-yellow-500 text-white"
-              >
-                <!-- Heroicon name: globe-alt -->
-                <svg
-                  class="h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-yellow-500">
-                {{ intro.name }}
-              </dt>
-              <dd class="mt-2 text-base text-gray-500">
-                {{ intro.description }}
-              </dd>
-            </div>
-          </div>
-        </dl>
-      </div>
+      <Subpoints :intros="subpointsData"/>
     </div>
   </div>
 </template>
 <script>
 export default {
-  props: {
-    intros: {
-      default: () => [
-        { name: "UI/UX", description: "It’s about organizing the content and flow of a website based on research and planning. " },
-        { name: "Web Design", description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit" },
-        { name: "Motion Design", description: "lorem ipsum two" },
-        { name: "Information Architecture", description: "top" }
+  data() {
+    return {
+      subpointsData: [
+        {name: "Test item 1", description: "Not too long, but longer than the title"},
+        {name: "Test item 2", description: "This item has an inline SVG icon!", inlineSVG: "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"},
+        {name: "Site icon", description: "This item has an externally loaded SVG icon.", imgPath: "clotaire-01.svg"}
       ]
-    },
+    }
   }
 };
 </script>
