@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white mt-10">
+  <div class="text-white">
     <NuxtChild />
     <SubNavigationBox :navigationLinks="navigationLinks" />
     <!--aici intra citatul-->

@@ -1,21 +1,31 @@
 <template>
-  <div class="text-white mt-10">
-    <NuxtChild/>
-    <SubNavigationBox :navigationLinks="navigationLinks"/>
+  <div class="text-white">
+    <NuxtChild />
+    <SubNavigationBox :navigationLinks="navigationLinks" />
     <!--aici intra citatul-->
   </div>
 </template>
 
 <script>
-import SubNavigationBox from '~/components/SubNavigationBox.vue';
+import SubNavigationBox from "~/components/SubNavigationBox.vue";
 export default {
   data() {
     return {
       navigationLinks: [
-      {title: "UI/UX", address: "/development/ui-ux-design-services-colorado"},
-      {title: "Optimization", address: "/development/website-optimization-services"},
-      {title: "Motion Design", address: "/development/motion-design-services-colorado"},]
-    }
+        {
+          title: "UI/UX",
+          address: "/development/ui-ux-design-services-colorado"
+        },
+        {
+          title: "Optimization",
+          address: "/development/website-optimization-services"
+        },
+        {
+          title: "Motion Design",
+          address: "/development/motion-design-services-colorado"
+        }
+      ]
+    };
   },
   components: { SubNavigationBox },
   head: {
