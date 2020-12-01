@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 bg-transparent">
+  <div class="py-4 bg-transparent">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Title
         title="Conversion"

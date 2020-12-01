@@ -1,5 +1,5 @@
 <template>
-   <div class="lg:text-left">
+   <div class="lg:text-center">
       <h2 class="text-base text-gray-500 font-semibold tracking-wide uppercase">{{title}}</h2>
       <h1 class="mt-2 text-7xl leading-8 font-extrabold  text-gray-700 sm:text-4xl">
         {{subtitle}}

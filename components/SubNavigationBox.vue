@@ -1,10 +1,13 @@
 <template>
-  <div class="mt-10 sm:mt-20">
+  <div class="mt-10 sm:mt-10">
     <div
       class="bg-transparent py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
       <div class="max-w-xl mx-auto w-full space-y-2 lg:mx-0">
-        <ul class="bg-gray-800  sm:grid sm:grid-flow-col">
+        <ul class="bg-transparent  sm:grid sm:grid-flow-col">
+          <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+          <img class="h-12" src="marketing-logo-01.svg" alt="Tuple">
+        </div>
           <li
             class="border-t border-yellow-500  py-4 px-4 flex items-center text-base text-white"
             v-for="link in navigationLinks"
