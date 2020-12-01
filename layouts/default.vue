@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px #F59E0B;
+  box-shadow: inset 0 0 3px #F59E0B;
 }
  
 body::-webkit-scrollbar-thumb {
