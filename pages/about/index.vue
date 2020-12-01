@@ -60,22 +60,6 @@ export default {
         { name: "Information Architecture", description: "top" }
       ]
     },
-     development: {
-      default: () => [
-        { name: "UI/UX", description: "It’s about organizing the content and flow of a website based on research and planning. " },
-        { name: "Web Design", description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit" },
-        { name: "Motion Design", description: "lorem ipsum two" },
-        { name: "Information Architecture", description: "top" }
-      ]
-    },
-     marketing: {
-      default: () => [
-        { name: "UI/UX", description: "It’s about organizing the content and flow of a website based on research and planning. " },
-        { name: "Web Design", description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit" },
-        { name: "Motion Design", description: "lorem ipsum two" },
-        { name: "Information Architecture", description: "top" }
-      ]
-    },
   }
 };
 </script>
