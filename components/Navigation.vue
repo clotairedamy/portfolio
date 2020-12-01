@@ -43,7 +43,7 @@
           </div>
           <nav class="hidden md:flex space-x-10">
             <n-link
-              to="/about"
+              to="/"
               class="text-base font-medium text-gray-500 hover:text-yellow-500"
             >
               About
@@ -120,7 +120,7 @@
             <div class="mt-6">
               <nav class="grid gap-y-2">
                 <n-link
-                  to="/about"
+                  to="/"
                   class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                 >
                
