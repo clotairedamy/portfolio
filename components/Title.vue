@@ -6,7 +6,7 @@
       {{ title }}
     </h2>
     <h1
-      class="rotate clotaire mt-2 mb-2  leading-8  md:font-extrabold  text-gray-700 "
+      class="rotate clotaire mt-2 mb-2  leading-4  md:font-extrabold  text-gray-700 "
     >
       {{ subtitle }}
     </h1>

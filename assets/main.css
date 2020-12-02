@@ -56,12 +56,12 @@ body {
   opacity: 0;
 }
 
-.slide-top-enter-active,
+/* .slide-top-enter-active,
 .slide-top-leave-active {
-  /*transition: all 0.2s ease;*/
+  transition: all 0.2s ease;
 }
 .slide-top-enter,
 .slide-top-leave-to {
-  /*transform: rotate(30);*/
-  /*opacity: 0;*/
-}
+  /*transform: rotate(30);
+  /*opacity: 0;
+} */
