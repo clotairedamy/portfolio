@@ -11,7 +11,7 @@
               <span class="sr-only">Clotaire</span>
               <img
                 class="h-8 w-auto sm:h-10"
-                src="clotaire-01.svg"
+                src="clotaire-01.svg" height="64px" width="64px"
                 alt="Clotaire Damy logo"
               />
             </n-link>

@@ -1,12 +1,12 @@
 <template>
   <div class="md:text-center mt-10 mb-10">
     <h2
-      class="text-base  clotaire text-gray-500 font-extrabold tracking-wide uppercase "
+      class="text-base  clotaire text-yellow-600 font-extrabold tracking-wide uppercase "
     >
       {{ title }}
     </h2>
     <h1
-      class="rotate clotaire mt-2 mb-2  leading-4  md:font-extrabold  text-gray-700 "
+      class="rotate clotaire mt-2 mb-2  leading-4  md:font-extrabold  text-gray-200 "
     >
       {{ subtitle }}
     </h1>
