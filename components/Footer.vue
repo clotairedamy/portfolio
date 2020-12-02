@@ -3,25 +3,21 @@
   <footer>
     <!-- <Mobile /> -->
     <div
-      class="max-w-4xl mx-auto py-12  mt-20 px-4 overflow-hidden sm:px-4 lg:px-8"
+      class="max-w-4xl mx-auto py-12  mt-10 px-4 overflow-hidden sm:px-4 lg:px-8"
     >
       <div
         class=" flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8"
       >
         <div class="max-w-md w-full space-y-8">
           <div>
-            <img
-              class="mx-auto h-12 w-auto"
-              src="clotaire-01.svg"
-              alt="Clotaire" height="64px" width="64px"
-            />
-            <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-600">
-              Get in Touch
-            </h2>
+         
+            <h3 class="mt-6 text-center text-2xl font-bold text-gray-600">
+              Let’s Build Something Beautiful Together.
+            </h3>
             <p
-              class="mt-8 text-center text-sm text-gray-400 text-bold uppercase"
+              class="mt-8 text-center text-lg text-gray-400 text-bold "
             >
-              Open to new clients, freelance work and contracts
+              Start by Saying Hi!
             </p>
           </div>
           <form class="mt-8 space-y-6" action="#" method="POST">
@@ -78,7 +74,7 @@
               <div class="text-sm">
                 <a
                   href="#"
-                  class="font-medium text-gray-300 hover:text-indigo-500"
+                  class="font-medium text-gray-300 hover:text-orange-500"
                 >
                   Current Client?
                 </a>
@@ -88,11 +84,11 @@
             <div>
               <button
                 type="submit"
-                class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-gray-700 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-gray-900 bg-yellow-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 <span class="absolute left-0 inset-y-0 flex items-center pl-3">
                 </span>
-                SAY HI
+                Get in Touch
               </button>
             </div>
           </form>
