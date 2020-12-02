@@ -1,7 +1,7 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox :navigationLinks="navigationLinks" :logoNavigationLink="logoNavigationLink" />
+    <SubNavigationBox :navigationLinks="navigationLinks" :logoNavigationLink="logoNavigationLink" iconSrc="development-01.svg" />
     <!--aici intra citatul-->
   </div>
 </template>

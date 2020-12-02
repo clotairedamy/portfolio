@@ -9,7 +9,7 @@
             <div
               class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"
             >
-              <img class="h-12" src="marketing-logo-01.svg" alt="Tuple" />
+              <img class="h-12" :src="iconSrc" alt="Tuple" />
             </div>
           </nuxt-link>
           <li
@@ -35,6 +35,9 @@
 <script>
 export default {
   props: {
+    iconSrc: {
+      default: "marketing-logo-01.svg"
+    },
     logoNavigationLink: undefined,
     navigationLinks: {
       default: () => [
