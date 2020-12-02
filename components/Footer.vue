@@ -6,7 +6,7 @@
       <div class="relative mx-auto">
         <div class="h-screen  flex items-center  mb-20">
           <h4
-            class="flex-shrink-0 pr-4 bg-transparent text-sm tracking-wider font-semibold  text-gray-600"
+            class="flex-shrink-0 pr-4 bg-transparent text-sm tracking-wider font-semibold  text-pink-600"
           >
             {{ quote }}
           </h4>
