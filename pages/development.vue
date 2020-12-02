@@ -1,7 +1,7 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox :navigationLinks="navigationLinks" />
+    <SubNavigationBox :navigationLinks="navigationLinks" :logoNavigationLink="logoNavigationLink" />
     <!--aici intra citatul-->
   </div>
 </template>
@@ -11,6 +11,7 @@ import SubNavigationBox from "~/components/SubNavigationBox.vue";
 export default {
   data() {
     return {
+      logoNavigationLink: "/development",
       navigationLinks: [
         {
           title: "UI/UX",

@@ -1,17 +1,19 @@
 <template>
-  <div class="mt-10 sm:mt-10 ">
+  <div class="mt-10 sm:mt-10">
     <div
-      class=" py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
+      class="py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
       <div class="max-w-xl mx-auto w-full space-y-2 lg:mx-0">
-        <ul class="bg-transparent bg-opacity-10  sm:grid sm:grid-flow-col">
-          <div
-            class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"
-          >
-            <img class="h-12" src="marketing-logo-01.svg" alt="Tuple" />
-          </div>
+        <ul class="bg-transparent bg-opacity-10 sm:grid sm:grid-flow-col">
+          <nuxt-link :to="logoNavigationLink">
+            <div
+              class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"
+            >
+              <img class="h-12" src="marketing-logo-01.svg" alt="Tuple" />
+            </div>
+          </nuxt-link>
           <li
-            class="border-t border-gray-800  py-4 px-4 flex items-center text-base text-white"
+            class="border-t border-gray-800 py-4 px-4 flex items-center text-base text-white"
             v-for="link in navigationLinks"
             :key="link.title"
           >
@@ -28,24 +30,25 @@
         </ul>
       </div>
     </div>
- 
   </div>
 </template>
 <script>
 export default {
   props: {
+    logoNavigationLink: undefined,
     navigationLinks: {
       default: () => [
         { title: "Sub-link 1", address: "/does/not/exist" },
         { title: "Sub-link 2", address: "/does/not/exist" },
-        { title: "Sub-link 3", address: "/does/not/exist" }
-      ]
+        { title: "Sub-link 3", address: "/does/not/exist" },
+      ],
     },
-     quote: { type: String, default: "In the midst of chaos, there is also opportunity." },
-     name: { type: String, default: "Sun Tzu" }
-
-    }
- 
+    quote: {
+      type: String,
+      default: "In the midst of chaos, there is also opportunity.",
+    },
+    name: { type: String, default: "Sun Tzu" },
+  },
 };
 </script>
 <style scoped></style>
