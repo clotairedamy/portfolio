@@ -4,7 +4,7 @@
     <!-- <Mobile /> -->
     <div
       class="max-w-4xl mx-auto py-12  mt-10 px-4 overflow-hidden sm:px-4 lg:px-8"
-    >
+    > 
       <div
         class=" flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8"
       >
@@ -12,7 +12,7 @@
           <div>
          
             <h3 class="mt-6 text-center text-2xl font-bold text-gray-600">
-              Let’s Build Something Beautiful Together.
+              Let’s Build Something Beautiful Together
             </h3>
             <p
               class="mt-8 text-center text-lg text-gray-400 text-bold "
@@ -24,7 +24,7 @@
             <input type="hidden" name="remember" value="true" />
             <div class="rounded-md shadow-sm -space-y-px">
               <div>
-                <label for="email-address" class="sr-only">Name</label>
+                <label for="name" class="sr-only">Name</label>
                 <input
                   id="name"
                   name="name"
@@ -39,9 +39,9 @@
                 <label for="email" class="sr-only">Email</label>
                 <input
                   id="email"
-                  name="password"
-                  type="password"
-                  autocomplete="current-password"
+                  name="email"
+                  type="email"
+                  autocomplete="current-email"
                   required
                   class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                   placeholder="Email"
@@ -60,10 +60,10 @@
                 />
               </div>
               <div>
-                <label for="phone" class="sr-only">Message</label>
+                <label for="message" class="sr-only">Message</label>
                 <textarea
                   id="message"
-                  rows="4"
+                  rows="3"
                   class="appearance-none rounded-none form-input border rounded-b-md text-gray-900 relative block w-full py-2 px-3 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                   placeholder="Message"
                 ></textarea>
@@ -178,9 +178,18 @@
           </svg>
         </a>
       </div>
-      <p class="mt-8 text-center text-base text-gray-400">
-        &copy; 2020 Clotaire D. vs Radu A.
-      </p>
+         <div class="mt-20 grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-2">
+        <div class="flex justify-center ">
+          <p class=" text-center text-sm text-gray-200">
+              2020 Clotaire D. vs Radu A.
+            </p>
+        </div>
+        <div class="flex justify-center ">
+          <img class="h-3" src="built-with-nuxt-white.svg" alt="Built with NuxtJS Logo">
+        </div>
+     
+      </div>
+     
     </div>
   </footer>
 </template>
