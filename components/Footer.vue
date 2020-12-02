@@ -4,14 +4,14 @@
     <!-- <Mobile /> -->
     <div class="max-w-4xl mx-auto py-12  mt-20 px-4 overflow-hidden sm:px-4 lg:px-8">
       <div class="relative mx-auto">
-        <div class="h-screen  flex items-center  mb-20">
+        <div class=" flex items-center  mb-20">
           <h4
-            class="flex-shrink-0 pr-4 bg-transparent text-sm tracking-wider font-semibold  text-pink-600"
+            class="flex-shrink-0 pr-20 bg-transparent text-sm tracking-wider font-semibold  text-gray-600"
           >
             {{ quote }}
           </h4>
-         <h5 class="flex-shrink-0 pr-4 bg-transparent text-sm tracking-wider font-semibold  text-yellow-600 ">{{ name }}</h5> 
-          <div class="flex-1 border-t-2 border-gray-800"></div>
+         <h5 class="flex-shrink-0 pr-12 bg-transparent text-sm tracking-wider font-semibold  text-yellow-600 ">{{ name }}</h5> 
+          <div class="flex-1 border-t-2 border-gray-600"></div>
         </div>
       </div>
       <div
