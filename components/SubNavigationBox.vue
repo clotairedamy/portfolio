@@ -3,13 +3,13 @@
     <div
       class="py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
-      <div class="max-w-xl mx-auto w-full space-y-2 lg:mx-0">
+      <div class="max-w-xl mx-auto w-full space-y-2 md:mx-0">
         <ul class="bg-transparent bg-opacity-10 sm:grid sm:grid-flow-col">
           <nuxt-link :to="logoNavigationLink">
             <div
-              class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"
+              class=" flex justify-center "
             >
-              <img class="h-12" :src="iconSrc" alt="Tuple" />
+              <img class="h-8" :src="iconSrc" alt="service" />
             </div>
           </nuxt-link>
           <li

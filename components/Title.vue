@@ -11,7 +11,7 @@
       {{ subtitle }}
     </h1>
    
-    <div class="grid mt-20 flex-row">
+    <div class="grid mt-20 sm:mt-8 flex-row">
       
       <p class="mt-2 max-w-2xl text-lg text-gray-300 lg:text-left md:text-left">
         {{ content }}
@@ -37,7 +37,7 @@ export default {
   margin: 0;
   writing-mode: vertical-lr;
 
-  line-height: 0.9;
+  line-height: 1.5;
 }
 
 .rotate {

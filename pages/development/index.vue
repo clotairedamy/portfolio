@@ -4,7 +4,7 @@
       <Title
         title="Web"
         content="I look at what everyone else is doing and strive to do something completely new, building lightweight and high-quality interfaces that make brands memorable."
-        subtitle="Design"
+        subtitle="Development"
       />
     </div>
   </div>
