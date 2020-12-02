@@ -28,16 +28,7 @@
         </ul>
       </div>
     </div>
-    <div class="relative mx-auto">
-      <div class="flex items-center">
-      <h4
-        class="flex-shrink-0 pr-8 bg-transparent text-sm tracking-wider font-semibold  text-gray-700"
-      >
-        {{quote}}<span class="bg-yellow-600">{{name}}</span>
-      </h4>
-      <div class="flex-1 border-t-2 border-gray-800"></div>
-    </div>
-    </div>
+ 
   </div>
 </template>
 <script>

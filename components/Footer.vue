@@ -2,23 +2,18 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <footer>
     <!-- <Mobile /> -->
-    <div class="max-w-6xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-      <!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ]
-  }
-  ```
--->
+    <div class="max-w-4xl mx-auto py-12  mt-20 px-4 overflow-hidden sm:px-4 lg:px-8">
+      <div class="relative mx-auto">
+        <div class="h-screen  flex items-center  mb-20">
+          <h4
+            class="flex-shrink-0 pr-4 bg-transparent text-sm tracking-wider font-semibold  text-gray-600"
+          >
+            {{ quote }}
+          </h4>
+         <h5 class="flex-shrink-0 pr-4 bg-transparent text-sm tracking-wider font-semibold  text-yellow-600 ">{{ name }}</h5> 
+          <div class="flex-1 border-t-2 border-gray-800"></div>
+        </div>
+      </div>
       <div
         class=" flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8"
       >
@@ -65,7 +60,7 @@
                   placeholder="Email"
                 />
               </div>
-                 <div>
+              <div>
                 <label for="phone" class="sr-only">Phone</label>
                 <input
                   id="phone"
@@ -77,9 +72,14 @@
                   placeholder="Phone"
                 />
               </div>
-               <div>
+              <div>
                 <label for="phone" class="sr-only">Message</label>
-                <textarea id="message" rows="4" class="appearance-none rounded-none form-input border rounded-b-md text-gray-900 relative block w-full py-2 px-3 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Message"></textarea>
+                <textarea
+                  id="message"
+                  rows="4"
+                  class="appearance-none rounded-none form-input border rounded-b-md text-gray-900 relative block w-full py-2 px-3 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                  placeholder="Message"
+                ></textarea>
               </div>
             </div>
 
@@ -100,7 +100,6 @@
                 class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-gray-700 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 <span class="absolute left-0 inset-y-0 flex items-center pl-3">
-                
                 </span>
                 SAY HI
               </button>
@@ -202,7 +201,13 @@
 <script>
 import Featured from "./Featured.vue";
 export default {
-  components: { Featured }
+  props: {
+    quote: {
+      type: String,
+      default: "In the midst of chaos, there is also opportunity."
+    },
+    name: { type: String, default: "Sun Tzu" }
+  }
 };
 </script>
 
