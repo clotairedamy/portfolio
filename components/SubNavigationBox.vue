@@ -1,15 +1,17 @@
 <template>
-  <div class="mt-10 sm:mt-10">
+  <div class="mt-10 sm:mt-10 ">
     <div
-      class="bg-transparent py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
+      class=" py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
       <div class="max-w-xl mx-auto w-full space-y-2 lg:mx-0">
-        <ul class="bg-transparent  sm:grid sm:grid-flow-col">
-          <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <img class="h-12" src="marketing-logo-01.svg" alt="Tuple">
-        </div>
+        <ul class="bg-transparent bg-opacity-10  sm:grid sm:grid-flow-col">
+          <div
+            class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"
+          >
+            <img class="h-12" src="marketing-logo-01.svg" alt="Tuple" />
+          </div>
           <li
-            class="border-t border-yellow-500  py-4 px-4 flex items-center text-base text-white"
+            class="border-t border-gray-800  py-4 px-4 flex items-center text-base text-white"
             v-for="link in navigationLinks"
             :key="link.title"
           >
@@ -26,22 +28,16 @@
         </ul>
       </div>
     </div>
-    <!--<div class="relative mx-auto">
-      <div
-        class="bg-transparent rounded-lg overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
+    <div class="relative mx-auto">
+      <div class="flex items-center">
+      <h4
+        class="flex-shrink-0 pr-8 bg-transparent text-sm tracking-wider font-semibold  text-gray-700"
       >
-        <div
-          class="mt-auto px-16 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
-        >
-          <div class="lg:self-left">
-            <h4 class="text-lg sm:text-lg">
-              <span class="block special text-pink-600">{{ quote }}</span>
-            </h4>
-            <p class="mt-4 text-lg leading-6 text-yellow-400">{{ name }}</p>
-          </div>
-        </div>
-      </div>
-    </div>-->
+        {{quote}}<span class="bg-yellow-600">{{name}}</span>
+      </h4>
+      <div class="flex-1 border-t-2 border-gray-800"></div>
+    </div>
+    </div>
   </div>
 </template>
 <script>
@@ -53,8 +49,12 @@ export default {
         { title: "Sub-link 2", address: "/does/not/exist" },
         { title: "Sub-link 3", address: "/does/not/exist" }
       ]
+    },
+     quote: { type: String, default: "In the midst of chaos, there is also opportunity." },
+     name: { type: String, default: "Sun Tzu" }
+
     }
-  }
+ 
 };
 </script>
 <style scoped></style>
