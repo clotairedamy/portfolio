@@ -1,6 +1,6 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="flex justify-start mt-20">
+<div class="flex justify-start mt-10">
   
 
     <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
@@ -8,9 +8,9 @@
         <h3 class="text-3xl text-gray-500 font-bold tracking-tighter">{{ title }}</h3>
           <h2 class="sm:text-5xl text-4xl font-bold md:tracking-widest">{{ subtitle }}</h2>
       </div>
-      <div class="lg:text-left">
+      <div class="lg:text-left max-w-2xl">
         <p
-          class="mt-20 text-sm leading-8  text-gray-300 sm:text-2xl"
+          class="mt-10 text-sm leading-8  text-gray-300 sm:text-2xl"
         >
           {{ content }}
         </p>
