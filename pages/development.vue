@@ -6,7 +6,22 @@
       :logoNavigationLink="logoNavigationLink"
       iconSrc="development-01.svg"
     />
-    <!--aici intra citatul-->
+    <div class="relative mx-auto  ">
+      <div
+        class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
+      >
+        <div
+          class="mt-20  px-16 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+        >
+          <div class="lg:self-left">
+            <h4 class="text-lg   sm:text-lg">
+              <span class="block special text-gray-400">{{ quote }}</span>
+            </h4>
+         
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -18,19 +33,22 @@ export default {
       logoNavigationLink: "/development",
       navigationLinks: [
         {
-          title: "Web Design",
+          title: "Design",
           address: "/development/website-design",
         },
         {
-          title: "Website Optimization",
+          title: "Optimization",
           address: "/development/website-optimization",
         },
-        {
-          title: "Motion Design",
-          address: "/development/motion-design",
-        },
+      
       ],
     };
+  },
+  props: {
+    quote: {
+      type: String,
+      default: '"Our nature consists in motion; complete rest is death. ~ Blaise Pascal"'
+    }
   },
   components: { SubNavigationBox },
   head: {

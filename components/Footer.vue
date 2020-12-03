@@ -178,15 +178,13 @@
           </svg>
         </a>
       </div>
-         <div class="mt-20 grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-2">
+         <div class="mt-20 grid grid-cols-1  md:grid-cols-1 lg:grid-cols-1">
         <div class="flex justify-center">
           <p class=" text-center text-sm text-gray-500">
               &copy;2008-2020 Clotaire D. vs Radu A.
             </p>
         </div>
-        <div class="flex justify-center ">
-          <img class="h-3" src="built-with-nuxt-white.svg" alt="Built with NuxtJS Logo">
-        </div>
+       
      
       </div>
      

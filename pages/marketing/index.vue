@@ -1,6 +1,6 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="py-4 bg-transparent">
+  <div class="py-4 ">
    
       <Title
         title="Digital"
@@ -41,3 +41,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+
+</style> 
+
+
