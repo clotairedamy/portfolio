@@ -1,6 +1,6 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="flex justify-start">
+<div class="flex justify-start mt-20">
   
 
     <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
@@ -50,24 +50,20 @@ export default {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: left;
+	justify-content: center;
 	height: 30vh;
 	letter-spacing: 10px;  font-family: "Track";
-
-  
-
-  
+ 
 }
 
 h1,h2 {
   
-	background-image: url('https://media.giphy.com/media/Cpb8drHXMyV5m/giphy.gif');
+	background-image: url('/text.gif');
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
-	
 	line-height: 1.5;
 	margin: 10px 0;
 }
