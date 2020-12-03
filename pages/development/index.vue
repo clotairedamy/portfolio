@@ -5,7 +5,7 @@
       <Title
         title="Web"
         content="I look at what everyone else is doing and strive to do something completely new, with a new creative thinking, solving problems using innovative technologies."
-        subtitle="Development"
+        subtitle="Design"
       />
     </div>
   </div>
