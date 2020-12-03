@@ -11,6 +11,10 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  transition(to, from) {
+    return 'slide-right'
+  }
+};
 </script>
 <style scoped></style>

@@ -1,7 +1,11 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox :navigationLinks="navigationLinks" :logoNavigationLink="logoNavigationLink" iconSrc="development-01.svg" />
+    <SubNavigationBox
+      :navigationLinks="navigationLinks"
+      :logoNavigationLink="logoNavigationLink"
+      iconSrc="development-01.svg"
+    />
     <!--aici intra citatul-->
   </div>
 </template>
@@ -15,17 +19,17 @@ export default {
       navigationLinks: [
         {
           title: "Web Design",
-          address: "/development/website-design"
+          address: "/development/website-design",
         },
         {
           title: "Website Optimization",
-          address: "/development/website-optimization"
+          address: "/development/website-optimization",
         },
         {
           title: "Motion Design",
-          address: "/development/motion-design"
-        }
-      ]
+          address: "/development/motion-design",
+        },
+      ],
     };
   },
   components: { SubNavigationBox },
@@ -39,8 +43,8 @@ export default {
         content: "Clotaire Damy",
         hid: "robots",
         name: "robots",
-        content: "noindex"
-      }
+        content: "noindex",
+      },
     ],
 
     metaInfo: {
@@ -50,18 +54,27 @@ export default {
           json: {
             "@context": "http://schema.org",
             "@type": "Organization",
-            name: "Clotaire Damy"
-          }
-        }
-      ]
-    }
+            name: "Clotaire Damy",
+          },
+        },
+      ],
+    },
   },
   transition(to, from) {
-    /*if (from === undefined) {
-      return "page";
+    let transitionName = "page";
+    if (from !== undefined) {
+      const parts = from.path.split("/");
+      if (parts[1] === "") {
+        transitionName = "slide-left";
+      } else if (parts[1] === "development") {
+        transitionName = "page";
+      } else {
+        transitionName = "slide-right";
+      }
     }
-    return "slide-right";*/
-  }
+    //console.log("navigating from " + from.path + " to " + to.path + " (transition is " + transitionName + " )");
+    return transitionName;
+  },
 };
 </script>
 

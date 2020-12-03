@@ -55,11 +55,18 @@ export default {
     }
   },
   transition(to, from) {
-    /*if (from === undefined) {
-      return "page";
+    let transitionName = "page";
+    if (from !== undefined) {
+      const parts = from.path.split("/");
+      if (parts[1] === "marketing") {
+        transitionName = "page";
+      } else {
+        transitionName = "slide-left";
+      }
     }
-    return "slide-right";*/
-  }
+    //console.log("navigating from " + from.path + " to " + to.path + " (transition is " + transitionName + " )");
+    return transitionName;
+  },
 };
 </script>
 

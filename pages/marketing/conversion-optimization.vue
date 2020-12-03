@@ -28,7 +28,7 @@ export default {
         {
           name: "Site icon",
           description: "This item has an externally loaded SVG icon.",
-          imgPath: "clotaire-01.svg"
+          imgPath: "/clotaire-01.svg"
         }
       ]
     };

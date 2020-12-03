@@ -1,7 +1,7 @@
 <template>
   <div>
-    <slot name="header"/>
-    <slot/>
+    <slot name="header" />
+    <slot />
     <MultipartAnimationPlayer
       id="map"
       animationFile="clotaire.json"
@@ -11,19 +11,18 @@
       :maxSpeed="5"
       ref="map"
     />
-    
+
     <slot name="footer" />
   </div>
 </template>
 
 <script>
-
 export default {
   data() {
     return {
       relativePositionCallbacks: [],
       pageSegmentMap: {
-        index: 0,
+        "": 0,
         development: 2,
         marketing: 4,
       },
@@ -107,8 +106,13 @@ export default {
   },
   watch: {
     $route(to, from) {
-      if (this.pageSegmentMap[to.name] !== undefined) {
-        const targetSegmentID = this.pageSegmentMap[to.name];
+      const toParts = to.path.split("/");
+      const fromParts = from.path.split("/");
+      if (toParts[1] === fromParts[1]) {
+        return;
+      }
+      if (this.pageSegmentMap[toParts[1]] !== undefined) {
+        const targetSegmentID = this.pageSegmentMap[toParts[1]];
         this.$refs.map.goToSegment(targetSegmentID);
       }
     },
@@ -128,7 +132,7 @@ export default {
   z-index: -10;
   background-color: #111827;
   */
-  position:sticky;
+  position: sticky;
   bottom: 0%;
   z-index: 3;
   /*background-color: #111827;*/
