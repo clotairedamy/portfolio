@@ -1,21 +1,23 @@
 <template>
- <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="py-16 bg-transparent  ">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-left">
-      <h2 class="text-base text-gray-600 font-semibold tracking-wide uppercase">{{title}}</h2>
-      <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl">
-        {{subtitle}}
-      </p>
-      <p class="mt-20 max-w-2xl text-xl text-gray-500 text-left">
-        {{content}}
-      </p>
+  <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="flex justify-start">
+  
+
+    <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+      <div class="title">
+        <h1 class="text-5xl font-extrabold ">{{ title }}</h1>
+          <h2 class="text-3xl font-extrabold ">{{ subtitle }}</h2>
+      </div>
+      <div class="lg:text-left">
+        <p
+          class="mt-2 text-xl leading-8  text-gray-500 sm:text-2xl"
+        >
+          {{ content }}
+        </p>
+      </div>
     </div>
-
-    
   </div>
-</div>
-
+  </div>
 </template>
 
 <script>
@@ -41,6 +43,34 @@ export default {
 .rotate {
   transform: rotate(180deg);
 }
-.h1,h2 {font-family: "Track";}
+
+.title {
+	
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: left;
+	height: 30vh;
+	letter-spacing: 10px;  font-family: "Track";
+
+  
+
+  
+}
+
+h1,h2 {
+  
+	background-image: url('https://media.giphy.com/media/Cpb8drHXMyV5m/giphy.gif');
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	
+	line-height: 1.5;
+	margin: 10px 0;
+}
+  
 
 </style>
