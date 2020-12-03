@@ -1,19 +1,21 @@
 <template>
   <div class="mt-30 sm:mt-20">
     <div
-      class="py-2 px-4 sm:py-12 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
+      class="py-4 px-4 sm:py-4 sm:px-12 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
-      <div class="max-w-lg mx-auto w-full space-y-2 md:mx-0">
-        <ul class="bg-gray-100 bg-opacity-10 sm:grid sm:grid-flow-col">
+      <div class="max-w-lg mx-auto w-full space-y-4 md:mx-0">
+        <ul class="bg-yellow-500 opacity-10 sm:grid sm:grid-flow-col">
+          <li class="bg-none mt-1">
           <nuxt-link :to="logoNavigationLink">
             <div
-              class=" flex justify-center "
+              class="flex justify-center "
             >
               <img class="h-12" :src="iconSrc" alt="service" /> 
             </div>
           </nuxt-link>
+          </li>
           <li
-            class="track border-t border-pink-600 py-4 px-4 flex items-center text-gray-900 shadow"
+            class="track border-b border-yellow-600 py-4 px-2 flex items-right text-gray-900"
             v-for="link in navigationLinks"
             :key="link.title"
           >
@@ -36,7 +38,7 @@
 export default {
   props: {
     iconSrc: {
-      default: "marketing-logo-01.svg"
+      default: "development-01.svg"
     },
     logoNavigationLink: undefined,
     navigationLinks: {
