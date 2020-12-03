@@ -14,10 +14,10 @@ export default {
       logoNavigationLink: "/marketing",
       navigationLinks: [
         
-        { title: "SEO", address: "/marketing/seo" },
+        { title: "SEO", address: "/marketing/search-engine-optimization"},
         {
           title: "Technical SEO",
-          address: "/marketing/technical-seo-services"
+          address: "/marketing/technical-seo"
         },
         {
           title: "Conversion Optimization",

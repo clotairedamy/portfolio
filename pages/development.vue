@@ -14,16 +14,16 @@ export default {
       logoNavigationLink: "/development",
       navigationLinks: [
         {
-          title: "UI/UX",
-          address: "/development/ui-ux-design-services-colorado"
+          title: "Web Design",
+          address: "/development/website-design"
         },
         {
-          title: "Optimization",
-          address: "/development/website-optimization-services"
+          title: "Website Optimization",
+          address: "/development/website-optimization"
         },
         {
           title: "Motion Design",
-          address: "/development/motion-design-services-colorado"
+          address: "/development/motion-design"
         }
       ]
     };

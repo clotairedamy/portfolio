@@ -1,23 +1,21 @@
 <template>
-  <div class="md:text-center mt-10 mb-10">
-    <h2
-      class="text-base  clotaire text-yellow-600 font-extrabold tracking-wide uppercase "
-    >
-      {{ title }}
-    </h2>
-    <h1
-      class="rotate clotaire mt-2 mb-2  leading-4  md:font-extrabold  text-gray-200 "
-    >
-      {{ subtitle }}
-    </h1>
-   
-    <div class="grid mt-20 sm:mt-8 flex-row">
-      
-      <p class="mt-2 max-w-2xl text-lg text-gray-300 lg:text-left md:text-left">
-        {{ content }}
+ <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="py-16 bg-transparent  ">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="lg:text-left">
+      <h2 class="text-base text-gray-600 font-semibold tracking-wide uppercase">{{title}}</h2>
+      <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl">
+        {{subtitle}}
+      </p>
+      <p class="mt-20 max-w-2xl text-xl text-gray-500 text-left">
+        {{content}}
       </p>
     </div>
+
+    
   </div>
+</div>
+
 </template>
 
 <script>
@@ -43,4 +41,6 @@ export default {
 .rotate {
   transform: rotate(180deg);
 }
+.h1,h2 {font-family: "Track";}
+
 </style>
