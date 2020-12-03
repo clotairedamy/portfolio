@@ -1,14 +1,14 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="py-4 bg-transparent">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+   
       <Title
         title="Digital"
         content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow."
         subtitle=" Marketing"
       />
       
-    </div>
+ 
   </div>
 </template>
 <script>
