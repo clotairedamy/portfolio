@@ -1,19 +1,19 @@
 <template>
-  <div class="mt-10 sm:mt-10">
+  <div class="mt-30 sm:mt-20">
     <div
-      class="py-2 px-4 sm:py-24 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
+      class="py-2 px-4 sm:py-12 sm:px-6 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
-      <div class="max-w-xl mx-auto w-full space-y-2 md:mx-0">
-        <ul class="bg-gray-700 bg-opacity-10 sm:grid sm:grid-flow-col">
+      <div class="max-w-lg mx-auto w-full space-y-2 md:mx-0">
+        <ul class="bg-gray-100 bg-opacity-10 sm:grid sm:grid-flow-col">
           <nuxt-link :to="logoNavigationLink">
-            <!-- <div
+            <div
               class=" flex justify-center "
             >
-              <img class="h-8" :src="iconSrc" alt="service" /> 
-            </div>-->
+              <img class="h-12" :src="iconSrc" alt="service" /> 
+            </div>
           </nuxt-link>
           <li
-            class="border-t border-gray-800 py-4 px-4 flex items-center text-base text-white"
+            class="track border-t border-pink-600 py-4 px-4 flex items-center text-gray-900 shadow"
             v-for="link in navigationLinks"
             :key="link.title"
           >
@@ -23,7 +23,7 @@
               </svg>-->
             <nuxt-link
               :to="link.address"
-              class="ml-3 text-gray-50 text-center"
+              class="ml-3 text-gray-50 text-center text-xs"
               >{{ link.title }}</nuxt-link
             >
           </li>
@@ -54,4 +54,8 @@ export default {
   },
 };
 </script>
-<style scoped></style>
+<style scoped>
+.track {
+  font-family: "Track";
+}
+</style>
