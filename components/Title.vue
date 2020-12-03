@@ -6,7 +6,7 @@
     <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
       <div class="title">
         <h3 class="text-xl text-gray-500 font-extrabold tracking-tighter">{{ title }}</h3>
-          <h2 class="text-6xl font-black tracking-widest">{{ subtitle }}</h2>
+          <h2 class="text-5xl font-black tracking-widest">{{ subtitle }}</h2>
       </div>
       <div class="lg:text-left">
         <p
@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-  </div>
+ 
 </template>
 
 <script>
