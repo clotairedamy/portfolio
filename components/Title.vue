@@ -60,6 +60,6 @@ h2 {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  line-height: 1;
+  line-height: 1.5;
 }
 </style>
