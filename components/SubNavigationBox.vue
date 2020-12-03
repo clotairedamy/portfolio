@@ -5,12 +5,12 @@
     >
       <div class="max-w-lg mx-auto w-full space-y-4 md:mx-0">
         <ul class="bg-yellow-500 opacity-10 sm:grid sm:grid-flow-col">
-          <li class="bg-none mt-1">
+          <li class="bg-none mt-1 ">
           <nuxt-link :to="logoNavigationLink">
             <div
-              class="flex justify-center "
+              class="flex justify-center mt-2"
             >
-              <img class="h-12" :src="iconSrc" alt="service" /> 
+              <img class="h-8" :src="iconSrc" alt="service" /> 
             </div>
           </nuxt-link>
           </li>
