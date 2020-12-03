@@ -10,7 +10,7 @@
       </div>
       <div class="lg:text-left">
         <p
-          class="mt-20 text-sm leading-8  text-gray-500 sm:text-2xl"
+          class="mt-20 text-sm leading-8  text-gray-300 sm:text-2xl"
         >
           {{ content }}
         </p>
