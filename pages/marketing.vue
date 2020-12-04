@@ -31,6 +31,7 @@ export default {
     return {
       logoNavigationLink: "/marketing",
       navigationLinks: [
+        
         { title: "SEO", address: "/marketing/search-engine-optimization" },
 
         {

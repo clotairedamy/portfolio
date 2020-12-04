@@ -7,7 +7,7 @@
         content="User Interfaces are driven by extensive research, motion and emotions. Motion design is giving users a sense of wonder, pleasure, the animation is acting as support for explaining complex benefits and features"
         subtitle="Design"
       />
-      <Subpoints :intros="subpointsData"/>
+      <!-- <Subpoints :intros="subpointsData"/> -->
     </div>
   </div>
 </template>

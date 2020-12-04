@@ -12,7 +12,7 @@
           <div>
          
             <h3 class="mt-6 text-center text-2xl font-bold text-gray-600">
-              Let’s Build Something Beautiful Together
+              CONTACT
             </h3>
             <p
               class="mt-8 text-center text-lg text-gray-400 text-bold "

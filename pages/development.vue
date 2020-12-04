@@ -3,8 +3,8 @@
     <NuxtChild />
     <SubNavigationBox
       :navigationLinks="navigationLinks"
-      :logoNavigationLink="logoNavigationLink"
-      iconSrc="development-01.svg"
+  
+   
     />
     <div class="relative mx-auto  ">
       <div
@@ -30,8 +30,12 @@ import SubNavigationBox from "~/components/SubNavigationBox.vue";
 export default {
   data() {
     return {
-      logoNavigationLink: "/development",
+  
       navigationLinks: [
+         {
+          title: "back",
+          address: "/development/website-design",
+        },
         {
           title: "Design",
           address: "/development/website-design",

@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 sm:mt-4">
       <Title
         title=""
-        content="Based in Colorado Springs, passionate about transforming complex problems into meaningful and engaging web interfaces."
+        content="a creative studio that develops and produces interactive interfaces &amp; user-centered designs"
         subtitle="Clotaire"
       />
       <div class="relative mx-auto mt-20">
@@ -15,7 +15,7 @@
           >
             <div class="lg:self-left">
               <h4 class="text-lg   sm:text-lg">
-                <span class="block special text-gray-400">{{ quote }}</span>
+                <span class="block special text-gray-500">{{ quote }}</span>
               </h4>
             </div>
           </div>
