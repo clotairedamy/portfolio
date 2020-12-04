@@ -54,7 +54,7 @@ export default {
 
 h1,
 h2 {
-  background-image: url("/background.gif");
+  background-image: url("/v4.gif");
   display: cover;
   color: transparent;
   -moz-background-clip: text;
