@@ -1,14 +1,11 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="py-4 ">
-   
-      <Title
-        title="Digital"
-        content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow."
-        subtitle=" Marketing"
-      />
-      
- 
+    <Title
+      title="Marketing"
+      content="Numbers and stats aren’t enough. Your landing pages have to make great first impressions, and SEO is only responsible for bringing traffic to your website; from there you should have a clear path for your visitors to follow."
+      subtitle=" Digital"
+    />
   </div>
 </template>
 <script>
@@ -41,8 +38,4 @@ export default {
   }
 };
 </script>
-<style scoped>
-
-</style> 
-
-
+<style scoped></style>

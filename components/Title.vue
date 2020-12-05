@@ -1,13 +1,17 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="flex justify-start mt-10">
-    <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto  sm:px-6 lg:px-8">
       <div class="title">
-        <h3 class="text-xl text-gray-500 font-bold tracking-tighter">
-          {{ title }}
-        </h3>
-        <h2 class="sm:text-5xl text-4xl font-bold md:tracking-widest">
+        <h1
+          class="sm:text-xl text-gray-500 text-4xl leading-10 font-bold md:tracking-widest text-center"
+        >
           {{ subtitle }}
+        </h1>
+        <h2
+          class="text-5xl text-gray-500 text-center font-bold tracking-tighter"
+        >
+          {{ title }}
         </h2>
       </div>
       <div class="lg:text-left max-w-2xl">
@@ -44,22 +48,7 @@ export default {
 }
 
 .title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 15vh;
   font-family: "Track";
-}
-
-h1,
-h2 {
-  background-image: url("/v4.gif");
-  display: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  text-transform: uppercase;
-  line-height: 1.5;
 }
 </style>
