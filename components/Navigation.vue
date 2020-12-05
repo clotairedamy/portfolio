@@ -2,9 +2,9 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="sticky top-0">
     <div class="relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="max-w-7xl mx-auto px-4 sm:px-12">
         <div
-          class="flex justify-between items-center py-6 md:justify-start md:space-x-10"
+          class="flex justify-between items-center py-6 md:justify-center md:space-x-48 sm:space-x-10"
         >
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <n-link to="/">
@@ -16,14 +16,14 @@
               />
             </n-link>
           </div>
-          <div class="-mr-2 -my-2 md:hidden">
+          <!-- <div class="-mr-2 -my-2 ">
             <button
               type="button"
               class="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-yellow-600 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
               @click="mobileMenuOpen = true"
             >
               <span class="sr-only">Open menu</span>
-              <!-- Heroicon name: menu -->
+         
               <svg
                 class="h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,23 +40,23 @@
                 />
               </svg>
             </button>
-          </div>
-          <nav class="hidden md:flex space-x-10">
-            <n-link
+          </div> -->
+          <nav class="md:flex md:space-x-32 nav lg:space-x-64">
+         <!--<n-link
               to="/"
               class="text-base font-medium text-gray-500 hover:text-yellow-500"
             >
               About
-            </n-link>
+            </n-link> -->
             <n-link
               to="/development"
-              class="text-base font-medium text-gray-500 hover:text-yellow-500"
+              class="text-xs  text-gray-600 hover:text-yellow-500"
             >
               Development
             </n-link>
             <n-link
               to="/marketing"
-              class="text-base font-medium text-gray-500 hover:text-yellow-500"
+              class="text-xs  text-gray-600 hover:text-yellow-500"
             >
               Marketing
             </n-link>
@@ -190,4 +190,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style>.nav{font-family: "Track";}</style>
