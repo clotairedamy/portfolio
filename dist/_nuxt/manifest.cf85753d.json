@@ -45,10 +45,19 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://interfacedesign.dev",
   "display": "standalone",
   "background_color": "#111827",
   "theme_color": "#111827",
   "lang": "en",
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "sizes": [
+    64,
+    120,
+    144,
+    152,
+    192,
+    384,
+    512
+  ]
 }

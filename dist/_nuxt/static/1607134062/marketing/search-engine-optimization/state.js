@@ -1,1 +1,0 @@
-window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1607134062",layout:"default",error:null,serverRendered:true,routePath:"\u002Fmarketing\u002Fsearch-engine-optimization",config:{http:{browserBaseURL:"\u002F"},content:{dbHash:"bc8c3d1a"}}};
