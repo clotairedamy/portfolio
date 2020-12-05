@@ -27,7 +27,7 @@ export default {
     return {
       navigationLinks: [
         {
-          title: "back",
+          title: "Development",
           address: "/development"
         },
         {

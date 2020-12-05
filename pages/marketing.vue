@@ -1,11 +1,11 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox
+    <SubNavigationBox class="navBox"
       :navigationLinks="navigationLinks"
       :logoNavigationLink="logoNavigationLink"
     />
-    <div class="relative  mx-auto  ">
+    <div class="relative mx-auto ">
       <div
         class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
       >
@@ -93,5 +93,8 @@ export default {
 </script>
 
 <style scoped>
-
+.navBox {
+  position: sticky;
+  bottom: 10vh;
+}
 </style>
