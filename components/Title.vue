@@ -48,7 +48,7 @@ export default {
 }
 
 .title {
-  height: 15vh;
+  height: 25vh;
   font-family: "Track";
 }
 </style>

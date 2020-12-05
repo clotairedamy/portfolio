@@ -2,7 +2,7 @@
   <div class="relative mx-auto mt-20">
     <div class=" flex items-center  mb-20">
       <h4
-        class="flex-shrink-0 pr-10 bg-transparent text-sm tracking-wider font-semibold  text-green-600"
+        class="flex pr-10 bg-transparent text-sm tracking-wider font-semibold  text-green-600"
       >
         {{ quote }}
       </h4>

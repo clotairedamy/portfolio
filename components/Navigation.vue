@@ -2,7 +2,7 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="sticky top-0">
     <div class="relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-12">
+      <div class="max-w-7xl mx-auto px-2 sm:px-2">
         <div
           class="flex justify-between items-center py-12 md:justify-center md:space-x-48 sm:space-x-10"
         >
@@ -10,8 +10,8 @@
             <n-link to="/">
               <span class="sr-only">Clotaire</span>
               <img
-                class="h-8 w-auto sm:h-10"
-                src="clotaire-01.svg" height="64px" width="64px"
+                class="h-8 w-auto sm:h-8"
+                src="/clotaire-01.svg" height="64px" width="64px"
                 alt="Clotaire Damy logo"
               />
             </n-link>
