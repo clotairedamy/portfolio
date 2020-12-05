@@ -6,7 +6,7 @@
       <div class="max-w-sm mx-auto w-full space-y-2 md:mx-0">
         <ul class="bg-gray-800 sm:grid sm:grid-flow-col">
           <li
-            class="track border-b border-transparent py-4 px-2 flex items-right text-gray-200 rounded"
+            class="track border-b border-transparent py-4 px-2 flex items-center text-gray-200 rounded"
             v-for="link in navigationLinks"
             :key="link.title"
             :class="{ 'bg-yellow-500': currentPath === link.address }"

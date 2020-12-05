@@ -6,7 +6,7 @@
         content="A Developer and Digital Marketer based in Colorado Springs (US). I’m passionate about transforming complex problems into meaningful and engaging web interfaces."
         subtitle="Optimization"
       />
-      <Subpoints :intros="subpointsData" />
+      <!-- <Subpoints :intros="subpointsData" /> -->
     </div>
   </div>
 </template>

@@ -1,7 +1,8 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox class="navBox"
+    <SubNavigationBox
+      class="navBox"
       :navigationLinks="navigationLinks"
       :logoNavigationLink="logoNavigationLink"
     />
@@ -14,10 +15,9 @@
         >
           <div class="lg:self-left">
             <h4 class="text-lg   sm:text-lg">
-              <span
-                class="block special text-lg tracking-wide text-gray-600"
-                >{{ quote }}</span
-              >
+              <span class="block special text-lg tracking-wide text-gray-600">{{
+                quote
+              }}</span>
             </h4>
           </div>
         </div>
@@ -33,6 +33,7 @@ export default {
     return {
       logoNavigationLink: "/marketing",
       navigationLinks: [
+        { title: "Marketing", address: "/marketing" },
         { title: "SEO", address: "/marketing/search-engine-optimization" },
 
         {
