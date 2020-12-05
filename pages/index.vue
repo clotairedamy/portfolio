@@ -15,7 +15,10 @@
           >
             <div class="lg:self-left">
               <h4 class="text-lg   sm:text-lg">
-                <span class="block special text-gray-500">{{ quote }}</span>
+                <span
+                  class="block special text-lg tracking-wide text-gray-600"
+                  >{{ quote }}</span
+                >
               </h4>
             </div>
           </div>
@@ -32,7 +35,8 @@ export default {
   props: {
     quote: {
       type: String,
-      default: '"The details are not the details, they make the design. ~ Charles Eames"'
+      default:
+        '"The details are not the details, they make the design. ~ Charles Eames"'
     }
   }
 };

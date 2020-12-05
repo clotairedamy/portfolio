@@ -1,13 +1,7 @@
 export default {
-  /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
 
-  /*
-   ** Nuxt target
-   ** See https://nuxtjs.org/api/configuration-target
-   */
+  dev: process.env.NODE_ENV !== 'production',
+
   target: "static",
   /*
    ** Headers of the page
@@ -24,8 +18,9 @@ export default {
     //     content: process.env.npm_package_description || ""
     //   }
     // ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "icon.ico" }]
   },
+
   /*
    ** Global CSS
    */
@@ -51,10 +46,11 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
-
+    '@nuxt/http',
     // Doc: https://github.com/nuxt/content
     "@nuxt/content"
   ],
+
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
@@ -69,5 +65,21 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {}
+  build: {
+    pwa: {
+      manifest: {
+        name: 'Clotaire Damy - Portfolio',
+        lang: 'en',
+        start_url: '/',
+        short_name: 'Clotaire',
+        display: 'standalone',
+        background_color: '#111827',
+        useWebmanifestExtension: false,
+        theme_color: '#111827',
+        icon: 'icon.png'
+
+      }
+    }
+
+  }
 };

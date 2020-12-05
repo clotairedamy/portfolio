@@ -1,5 +1,6 @@
 
 @import url("https://use.typekit.net/khk4wbb.css");
+ @import url("https://use.typekit.net/khk4wbb.css");
 @font-face {
   font-family: "Track";
   font-style: bold;
@@ -9,11 +10,11 @@
 
 
 @font-face {
-  font-family: "Autography";
-  font-weight: 700;
+  font-family: "emily-austin, sans-serif";
+  font-weight: 400;
  
   font-display: swap;
-  src: url("~assets/fonts/Autography.ttf") format("truetype");
+  src: url("https://use.typekit.net/khk4wbb.css") format("truetype");
 }
 body {
   font-family: bicyclette, sans-serif;

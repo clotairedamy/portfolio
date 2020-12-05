@@ -1,11 +1,7 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox
-      :navigationLinks="navigationLinks"
-  
-   
-    />
+    <SubNavigationBox :navigationLinks="navigationLinks" />
     <div class="relative mx-auto  ">
       <div
         class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
@@ -15,9 +11,8 @@
         >
           <div class="lg:self-left">
             <h4 class="text-lg   sm:text-lg">
-              <span class="block special text-gray-400">{{ quote }}</span>
+              <span class="block special text-3xl tracking-wide text-green-400">{{ quote }}</span>
             </h4>
-         
           </div>
         </div>
       </div>
@@ -30,28 +25,27 @@ import SubNavigationBox from "~/components/SubNavigationBox.vue";
 export default {
   data() {
     return {
-  
       navigationLinks: [
-         {
+        {
           title: "back",
-          address: "/development/website-design",
+          address: "/development/website-design"
         },
         {
           title: "Design",
-          address: "/development/website-design",
+          address: "/development/website-design"
         },
         {
           title: "Optimization",
-          address: "/development/website-optimization",
-        },
-      
-      ],
+          address: "/development/website-optimization"
+        }
+      ]
     };
   },
   props: {
     quote: {
       type: String,
-      default: '"Our nature consists in motion; complete rest is death. ~ Blaise Pascal"'
+      default:
+        '"Our nature consists in motion; complete rest is death. ~ Blaise Pascal"'
     }
   },
   components: { SubNavigationBox },
@@ -65,8 +59,8 @@ export default {
         content: "Clotaire Damy",
         hid: "robots",
         name: "robots",
-        content: "noindex",
-      },
+        content: "noindex"
+      }
     ],
 
     metaInfo: {
@@ -76,11 +70,11 @@ export default {
           json: {
             "@context": "http://schema.org",
             "@type": "Organization",
-            name: "Clotaire Damy",
-          },
-        },
-      ],
-    },
+            name: "Clotaire Damy"
+          }
+        }
+      ]
+    }
   },
   transition(to, from) {
     let transitionName = "page";
@@ -96,8 +90,12 @@ export default {
     }
     //console.log("navigating from " + from.path + " to " + to.path + " (transition is " + transitionName + " )");
     return transitionName;
-  },
+  }
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.special {
+  font-family: "emily-austin";
+}
+</style>

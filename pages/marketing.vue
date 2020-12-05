@@ -14,9 +14,11 @@
         >
           <div class="lg:self-left">
             <h4 class="text-lg   sm:text-lg">
-              <span class="block special text-gray-400">{{ quote }}</span>
+              <span
+                class="block special text-3xl tracking-wide text-green-400"
+                >{{ quote }}</span
+              >
             </h4>
-         
           </div>
         </div>
       </div>
@@ -31,7 +33,6 @@ export default {
     return {
       logoNavigationLink: "/marketing",
       navigationLinks: [
-        
         { title: "SEO", address: "/marketing/search-engine-optimization" },
 
         {
@@ -91,4 +92,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.special {
+  font-family: "emily-austin";
+}
+</style>
