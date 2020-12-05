@@ -11,7 +11,7 @@
         >
           <div class="lg:self-left">
             <h4 class="text-lg   sm:text-lg">
-              <span class="block special text-3xl tracking-wide text-green-400">{{ quote }}</span>
+              <span class="block special text-lg tracking-wide text-gray-600">{{ quote }}</span>
             </h4>
           </div>
         </div>
@@ -95,7 +95,5 @@ export default {
 </script>
 
 <style scoped>
-.special {
-  font-family: "emily-austin";
-}
+
 </style>
