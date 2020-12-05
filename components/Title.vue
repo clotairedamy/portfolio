@@ -1,15 +1,15 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="flex justify-start mt-10">
-    <div class="max-w-4xl mx-auto  sm:px-6 lg:px-8">
-      <div class="title">
+    <div class="max-w-6xl mx-auto  sm:px-6 lg:px-8">
+      <div class="title leading-8">
         <h1
-          class="sm:text-xl text-gray-500 text-4xl leading-10 font-bold md:tracking-widest text-center"
+          class="sm:text-lg text-gray-500 text-2xl  md:tracking-tighter text-center"
         >
           {{ subtitle }}
         </h1>
         <h2
-          class="text-5xl text-gray-500 text-center font-bold tracking-tighter"
+          class="text-4xl text-gray-500 text-center font-bold tracking-wide"
         >
           {{ title }}
         </h2>

@@ -69,13 +69,14 @@ export default {
     manifest: {
       name: 'Clotaire Damy - Portfolio',
       lang: 'en',
-      start_url: 'https://interfacedesign.dev',
+      start_url: 'https://interfacedesign.dev/',
       short_name: 'Clotaire',
       display: 'standalone',
       background_color: '#111827',
       useWebmanifestExtension: false,
       theme_color: '#111827',
       icon: 'icon.png',
+      appleStatusBarStyle:'black-translucent',
       sizes: [64, 120, 144, 152, 192, 384, 512]
 
     }

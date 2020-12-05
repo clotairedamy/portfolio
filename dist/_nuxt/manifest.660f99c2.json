@@ -45,12 +45,13 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "https://interfacedesign.dev",
+  "start_url": "https://interfacedesign.dev/",
   "display": "standalone",
   "background_color": "#111827",
   "theme_color": "#111827",
   "lang": "en",
   "icon": "icon.png",
+  "appleStatusBarStyle": "black-translucent",
   "sizes": [
     64,
     120,

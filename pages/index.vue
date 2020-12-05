@@ -2,16 +2,16 @@
   <div class="mt-20 bg-transparent">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 sm:mt-4">
       <Title
-        title=""
+        title="Clotaire"
         content="a creative studio that develops and produces interactive interfaces &amp; user-centered designs"
-        subtitle="Clotaire"
+        subtitle="Damy"
       />
       <div class="relative mx-auto mt-20">
         <div
           class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
         >
           <div
-            class="mt-20  px-16 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+            class="mt-20  px-16 font-bold sm:pt-10 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
           >
             <div class="lg:self-left">
               <h4 class="text-lg   sm:text-lg">
