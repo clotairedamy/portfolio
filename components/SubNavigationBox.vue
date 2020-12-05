@@ -4,12 +4,12 @@
       class="py-4 px-4 sm:py-4 sm:px-16 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
       <div class="max-w-sm mx-auto w-full space-y-2 md:mx-0">
-        <ul class="bg-yellow-500  sm:grid sm:grid-flow-col">
-      
+        <ul class="bg-yellow-500 sm:grid sm:grid-flow-col">
           <li
             class="track border-b border-transparent py-4 px-2 flex items-right text-gray-900 rounded"
             v-for="link in navigationLinks"
             :key="link.title"
+            :class="{ 'bg-yellow-700': currentPath === link.address }"
           >
             <!-- Heroicon name: check 
               <svg class="h-6 w-6 text-cyan-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -28,6 +28,14 @@
 </template>
 <script>
 export default {
+  data() {
+    return {
+      currentPath: "/",
+    };
+  },
+  mounted() {
+    this.currentPath = this.$route.path;
+  },
   props: {
     // iconSrc: {
     //   default: "development-01.svg"
@@ -45,6 +53,11 @@ export default {
       default: "In the midst of chaos, there is also opportunity.",
     },
     name: { type: String, default: "Sun Tzu" },
+  },
+  watch: {
+    $route(to, from) {
+      this.currentPath = to.path;
+    },
   },
 };
 </script>

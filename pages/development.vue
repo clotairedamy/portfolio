@@ -28,7 +28,7 @@ export default {
       navigationLinks: [
         {
           title: "back",
-          address: "/development/website-design"
+          address: "/development"
         },
         {
           title: "Design",
