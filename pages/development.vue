@@ -1,10 +1,11 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox 
-    class="navBox"
-    :navigationLinks="navigationLinks" />
-   <Quote default="Our nature consists in motion; complete rest is death." name="~ Blaise Pascal"
+    <SubNavigationBox class="navBox" :navigationLinks="navigationLinks" />
+    <Quote
+      quote="Our nature consists in motion; complete rest is death."
+      class="ml-10"
+      author="~ Blaise Pascal"
     />
   </div>
 </template>

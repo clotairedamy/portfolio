@@ -6,7 +6,8 @@
         content="Passionate about transforming complex problems into meaningful and engaging web interfaces. User Interfaces are driven by extensive research, motion and emotions. Motion design is giving users a sense of wonder, pleasure while the animation is acting as support for explaining complex benefits and features"
         subtitle="digital designer "
       />
-       <Quote default="The details are not the details, they make the design." name="C. Eames"
+       <Quote quote="The details are not the details, they make the design."
+        author="C. Eames"
     />
      
     </div>
