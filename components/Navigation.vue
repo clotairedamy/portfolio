@@ -4,7 +4,7 @@
     <div class="relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-12">
         <div
-          class="flex justify-between items-center py-6 md:justify-center md:space-x-48 sm:space-x-10"
+          class="flex justify-between items-center py-12 md:justify-center md:space-x-48 sm:space-x-10"
         >
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <n-link to="/">
