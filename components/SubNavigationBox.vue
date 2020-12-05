@@ -4,7 +4,7 @@
       class="py-4 px-4 sm:py-4 sm:px-16 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
       <div class="max-w-sm mx-auto w-full space-y-2 md:mx-0">
-        <ul class="bg-gray-800 sm:grid sm:grid-flow-col">
+        <ul class="bg-gray-900 sm:grid sm:grid-flow-col">
           <li
             class="track border-b border-transparent py-4 px-2 flex items-center text-gray-200 rounded"
             v-for="link in navigationLinks"

@@ -6,6 +6,8 @@
       :navigationLinks="navigationLinks"
       :logoNavigationLink="logoNavigationLink"
     />
+    <Quote default="In the midst of chaos, there is also opportunity. ~ Sun TZU" name="Sun TZU"
+    />
     <div class="relative mx-auto ">
       <div
         class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"

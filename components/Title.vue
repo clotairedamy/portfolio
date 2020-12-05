@@ -2,14 +2,14 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="flex justify-start mt-10">
     <div class="max-w-6xl mx-auto  sm:px-6 lg:px-8">
-      <div class="title leading-8">
+      <div class="leading-8">
         <h1
-          class="sm:text-lg text-gray-500 text-2xl  md:tracking-tighter text-center"
+          class="sm:text-lg text-pink-600 text-xl  md:tracking-tighter text-center"
         >
           {{ subtitle }}
         </h1>
         <h2
-          class="text-4xl text-gray-500 text-center font-bold tracking-wide"
+          class="text-4xl title text-gray-400 text-center font-bold tracking-wide"
         >
           {{ title }}
         </h2>

@@ -1,22 +1,11 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox :navigationLinks="navigationLinks" />
-    <div class="relative mx-auto  ">
-      <div
-        class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
-      >
-        <div
-          class="mt-20  px-16 font-bold sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
-        >
-          <div class="lg:self-left">
-            <h4 class="text-lg   sm:text-lg">
-              <span class="block special text-lg tracking-wide text-gray-600">{{ quote }}</span>
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
+    <SubNavigationBox 
+    class="navBox"
+    :navigationLinks="navigationLinks" />
+   <Quote default="Our nature consists in motion; complete rest is death." name="~ Blaise Pascal"
+    />
   </div>
 </template>
 
@@ -95,5 +84,8 @@ export default {
 </script>
 
 <style scoped>
-
+.navBox {
+  position: sticky;
+  bottom: 10vh;
+}
 </style>

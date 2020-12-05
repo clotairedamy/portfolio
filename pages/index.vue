@@ -3,27 +3,12 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 sm:mt-4">
       <Title
         title="Clotaire"
-        content="a creative studio that develops and produces interactive interfaces &amp; user-centered designs"
-        subtitle="Damy"
+        content="Passionate about transforming complex problems into meaningful and engaging web interfaces. User Interfaces are driven by extensive research, motion and emotions. Motion design is giving users a sense of wonder, pleasure while the animation is acting as support for explaining complex benefits and features"
+        subtitle="digital designer "
       />
-      <div class="relative mx-auto mt-20">
-        <div
-          class="bg-transparent rounded-lg  overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-auto"
-        >
-          <div
-            class="mt-20  px-16 font-bold sm:pt-10 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
-          >
-            <div class="lg:self-left">
-              <h4 class="text-lg   sm:text-lg">
-                <span
-                  class="block special text-lg tracking-wide text-gray-600"
-                  >{{ quote }}</span
-                >
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
+       <Quote default="The details are not the details, they make the design." name="C. Eames"
+    />
+     
     </div>
   </div>
 </template>
@@ -36,7 +21,7 @@ export default {
     quote: {
       type: String,
       default:
-        '"The details are not the details, they make the design. ~ Charles Eames"'
+        '""'
     }
   }
 };
