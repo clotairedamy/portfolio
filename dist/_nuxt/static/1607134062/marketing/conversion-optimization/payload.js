@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/marketing/conversion-optimization", {data:[{},{}],fetch:[],mutations:void 0});

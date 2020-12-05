@@ -65,21 +65,22 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {
-    pwa: {
-      manifest: {
-        name: 'Clotaire Damy - Portfolio',
-        lang: 'en',
-        start_url: '/',
-        short_name: 'Clotaire',
-        display: 'standalone',
-        background_color: '#111827',
-        useWebmanifestExtension: false,
-        theme_color: '#111827',
-        icon: 'icon.png'
+  pwa: {
+    manifest: {
+      name: 'Clotaire Damy - Portfolio',
+      lang: 'en',
+      start_url: '/',
+      short_name: 'Clotaire',
+      display: 'standalone',
+      background_color: '#111827',
+      useWebmanifestExtension: false,
+      theme_color: '#111827',
+      icon: 'icon.png'
 
-      }
     }
+  },
+  build: {
+    
 
   }
 };

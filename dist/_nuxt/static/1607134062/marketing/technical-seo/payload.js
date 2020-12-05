@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/marketing/technical-seo", {data:[{},{}],fetch:[],mutations:void 0});
