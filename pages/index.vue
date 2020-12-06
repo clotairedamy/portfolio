@@ -1,21 +1,14 @@
 <template>
-  <div class="mt-20 p bg-transparent mb-20">
-    
-      <Title
-        title="Clotaire"
-        content="Passionate about transforming complex problems into meaningful and engaging web interfaces with the help of motion and emotions."
-      
-        subtitle="front-end developer "
-      />
-      <div class="mt-20">
-      <Quote
-        quote="The details are not the details, they make the design."
-        author="C. Eames"
-        
-      />
-      </div>
-    </div>
- 
+  <div>
+    <Title
+      title="Clotaire"
+      content="Passionate about transforming complex problems into meaningful and engaging web interfaces with the help of motion and emotions."
+      subtitle="front-end developer " class="mx-auto"
+    />
+
+    <Quote class="ml-10 mt-10" quote="The details are not the details, they make the design."
+    author="C. Eames" />
+  </div>
 </template>
 <script>
 export default {
@@ -25,7 +18,7 @@ export default {
   props: {
     quote: {
       type: String,
-      default: ''
+      default: ""
     }
   }
 };
