@@ -2,16 +2,18 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="sticky bottom-0 ">
     <div class="relative">
-      <div class="max-w-4xl mx-auto px-8 sm:px-4">
+      <div class="max-w-6xl mx-auto px-4 sm:px-8">
         <div
-          class="flex justify-between items-center py-20 md:justify-center md:space-x-48 sm:space-x-10"
+          class="flex justify-between items-center py-8 md:justify-center md:space-x-16 "
         >
-          <div class="flex justify-center lg:w-0 lg:flex-1">
+          <div class="flex justify-center lg:flex-1">
             <n-link to="/">
-              <span class="sr-only">Clotaire</span>
+              <span class="sr-only"><p class="text-white">Clotaire</p></span>
               <img
                 class="h-8 w-auto sm:h-8"
-                src="/clotaire-01.svg" height="64px" width="64px"
+                src="/clotaire-01.svg"
+                height="64px"
+                width="64px"
                 alt="Clotaire Damy logo"
               />
             </n-link>
@@ -41,16 +43,13 @@
               </svg>
             </button>
           </div> -->
-          <nav class="md:flex md:space-x-32 nav lg:space-x-16">
-        <n-link
-              to="/"
-              class="text-xs text-gray-300 hover:text-yellow-500"
-            >
+          <nav class="md:flex md:space-x-24 nav lg:space-x-48">
+            <n-link to="/" class="text-xs text-gray-300 hover:text-yellow-500">
               About
-            </n-link> 
+            </n-link>
             <n-link
               to="/development"
-              class="text-xs  text-gray-300 hover:text-yellow-500 px-2"
+              class="text-xs  text-gray-300 hover:text-yellow-500 "
             >
               Development
             </n-link>
@@ -190,4 +189,8 @@ export default {
 };
 </script>
 
-<style>.nav{font-family: "Track";}</style>
+<style>
+.nav {
+  font-family: "Track";
+}
+</style>

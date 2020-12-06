@@ -4,7 +4,7 @@
     <SubNavigationBox class="navBox" :navigationLinks="navigationLinks" />
     <Quote
       quote="Our nature consists in motion; complete rest is death."
-    class="ml-8"
+    class="ml-4"
       author="~ Blaise Pascal"
     />
   </div>

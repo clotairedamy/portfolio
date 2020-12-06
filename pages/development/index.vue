@@ -1,6 +1,6 @@
 <template>
-<div class="py-4 bg-transparent">
-    <div class="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
+<div class="mx-4 bg-transparent">
+    <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
       
       <Title
         title="Design"

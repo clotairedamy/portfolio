@@ -1,9 +1,10 @@
 <template>
-  <div class="px-8">
+  <div class="mx-4">
     <Title
       title="Clotaire"
+      class=""
       content="Passionate about transforming complex problems into meaningful and engaging web interfaces with the help of motion and emotions."
-      subtitle="front-end developer " class="mx-auto"
+      subtitle="front-end developer " 
     />
 
     <Quote class="ml-10" quote="The details are not the details, they make the design."
