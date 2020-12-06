@@ -1,8 +1,8 @@
 <template>
   <div class="relative mx-auto mt-20">
-    <div class=" flex items-center  mb-20">
+    <div class=" flex items-right  mb-20">
       <h4
-        class="flex pr-10 bg-transparent text-sm tracking-wider font-semibold  text-clotaire"
+        class="flex pr-10 bg-transparent text-sm tracking-widest font-semibold  text-clotaire"
       >
         {{ quote }}
       </h4>

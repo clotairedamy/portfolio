@@ -1,12 +1,12 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="sticky top-0">
+  <div class="sticky bottom-0 ">
     <div class="relative">
-      <div class="max-w-7xl mx-auto px-8 sm:px-12">
+      <div class="max-w-4xl mx-auto px-8 sm:px-4">
         <div
-          class="flex justify-between items-center py-12 md:justify-center md:space-x-48 sm:space-x-10"
+          class="flex justify-between items-center py-20 md:justify-center md:space-x-48 sm:space-x-10"
         >
-          <div class="flex justify-start lg:w-0 lg:flex-1">
+          <div class="flex justify-center lg:w-0 lg:flex-1">
             <n-link to="/">
               <span class="sr-only">Clotaire</span>
               <img
@@ -121,7 +121,7 @@
                 </div>
               </div>
               <div class="mt-6">
-                <nav class="grid gap-y-2">
+                <nav class="grid gap-y-4">
                   <n-link
                     to="/"
                     class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"

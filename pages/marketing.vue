@@ -6,10 +6,11 @@
       :navigationLinks="navigationLinks"
       :logoNavigationLink="logoNavigationLink"
     />
-    <Quote 
-    class="ml-10" quote="In the midst of chaos, there is also opportunity." author="Sun TZU"
+    <Quote
+      class="ml-8"
+      quote="In the midst of chaos, there is also opportunity."
+      author="~ Sun TZU"
     />
-  
   </div>
 </template>
 
@@ -21,7 +22,10 @@ export default {
       logoNavigationLink: "/marketing",
       navigationLinks: [
         { title: "Marketing", address: "/marketing" },
-        { title: "Search engine optimization", address: "/marketing/search-engine-optimization" },
+        {
+          title: "Search engine optimization",
+          address: "/marketing/search-engine-optimization"
+        },
 
         {
           title: "Conversion Optimization",

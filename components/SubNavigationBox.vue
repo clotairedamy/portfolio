@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-30 sm:mt-20">
+  <div class="mt-20 sm:mt-10">
     <div
       class="py-4 px-4 sm:py-4 sm:px-16 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
