@@ -1,20 +1,16 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="flex justify-start mt-20">
-    <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
-      <div class="leading-8 text-center">
+  <div class="flex justify-start sm:mt-10">
+    <div class="max-w-2xl mx-auto  sm:px-6 lg:px-8">
+      <div class="leading-10 text-center">
         <h1
-          class="sm:text-lg text-yellow-600 text-xl  md:tracking-tighter text-center"
+          class="sm:text-2xl text-yellow-600 text-xl  md:tracking-tighter text-center"
         >
-          {{ subtitle }}
+          {{ subtitle }}<br /> <span class="title text-clotaire font-bold tracking-wide py-2">{{title}}</span>
         </h1>
-        <h2
-          class="title text-clotaire font-bold tracking-wide"
-        >
-          {{ title }}
-        </h2>
+       
       </div>
-      <div class="lg:text-left max-w-4xl mb-10">
+      <div class="lg:text-left max-w-4xl mb-10 mt-20">
         <p class="text-lg leading-8  text-gray-300 sm:text-2xl">
           {{ content }}
         </p>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 bg-transparent mb-20">
+  <div class="mt-20 p bg-transparent mb-20">
     
       <Title
         title="Clotaire"

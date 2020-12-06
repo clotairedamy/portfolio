@@ -87,6 +87,6 @@ export default {
 <style scoped>
 .navBox {
   position: sticky;
-  bottom: 10vh;
+  top: 0px;
 }
 </style>
