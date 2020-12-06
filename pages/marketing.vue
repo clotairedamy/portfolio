@@ -21,7 +21,7 @@ export default {
       logoNavigationLink: "/marketing",
       navigationLinks: [
         { title: "Marketing", address: "/marketing" },
-        { title: "SEO", address: "/marketing/search-engine-optimization" },
+        { title: "Search engine optimization", address: "/marketing/search-engine-optimization" },
 
         {
           title: "Conversion Optimization",
@@ -83,6 +83,6 @@ export default {
 <style scoped>
 .navBox {
   position: sticky;
-  bottom: 10vh;
+  top: 10px;
 }
 </style>

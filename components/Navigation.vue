@@ -2,7 +2,7 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="sticky top-0">
     <div class="relative">
-      <div class="max-w-7xl mx-auto px-2 sm:px-2">
+      <div class="max-w-7xl mx-auto px-8 sm:px-12">
         <div
           class="flex justify-between items-center py-12 md:justify-center md:space-x-48 sm:space-x-10"
         >
@@ -41,22 +41,22 @@
               </svg>
             </button>
           </div> -->
-          <nav class="md:flex md:space-x-32 nav lg:space-x-64">
-         <!--<n-link
+          <nav class="md:flex md:space-x-32 nav lg:space-x-16">
+        <n-link
               to="/"
-              class="text-base font-medium text-gray-500 hover:text-yellow-500"
+              class="text-xs text-gray-300 hover:text-yellow-500"
             >
               About
-            </n-link> -->
+            </n-link> 
             <n-link
               to="/development"
-              class="text-xs  text-gray-600 hover:text-yellow-500"
+              class="text-xs  text-gray-300 hover:text-yellow-500 px-2"
             >
               Development
             </n-link>
             <n-link
               to="/marketing"
-              class="text-xs  text-gray-600 hover:text-yellow-500"
+              class="text-xs  text-gray-300 hover:text-yellow-500"
             >
               Marketing
             </n-link>

@@ -5,7 +5,7 @@
       
       <Title
         title="Design"
-        content="I look at what everyone else is doing and strive to do something completely new, with a new creative thinking, solving problems using innovative technologies."
+        content="Motion design is giving users a sense of wonder, pleasure while the animation is acting as support for explaining complex benefits and features."
         subtitle="Web"
       />
     </div>

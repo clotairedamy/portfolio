@@ -2,7 +2,7 @@
   <div class="relative mx-auto mt-20">
     <div class=" flex items-center  mb-20">
       <h4
-        class="flex pr-10 bg-transparent text-sm tracking-wider font-semibold  text-green-600"
+        class="flex pr-10 bg-transparent text-sm tracking-wider font-semibold  text-clotaire"
       >
         {{ quote }}
       </h4>
@@ -11,7 +11,7 @@
       >
         {{ author }}
       </h5>
-      <div class="flex-1 border-t-1 border-gray-900"></div>
+      <div class="flex-1 border-t-4 border-transparent"></div>
     </div>
   </div>
 </template>
@@ -28,4 +28,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>.text-clotaire {
+  color:#eae0c4 ;
+}</style>

@@ -3,13 +3,13 @@
     <div
       class="py-4 px-4 sm:py-4 sm:px-16 lg:bg-none lg:flex lg:items-center lg:justify-end lg:px-0 lg:pl-2"
     >
-      <div class="max-w-sm mx-0 w-full space-y-2 md:mx-0">
-        <ul class="bg-gray-900 sm:grid sm:grid-flow-col">
+      <div class="max-w-sm mx-0 w-full  md:mx-0 flex-row">
+        <ul class="bg-gray-800  ">
           <li
             class="track border-b border-transparent py-4 px-2 flex items-center text-gray-200 rounded"
             v-for="link in navigationLinks"
             :key="link.title"
-            :class="{ 'bg-yellow-500': currentPath === link.address }"
+            :class="{ 'text-clotaire text-gray-900': currentPath === link.address }"
           >
             <!-- Heroicon name: check 
               <svg class="h-6 w-6 text-cyan-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -64,5 +64,11 @@ export default {
 <style scoped>
 .track {
   font-family: "Track";
+  
+}
+
+.text-clotaire {
+  background-color:#eae0c4 ;
+  
 }
 </style>

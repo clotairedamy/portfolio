@@ -1,21 +1,21 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="flex justify-start mt-10">
-    <div class="max-w-6xl mx-auto  sm:px-6 lg:px-8">
-      <div class="leading-8">
+  <div class="flex justify-start mt-20">
+    <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+      <div class="leading-8 text-center">
         <h1
-          class="sm:text-lg text-pink-600 text-xl  md:tracking-tighter text-center"
+          class="sm:text-lg text-yellow-600 text-xl  md:tracking-tighter text-center"
         >
           {{ subtitle }}
         </h1>
         <h2
-          class="text-4xl title text-gray-400 text-center font-bold tracking-wide"
+          class="title text-clotaire font-bold tracking-wide"
         >
           {{ title }}
         </h2>
       </div>
-      <div class="lg:text-left max-w-2xl">
-        <p class="mt-20 text-sm leading-8  text-gray-300 sm:text-2xl">
+      <div class="lg:text-left max-w-4xl mb-10">
+        <p class="text-lg leading-8  text-gray-300 sm:text-2xl">
           {{ content }}
         </p>
       </div>
@@ -50,5 +50,9 @@ export default {
 .title {
   height: 25vh;
   font-family: "Track";
+}
+.text-clotaire {
+  color:#eae0c4 ;
+  font-size: 45px;
 }
 </style>

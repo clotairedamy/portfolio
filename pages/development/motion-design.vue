@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Title
         title="Motion"
-        content="A Developer and Digital Marketer based in Colorado Springs (US). I’m passionate about transforming complex problems into meaningful and engaging web interfaces."
+        content="I look at what everyone else is doing and strive to do something completely new, with a new creative thinking, solving problems using innovative technologies."
         subtitle="Design"
       />
       <!-- <Subpoints :intros="subpointsData" /> -->
