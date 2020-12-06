@@ -4,7 +4,7 @@
       class=" px-16 lg:bg-none flex lg:items-center justify-end"
     >
       <div class="max-w-sm mx-0 w-full md:mx-0 flex-row">
-        <ul class="bg-gray-800">
+        <ul class="bg-transparent">
           <li
             v-for="link in navigationLinks"
             :key="link.title"

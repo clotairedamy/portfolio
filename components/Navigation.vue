@@ -2,15 +2,15 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="sticky bottom-0 ">
     <div class="relative">
-      <div class="max-w-6xl mx-auto px-4 sm:px-8">
+      <div class="max-w-7xl  mx-auto">
         <div
-          class="flex justify-between items-center py-8 md:justify-center md:space-x-16 "
+          class="flex justify-between items-center py-8 md:justify-center md:space-x-64 "
         >
-          <div class="flex justify-center lg:flex-1">
+          <div class="flex justify-left lg:flex-1">
             <n-link to="/">
               <span class="sr-only"><p class="text-white">Clotaire</p></span>
               <img
-                class="h-8 w-auto sm:h-8"
+                class="h-16 w-auto sm:h-16"
                 src="/clotaire-01.svg"
                 height="64px"
                 width="64px"
@@ -43,7 +43,7 @@
               </svg>
             </button>
           </div> -->
-          <nav class="md:flex md:space-x-24 nav lg:space-x-48">
+          <nav class="md:flex md:space-x-24 nav lg:space-x-48 py-8">
             <n-link to="/" class="text-xs text-gray-300 hover:text-yellow-500">
               About
             </n-link>
