@@ -1,12 +1,12 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="sticky bottom-0 ">
+  <div class="sticky top-0 ">
     <div class="relative">
-      <div class="max-w-7xl  mx-auto">
+      <div class="max-w-7xl  mx-8">
         <div
-          class="flex justify-between items-center py-8 md:justify-center md:space-x-64 "
+          class="flex justify-center items-center py-8 md:justify-left md:space-x-1 "
         >
-          <div class="flex justify-left lg:flex-1">
+          <div class="flex justify-left md:flex-1">
             <n-link to="/">
               <span class="sr-only"><p class="text-white">Clotaire</p></span>
               <img
@@ -43,21 +43,21 @@
               </svg>
             </button>
           </div> -->
-          <nav class="md:flex md:space-x-24 nav lg:space-x-48 py-8">
-            <n-link to="/" class="text-xs text-gray-300 hover:text-yellow-500">
-              About
+          <nav class=" md:space-x-16  lg:space-x-64 py-8">
+            <n-link to="/" class="text-lg text-gray-300 hover:text-yellow-500">
+              about
             </n-link>
             <n-link
               to="/development"
-              class="text-xs  text-gray-300 hover:text-yellow-500 "
+              class="text-xl  text-gray-300 hover:text-yellow-500 "
             >
-              Development
+              development
             </n-link>
             <n-link
               to="/marketing"
-              class="text-xs  text-gray-300 hover:text-yellow-500"
+              class="text-xl  text-gray-300 hover:text-yellow-500"
             >
-              Marketing
+              marketing
             </n-link>
           </nav>
           <div

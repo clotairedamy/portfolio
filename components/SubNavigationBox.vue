@@ -1,14 +1,14 @@
 <template>
   <div class="mt-20 sm:mt-10">
     <div
-      class=" px-16 lg:bg-none flex lg:items-center justify-end"
+      class=" px-8 py-8 lg:bg-none flex lg:items-left justify-end"
     >
       <div class="max-w-sm mx-0 w-full md:mx-0 flex-row">
         <ul class="bg-transparent">
           <li
             v-for="link in navigationLinks"
             :key="link.title"
-            class="text-xs flex items-center text-gray-200 "
+            class="text-xs flex items-left text-gray-200 "
           >
             <!-- Heroicon name: check 
               <svg class="h-6 w-6 text-cyan-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -16,9 +16,9 @@
               </svg>-->
             <nuxt-link
               :to="link.address"
-              class=" text-gray-50 text-center text-xs track w-full rounded"
+              class=" text-gray-50 text-left text-xs mx-8 track w-full rounded"
               :class="{
-                'text-clotaire text-gray-900': currentPath === link.address,
+                'customCol py-2 text-gray-900': currentPath === link.address,
               }"
               >{{ link.title }}</nuxt-link
             >
@@ -68,7 +68,7 @@ export default {
   font-family: "Track";
 }
 
-.text-clotaire {
+.customCol {
   background-color: #eae0c4;
 }
 </style>
