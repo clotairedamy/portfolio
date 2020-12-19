@@ -1,11 +1,6 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox
-      class="navBox"
-      :navigationLinks="navigationLinks"
-      :logoNavigationLink="logoNavigationLink"
-    />
     <Quote
       class="ml-8"
       quote="In the midst of chaos, there is also opportunity."

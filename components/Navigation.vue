@@ -2,11 +2,11 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="sticky top-0 ">
     <div class="relative">
-      <div class="max-w-7xl  mx-8">
+      <div class="max-w-7xl mx-8">
         <div
-          class="flex justify-left items-left py-8 md:justify-left "
+          class="flex flex-row justify-start py-8"
         >
-          <div class="flex-shrink-0 justify-left md:flex-1">
+          <div class="justify-left place-self-start">
             <n-link to="/">
               <span class="sr-only"><p class="text-white">Clotaire</p></span>
               <img
@@ -43,7 +43,7 @@
               </svg>
             </button>
           </div> -->
-          <nav class="flex-row md:space-x-16  lg:space-x-64 py-8">
+          <nav class="flex flex-row sm:flex-col flex-grow justify-self-center justify-center items-start space-x-16 py-8">
             <NavigationBarEntry :displayTitle=aboutLinkData.displayTitle :to=aboutLinkData.to :subLinks=aboutLinkData.subLinks />
             <NavigationBarEntry :displayTitle=developmentLinkData.displayTitle :to=developmentLinkData.to :subLinks=developmentLinkData.subLinks />
             <NavigationBarEntry :displayTitle=marketingLinkData.displayTitle :to=marketingLinkData.to :subLinks=marketingLinkData.subLinks />

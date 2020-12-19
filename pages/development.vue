@@ -1,7 +1,6 @@
 <template>
   <div class="text-white">
     <NuxtChild />
-    <SubNavigationBox class="navBox" :navigationLinks="navigationLinks" />
     <Quote
       quote="Our nature consists in motion; complete rest is death."
     class="ml-4"
