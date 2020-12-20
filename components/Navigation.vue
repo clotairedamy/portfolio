@@ -43,8 +43,8 @@
               </svg>
             </button>
           </div> -->
-          <nav class="flex flex-row sm:flex-col flex-grow justify-self-center justify-center items-start sm:items-center space-x-16 py-8">
-            <NavigationBarEntry :displayTitle=aboutLinkData.displayTitle :to=aboutLinkData.to :subLinks=aboutLinkData.subLinks />
+          <nav class="flex flex-row flex-grow justify-self-center justify-center items-start space-x-16 py-8">
+            <NavigationBarEntry class="sm:hidden" :displayTitle=aboutLinkData.displayTitle :to=aboutLinkData.to :subLinks=aboutLinkData.subLinks />
             <NavigationBarEntry :displayTitle=developmentLinkData.displayTitle :to=developmentLinkData.to :subLinks=developmentLinkData.subLinks />
             <NavigationBarEntry :displayTitle=marketingLinkData.displayTitle :to=marketingLinkData.to :subLinks=marketingLinkData.subLinks />
           </nav>
