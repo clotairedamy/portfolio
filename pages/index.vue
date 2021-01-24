@@ -3,7 +3,7 @@
     <Title
       title="Clotaire"
       class=""
-      content="Passionate about transforming complex problems into meaningful and engaging web interfaces with the help of motion and emotions."
+      content="Passionate about transforming complex problems into meaningful and engaging web interfaces while building unique and memorable product experiences and design systems"
       subtitle="front-end developer " 
     />
 
