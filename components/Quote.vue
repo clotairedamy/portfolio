@@ -1,16 +1,16 @@
 <template>
   <div class="relative mx-auto mt-20">
     <div class=" flex items-right  mb-20">
-      <h4
+      <p
         class="flex pr-10 bg-transparent text-sm tracking-widest font-semibold  text-clotaire"
       >
         {{ quote }}
-      </h4>
-      <h5
+      </p>
+      <p
         class="flex-shrink-0 pr-12 bg-transparent text-sm tracking-wider font-semibold  text-yellow-500 "
       >
         {{ author }}
-      </h5>
+      </p>
       <div class="flex-1 border-t-4 border-transparent"></div>
     </div>
   </div>
