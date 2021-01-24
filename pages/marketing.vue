@@ -1,6 +1,6 @@
 <template>
   <div class="text-white">
-    <NuxtChild />
+    <h2>Pagina de  marketing</h2>
     <Quote
       class="ml-8"
       quote="In the midst of chaos, there is also opportunity."

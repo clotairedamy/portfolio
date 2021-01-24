@@ -1,6 +1,6 @@
 <template>
   <div class="text-white">
-    <NuxtChild />
+    <h2>Pagina de development</h2>
     <Quote
       quote="Our nature consists in motion; complete rest is death."
     class="ml-4"

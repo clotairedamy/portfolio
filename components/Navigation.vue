@@ -66,12 +66,12 @@ export default {
       developmentLinkData: {
         displayTitle: "development",
         to: "/development",
-        subLinks: [{displayTitle: "design", to: "/development/website-design"}, {displayTitle: "optimization", to: "/development/website-optimization"}]
+        subLinks: []
       },
       marketingLinkData: {
         displayTitle: "marketing",
         to: "/marketing",
-        subLinks: [{displayTitle: "SEO", to: "/marketing/search-engine-optimization"}, {displayTitle: "conversion optimization", to: "/marketing/conversion-optimization"}]
+        subLinks: []
       }
     };
   },
