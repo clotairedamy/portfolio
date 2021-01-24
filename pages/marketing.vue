@@ -1,11 +1,20 @@
 <template>
   <div class="text-white">
-    <h2>Pagina de  marketing</h2>
-    <Quote
-      class="ml-8"
-      quote="In the midst of chaos, there is also opportunity."
-      author="~ Sun TZU"
+    <div class="mx-4">
+    <Title
+      title="Marketing"
+      class=""
+      content="An Intent-based Marketing process of improving business awarness through audience insight, relevance, guidelines and value, in order to drive more quality traffic, and increase sales. We’ll cwork with your teams, communicate often, and then present you with a custom strategy tied to your business KPIs."
+      subtitle="Digital" 
     />
+
+<Quote
+      quote="In the midst of chaos, there is also opportunity. "
+    class="ml-4"
+      author="~ Sun TZU."
+    />
+  </div>
+    
   </div>
 </template>
 
@@ -17,15 +26,9 @@ export default {
       logoNavigationLink: "/marketing",
       navigationLinks: [
         { title: "Marketing", address: "/marketing" },
-        {
-          title: "Search engine optimization",
-          address: "/marketing/search-engine-optimization"
-        },
+      
 
-        {
-          title: "Conversion Optimization",
-          address: "/marketing/conversion-optimization"
-        }
+     
       ]
     };
   },
@@ -37,7 +40,7 @@ export default {
   },
   components: { SubNavigationBox },
   head: {
-    link: [{ rel: "canonical", href: "https://interfacedesign.dev/marketing" }],
+    link: [{ rel: "canonical", href: "https://clotairedamy.com/marketing" }],
     title: "Digital Marketing Agency Colorado Springs",
     meta: [
       {

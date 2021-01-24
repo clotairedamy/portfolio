@@ -6,12 +6,12 @@
         <h1
           class="sm:text-2xl text-yellow-600 text-lg  md:tracking-tighter text-center"
         >
-          {{ subtitle }}<br /> <span class="title text-clotaire font-bold tracking-wide py-2">{{title}}</span>
+          {{ subtitle }}<br /> <span class="title text-clotaire sm:text-4xl font-bold tracking-wide py-2">{{title}}</span>
         </h1>
        
       </div>
-      <div class="lg:text-left max-w-4xl mb-10 mt-20">
-        <p class="text-lg leading-8  text-gray-300 sm:text-2xl">
+      <div class="lg:text-left max-w-4xl mb-20 mt-10">
+        <p class="text-xl leading-8 text-white sm:text-xl">
           {{ content }}
         </p>
       </div>

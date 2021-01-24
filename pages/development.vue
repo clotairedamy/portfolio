@@ -1,11 +1,19 @@
 <template>
   <div class="text-white">
-    <h2>Pagina de development</h2>
-    <Quote
-      quote="Our nature consists in motion; complete rest is death."
-    class="ml-4"
-      author="~ Blaise Pascal"
-    />
+    <div class="mx-4">
+      <Title
+        title="Development"
+        class=""
+        content="We follow web standards and believe in progressive enhancement. We create a solid foundation and then enhance the experience. Component-based design is the split of the design into individual functional or logical architecture that represent well-defined communication interfaces containing methods, events, and properties."
+        subtitle="Web"
+      />
+
+      <Quote
+        quote="Our nature consists in motion; complete rest is death."
+        class="ml-4"
+        author="~ Blaise Pascal"
+      />
+    </div>
   </div>
 </template>
 
