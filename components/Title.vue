@@ -1,7 +1,7 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="flex justify-start mt-20 sm:mt-4">
-    <div class="max-w-3xl mx-20 sm:mx-4 sm:px-2 lg:px-4">
+    <div class="max-w-3xl mx-20 sm:mx-2 sm:px-2 lg:px-4">
       <div class="leading-10 text-center">
         <h1
           class="sm:text-2xl text-yellow-600 text-lg  md:tracking-tighter text-left"

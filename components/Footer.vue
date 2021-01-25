@@ -11,11 +11,11 @@
         <div class="max-w-md w-full space-y-8">
           <div>
          
-            <h3 class="mt-6 text-center text-2xl font-bold text-gray-600">
-              CONTACT
+            <h3 class="mt-6  text-2xl font-bold text-gray-600">
+             I’m always open to hearing about new projects and opportunities so please feel free to get in touch.
             </h3>
             <p
-              class="mt-8 text-center text-lg text-gray-400 text-bold "
+              class="mt-8  text-lg text-gray-400 text-bold "
             >
               Start by Saying Hi!
             </p>
