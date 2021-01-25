@@ -1,13 +1,13 @@
 <template>
-  <div class="mx-4">
-    <Title title="Clotaire" class="" subtitle="front-end developer ">
-      <p class="text-xl leading-8 text-white sm:text-xl">
+  <div class="mx-2 mt-20">
+    <Title title="Clotaire" class="" subtitle="studio ">
+      <p class="text-2xl leading-normal text-white sm:text-xl">
         We love the web. It’s the opportunity of our lifetime. It has the
         potential to communicate ideas, spread knowledge, bring us together, and
         unlock our collective talents.
       </p>
-      <br />
-      <p class="text-xl leading-8 text-white sm:text-xl">
+    
+      <p class="text-2xl leading-normal text-white sm:text-xl">
         We are a Romanian team doing UI/UX design and development with a focus
         on web standards, optimisation and accessibility. We are passionate
         about transforming complex problems into meaningful and engaging web
@@ -15,22 +15,22 @@
         design systems.
       </p>
     </Title>
-    <div class="mt-10 mx-8 flex flex-row md:flex-col items-center justify-center">
-      <div class="p-4 flex flex-col items-center max-w-xl">
-        <h3 class="text-yellow-200 text-lg hover:underline">
+    <div class="mt-64 sm:mt-10 mx-16 sm:mx-8 flex flex-row md:flex-col items-left justify-center mb-64">
+      <div class=" flex flex-col items-left max-w-4xl">
+        <h3 class="text-pink-600 text-4xl hover:underline py-8 uppercase">
           <nuxt-link to="/development">Frontend development</nuxt-link>
         </h3>
-        <p class="text-gray-100 text-justify">
+        <p class="text-gray-100 text-2xl  leading-loose">
           Using the latest standards and technologies to create engaging,
           dynamic and innovative websites and browser-based user interfaces.
         </p>
       </div>
-      <div class="flex-grow max-w-xs"></div>
-      <div class="p-4 flex flex-col items-center max-w-xl">
-        <h3 class="text-yellow-200 text-lg hover:underline">
+      <div class="flex-grow max-w-3xl" ></div>
+      <div class=" flex flex-col items-left max-w-3xl mt-64 sm:mt-10">
+        <h3 class="text-yellow-500 text-4xl hover:underline py-8 uppercase">
           <nuxt-link to="/marketing">Digital marketing</nuxt-link>
         </h3>
-        <p class="text-gray-100 text-justify">
+        <p class="text-gray-100 text-2xl sm:text-2xl leading-loose">
           Search engine optimisation and intent-based marketing: improving
           business awareness through audience insight, increasing sales.
         </p>
