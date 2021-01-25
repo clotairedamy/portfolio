@@ -8,9 +8,8 @@
         >
           <div class="justify-left place-self-start">
             <n-link to="/">
-              <span class="sr-only"><p class="text-white">Clotaire</p></span>
               <img
-                class="h-16 w-auto sm:h-10"
+                class="ml-6 h-16 w-auto sm:h-10"
                 src="/clotaire-01.svg"
                 height="128"
                 width="128"

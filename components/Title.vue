@@ -11,9 +11,7 @@
        
       </div>
       <div class="lg:text-left max-w-4xl mb-20 mt-10">
-        <p class="text-xl leading-8 text-white sm:text-xl">
-          {{ content }}
-        </p>
+        <slot/>
       </div>
     </div>
   </div>
@@ -24,7 +22,6 @@ export default {
   props: {
     title: { type: String, default: "Clotaire Damy" },
     subtitle: { type: String, default: "Subtitle" },
-    content: { type: String, default: "Content" }
   }
 };
 </script>
