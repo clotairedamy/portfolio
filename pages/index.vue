@@ -14,18 +14,28 @@
         interfaces while building unique and memorable product experiences and
         design systems.
       </p>
-      <div class="mt-10 flex flex-row md:flex-col items-center justify-center">
-        <div class="p-6 flex flex-col items-center">
-          <nuxt-link class="text-yellow-200 text-lg" to="/development"><h3>Frontend development</h3></nuxt-link>
-          <p class="text-gray-100 text-justify">Using the latest standards and technologies to create engaging, dynamic and innovative websites and browser-based user interfaces.</p>
-        </div>
-        <div class="p-6 flex flex-col items-center">
-          <nuxt-link class="text-yellow-200 text-lg" to="/marketing"><h3>Digital marketing</h3></nuxt-link>
-          <p class="text-gray-100 text-justify">Search engine optimisation and intent-based marketing: improving business awareness through audience insight, increasing sales.</p>
-        </div>
-      </div>
     </Title>
-
+    <div class="mt-10 mx-8 flex flex-row md:flex-col items-center justify-center">
+      <div class="p-4 flex flex-col items-center max-w-xl">
+        <h3 class="text-yellow-200 text-lg hover:underline">
+          <nuxt-link to="/development">Frontend development</nuxt-link>
+        </h3>
+        <p class="text-gray-100 text-justify">
+          Using the latest standards and technologies to create engaging,
+          dynamic and innovative websites and browser-based user interfaces.
+        </p>
+      </div>
+      <div class="flex-grow max-w-xs"></div>
+      <div class="p-4 flex flex-col items-center max-w-xl">
+        <h3 class="text-yellow-200 text-lg hover:underline">
+          <nuxt-link to="/marketing">Digital marketing</nuxt-link>
+        </h3>
+        <p class="text-gray-100 text-justify">
+          Search engine optimisation and intent-based marketing: improving
+          business awareness through audience insight, increasing sales.
+        </p>
+      </div>
+    </div>
     <Quote
       class="ml-10"
       quote="The details are not the details, they make the design."
@@ -46,4 +56,8 @@ export default {
   },
 };
 </script>
-<style scoped></style>
+<style scoped>
+a::after {
+  content: " →";
+}
+</style>
