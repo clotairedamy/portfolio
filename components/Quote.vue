@@ -2,12 +2,12 @@
   <div class="relative mt-64">
     <div class=" flex items-left  mb-20">
       <p
-        class="flex  bg-transparent text-xl tracking-widest font-semibold text-green-500 "
+        class="flex  bg-transparent text-xl tracking-widest font-semibold text-gray-400 "
       >
         {{ quote }}
       </p>
       <p
-        class="flex-shrink-0 bg-transparent text-sm tracking-wider font-semibold  text-yellow-500 "
+        class="flex-shrink-0 bg-transparent text-sm tracking-wider font-semibold  text-gray-500 "
       >
         {{ author }}
       </p>

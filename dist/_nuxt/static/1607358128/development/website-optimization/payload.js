@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/development/website-optimization", {data:[{},{}],fetch:[],mutations:void 0});

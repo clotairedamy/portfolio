@@ -17,21 +17,21 @@
     </Title>
     <div class="mt-20 sm:mt-10 mx-16 sm:mx-8 flex flex-col items-end justify-center">
       <div class="flex flex-col items-left max-w-xl">
-        <h3 class="text-pink-600 text-4xl hover:underline py-8 uppercase leading-normal">
+        <h3 class="text-gray-400 text-3xl hover:underline py-8 uppercase leading-normal font-bold">
           <nuxt-link to="/development">Frontend development</nuxt-link>
         </h3>
-        <p class="text-gray-100 text-2xl  leading-loose">
+        <p class="text-gray-100 text-xl  leading-loose">
           Using the latest standards and technologies to create engaging,
           dynamic and innovative websites and browser-based user interfaces.
         </p>
       </div>
       <div class="flex-grow max-w-3xl" ></div>
       <div class=" flex flex-col items-left max-w-xl mt-20">
-        <h3 class="text-yellow-500 text-4xl hover:underline py-8 uppercase leading-normal">
+        <h3 class="text-gray-400 text-3xl hover:underline py-8 uppercase leading-normal font-bold">
           <nuxt-link to="/marketing">Digital marketing</nuxt-link>
         </h3>
         <p class="text-gray-100 text-2xl sm:text-2xl leading-loose">
-          Search engine optimisation and intent-based marketing: improving
+          Search engine optimization and intent-based marketing: improving
           business awareness through audience insight, increasing sales.
         </p>
       </div>

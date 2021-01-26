@@ -1,35 +1,30 @@
 <template>
   <div class="text-white">
     <div class="mx-4">
-    <Title
-      title="Marketing"
-      class=""
-      content="An Intent-based Marketing process of improving business awarness through audience insight, relevance, guidelines and value, in order to drive more quality traffic, and increase sales. We’ll cwork with your teams, communicate often, and then present you with a custom strategy tied to your business KPIs."
-      subtitle="Digital" 
-    />
+      <Title
+        title="Marketing"
+        class=""
+        content="An Intent-based Marketing process of improving business awarness through audience insight, relevance, guidelines and value, in order to drive more quality traffic, and increase sales. We’ll cwork with your teams, communicate often, and then present you with a custom strategy tied to your business KPIs."
+        subtitle="Digital"
+      />
 
-<Quote
-      quote="In the midst of chaos, there is also opportunity. "
-    class="ml-4"
-      author="~ Sun TZU."
-    />
-  </div>
-    
+      <Quote
+        quote="In the midst of chaos, there is also opportunity. "
+        class="ml-4"
+        author="~ Sun TZU."
+      />
+    </div>
   </div>
 </template>
 
 <script>
+
 import SubNavigationBox from "~/components/SubNavigationBox.vue";
 export default {
   data() {
     return {
       logoNavigationLink: "/marketing",
-      navigationLinks: [
-        { title: "Marketing", address: "/marketing" },
-      
-
-     
-      ]
+      navigationLinks: [{ title: "Marketing", address: "/marketing" }]
     };
   },
   props: {

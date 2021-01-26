@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/development/motion-design", {data:[{},{}],fetch:[],mutations:void 0});
