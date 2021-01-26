@@ -15,8 +15,8 @@
         design systems.
       </p>
     </Title>
-    <div class="mt-64 sm:mt-10 mx-16 sm:mx-8 flex flex-row md:flex-col items-left justify-center mb-64">
-      <div class=" flex flex-col items-left max-w-4xl">
+    <div class="mt-20 sm:mt-10 mx-16 sm:mx-8 flex flex-col items-end justify-center">
+      <div class="flex flex-col items-left max-w-xl">
         <h3 class="text-pink-600 text-4xl hover:underline py-8 uppercase leading-normal">
           <nuxt-link to="/development">Frontend development</nuxt-link>
         </h3>
@@ -26,7 +26,7 @@
         </p>
       </div>
       <div class="flex-grow max-w-3xl" ></div>
-      <div class=" flex flex-col items-left max-w-3xl mt-64 sm:mt-10">
+      <div class=" flex flex-col items-left max-w-xl mt-20">
         <h3 class="text-yellow-500 text-4xl hover:underline py-8 uppercase leading-normal">
           <nuxt-link to="/marketing">Digital marketing</nuxt-link>
         </h3>
