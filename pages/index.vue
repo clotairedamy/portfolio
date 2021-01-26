@@ -1,6 +1,6 @@
 <template>
   <div class="mx-2 mt-20">
-    <Title title="Clotaire" class="" subtitle="studio ">
+    <Title title="Clotaire+Radu" class="" subtitle="studio ">
       <p class="text-2xl leading-normal text-white sm:text-xl">
         We love the web. It’s the opportunity of our lifetime. It has the
         potential to communicate ideas, spread knowledge, bring us together, and
