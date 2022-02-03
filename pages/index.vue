@@ -64,87 +64,14 @@ export default {
       }
     ],
 
-     metaInfo: {
+    metaInfo: {
       script: [
         {
           type: "application/ld+json",
           json: {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            image: "https://clotairedamy.com/clotaire-damy.jpg",
-            "@id": "https://clotairedamy.com",
-            name: "Clotaire Damy",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "7815 French RD",
-              addressLocality: "Colorado Springs",
-              addressRegion: "CO",
-              postalCode: "80920",
-              addressCountry: "US"
-            },
-            review: [
-              {
-                "@type": "Review",
-                reviewRating: {
-                  "@type": "Rating",
-                  ratingValue: "5"
-                },
-                author: {
-                  "@type": "Person",
-                  name: "Rodica"
-                },
-                reviewBody:
-                  "I've worked with Clotaire for several years now. His web design skills are superb. He really focuses on building a relationship with the client and meeting their needs. Web design is just one of his many skills that businesses looking to grow are searching for.  If you're looking for an honest web designer, don't hesitate to contact Clotaire."
-              },
-              {
-                "@type": "Review",
-                reviewRating: {
-                  "@type": "Rating",
-                  ratingValue: "5"
-                },
-                author: {
-                  "@type": "Person",
-                  name: "Mr. Chauffeur"
-                },
-                reviewBody:
-                  "Clotaire was wonderful to work with and I love my new website.  He was able to get it done promptly and he kept me on track during the process.  Pricing is very reasonable for the quality of work they produce. I recently developed a website with them and couldn't be happier with both the initial build and the support following it's launch. I would highly recommend for everyone. Thanks again!!"
-              },
-              {
-                "@type": "Review",
-                reviewRating: {
-                  "@type": "Rating",
-                  ratingValue: "5"
-                },
-                author: {
-                  "@type": "Person",
-                  name: "Laguna Electric"
-                },
-                reviewBody:
-                  "We have contacted Clotaire to revive our website and put us on the map so we could increase sales. And that’s exactly what happened; so yes I would recommend him to all small businesses out there who want to gain an edge and boost the customer and awareness of the brand."
-              }
-            ],
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: "5",
-              bestRating: "5",
-              ratingCount: "3"
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: 38.9453179,
-              longitude: -104.7319747
-            },
-            url: "https://clotairedamy.com/",
-            telephone: "+17192877106",
-            priceRange: "$$$",
-            openingHoursSpecification: [
-              {
-                "@type": "OpeningHoursSpecification",
-                dayOfWeek: ["Monday", "Friday"],
-                opens: "09:00",
-                closes: "18:00"
-              }
-            ]
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            name: "Clotaire Damy"
           }
         }
       ]
