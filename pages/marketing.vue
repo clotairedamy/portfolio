@@ -64,7 +64,7 @@ export default {
         content: "Clotaire Damy",
         hid: "robots",
         name: "robots",
-        content: "noindex"
+        
       }
     ],
 

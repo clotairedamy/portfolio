@@ -4,19 +4,17 @@
     <!-- <Mobile /> -->
     <div
       class="max-w-4xl mx-auto py-12  mt-10 px-4 overflow-hidden sm:px-4 lg:px-8"
-    > 
+    >
       <div
         class=" flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8"
       >
         <div class="max-w-md w-full space-y-8">
           <div>
-         
             <h3 class="mt-6  text-2xl font-bold text-gray-600">
-             I’m always open to hearing about new projects and opportunities so please feel free to get in touch.
+              I’m always open to hearing about new projects and opportunities so
+              please feel free to get in touch.
             </h3>
-            <p
-              class="mt-8  text-lg text-gray-400 text-bold "
-            >
+            <p class="mt-8  text-lg text-gray-400 text-bold ">
               Start by Saying Hi!
             </p>
           </div>
@@ -178,16 +176,13 @@
           </svg>
         </a>
       </div>
-         <div class="mt-20 grid grid-cols-1  md:grid-cols-1 lg:grid-cols-1">
+      <div class="mt-20 grid grid-cols-1  md:grid-cols-1 lg:grid-cols-1">
         <div class="flex justify-center">
           <p class=" text-center text-sm text-gray-500">
-              &copy;2008-2020 Clotaire D. vs Radu A.
-            </p>
+            &copy;2008-2022 Clotaire D.
+          </p>
         </div>
-       
-     
       </div>
-     
     </div>
   </footer>
 </template>

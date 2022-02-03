@@ -50,6 +50,33 @@ export default {
       default: "",
     },
   },
+  head: {
+    link: [{ rel: "canonical", href: "https://clotairedamy.com" }],
+    title: "Clotaire Damy & Radu A - 1918Studio",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Romanian UI/UX design, algorithms, integrations and digital marketing agency, based in Colorado Springs and Constanta, Romania.",
+        hid: "robots",
+        name: "robots"
+      }
+    ],
+
+    metaInfo: {
+      script: [
+        {
+          type: "application/ld+json",
+          json: {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            name: "Clotaire Damy"
+          }
+        }
+      ]
+    }
+  }
 };
 </script>
 <style scoped>
