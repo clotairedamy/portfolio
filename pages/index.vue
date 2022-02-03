@@ -1,18 +1,14 @@
 <template>
   <div class="mx-2 mt-20">
-    <Title title="Clotaire+Radu" class="" subtitle="studio ">
+    <Title title="ClotaireDamy" class="" subtitle="studio ">
       <p class="text-2xl leading-normal text-white sm:text-xl">
-        We love the web. It’s the opportunity of our lifetime. It has the
+        I love to make things interactive, and accesible. Web it’s the opportunity of our lifetime. It has the
         potential to communicate ideas, spread knowledge, bring us together, and
         unlock our collective talents.
       </p>
     
       <p class="text-2xl leading-normal text-white sm:text-xl">
-        We are a Romanian team doing UI/UX design and development with a focus
-        on web standards, optimisation and accessibility. We are passionate
-        about transforming complex problems into meaningful and engaging web
-        interfaces while building unique and memorable product experiences and
-        design systems.
+        I’m an experienced and creative tech specialist with a strong understanding of current trends, methods and best practices. I love finding and implementing solutions for varying levels of business needs. I excel at designing, developing, creating and optimizing websites and digital products
       </p>
     </Title>
     <div class="mt-20 sm:mt-10 mx-16 sm:mx-8 flex flex-col items-end justify-center">
