@@ -69,7 +69,7 @@ export default {
     manifest: {
       name: 'Clotaire Damy - Portfolio',
       lang: 'en',
-      start_url: 'https://interfacedesign.dev/',
+      start_url: 'https://clotairedamy.com/',
       short_name: 'Clotaire',
       display: 'standalone',
       background_color: '#111827',
