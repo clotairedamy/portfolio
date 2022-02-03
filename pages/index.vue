@@ -26,7 +26,7 @@
         <h3 class="text-gray-400 text-3xl hover:underline py-8 uppercase leading-normal font-bold">
           <nuxt-link to="/marketing">Digital marketing</nuxt-link>
         </h3>
-        <p class="text-gray-100 text-2xl sm:text-2xl leading-loose">
+        <p class="text-gray-100 text-xl  leading-loose">
           Search engine optimization and intent-based marketing: improving
           business awareness through audience insight, increasing sales.
         </p>

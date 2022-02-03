@@ -41,7 +41,7 @@
         >
           <nuxt-link to="/marketing">Web Animations</nuxt-link>
         </h3>
-        <p class="text-gray-100 text-2xl sm:text-2xl leading-loose">
+        <p class="text-gray-100 text-xl leading-loose">
           Take your website to the next level. Nothing grabs your attention like
           animation, and we can make your sites truly stand out by including
           both 2D animation and 3D graphics on your webpage.

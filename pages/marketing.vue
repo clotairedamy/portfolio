@@ -1,11 +1,11 @@
 <template>
   <div class="mx-2 mt-20">
     <Title title="Marketing" class="" subtitle="DIGITAL">
-      <p class="text-2xl leading-normal text-white sm:text-xl">
+      <p class="text-xl leading-normal text-white ">
       I believe that meaningful, authentic marketing is the best way to build a brand. To connect on a human level with the right audience and to listen and respond to people’s desires and needs.
       </p>
     
-      <p class="text-2xl leading-normal text-white sm:text-xl">
+      <p class="text-xl leading-normal text-white sm:text-xl">
        Building an authentic relationship with your prospects is crucial if you want them to stick around long enough for you to make your sales pitch. While traditional methods of developing relationships have been successful for years, employing new and innovative whatnots will result in higher conversions and more future business opportunities.
       </p>
     </Title>
@@ -23,7 +23,7 @@
         <h3 class="text-gray-400 text-3xl hover:underline py-8 uppercase leading-normal font-bold">
           <nuxt-link to="/marketing">Web Optimization</nuxt-link>
         </h3>
-        <p class="text-gray-100 text-2xl sm:text-2xl leading-loose">
+        <p class="text-gray-100 text-xl leading-loose">
          Most successful business owners know that website speed is important for conversions and revenue. Yet many neglect this important speed element and do not optimize their site to load quickly. A top-quality website speed optimization service can balance image sizes, compress images, leverage browser caching, remove redirects that waste time, optimize page loading order and more.
         </p>
       </div>
